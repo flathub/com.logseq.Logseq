@@ -107,12 +107,12 @@
                 },
                 {
                     "type": "patch",
-                    "path": "deps_edn_local.patch",
+                    "path": "patches/deps_edn_local.patch",
                     "options": ["-dmain"]
                 },
                 {
                     "type": "patch",
-                    "path": "rewrite-edn-deps-edn.patch",
+                    "path": "patches/rewrite-edn-deps-edn.patch",
                     "strip-components": 0
                 },
                 {
@@ -133,15 +133,15 @@
                 },
                 {
                     "type": "file",
-                    "path": "com.logseq.Logseq.desktop"
+                    "path": "appdata/com.logseq.Logseq.desktop"
                 },
                 {
                     "type": "file",
-                    "path": "com.logseq.Logseq.svg"
+                    "path": "appdata/com.logseq.Logseq.svg"
                 },
                 {
                     "type": "file",
-                    "path": "com.logseq.Logseq.metainfo.xml"
+                    "path": "appdata/com.logseq.Logseq.metainfo.xml"
                 }
             ],
             "build-commands": [
