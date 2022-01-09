@@ -60,27 +60,18 @@
     <releases>
         <release version="0.5.8" date="2022-01-06">
             <description>
-                <p>
-                    <em>NOTE:</em>
-                    This release contains BREAKING CHANGE, run re-indexing after upgrade.
-                </p>
-                <p>
-                    <em>Features</em>
-                </p>
+                <p>NOTE: This release contains BREAKING CHANGE, run re-indexing after upgrade.</p>
+                <p>Features</p>
                 <ul>
                     <li>Add CodeMirror options support</li>
                 </ul>
-                <p>
-                    <em>Thanks</em>
-                </p>
+                <p>Thanks</p>
                 <ul>
                     <li>Stian Håklev - Removing padding on mark</li>
                     <li>YangKeao - Allow target attribution in provideUI for plugins</li>
                     <li>Peng Xiao - Some improvements for development</li>
                 </ul>
-                <p>
-                    <em>Fixed issues</em>
-                </p>
+                <p>Fixed issues</p>
                 <ul>
                     <li>Nested and query issues and full-text search in nested queries</li>
                     <li>Fix some UI misplacement, calc result offset, position of new updates tip</li>
@@ -95,9 +86,7 @@
                     <li>Remove orphaned Pages will delete namespace pages</li>
                     <li>Youtube timestamp not work</li>
                 </ul>
-                <p>
-                    <em>Enhancement</em>
-                </p>
+                <p>Enhancement</p>
                 <ul>
                     <li>Apply text normalization to the whole app. NOTE: This is a BREAKING CHANGE, requires re-indexing.</li>
                     <li>Reload custom.css when file changed</li>
