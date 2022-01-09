@@ -58,6 +58,54 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.5.8" date="2022-01-06">
+            <description>
+                <p>
+                    <em>NOTE:</em>
+                    This release contains BREAKING CHANGE, run re-indexing after upgrade.
+                </p>
+                <p>
+                    <em>Features</em>
+                </p>
+                <ul>
+                    <li>Add CodeMirror options support</li>
+                </ul>
+                <p>
+                    <em>Thanks</em>
+                </p>
+                <ul>
+                    <li>Stian Håklev - Removing padding on mark</li>
+                    <li>YangKeao - Allow target attribution in provideUI for plugins</li>
+                    <li>Peng Xiao - Some improvements for development</li>
+                </ul>
+                <p>
+                    <em>Fixed issues</em>
+                </p>
+                <ul>
+                    <li>Nested and query issues and full-text search in nested queries</li>
+                    <li>Fix some UI misplacement, calc result offset, position of new updates tip</li>
+                    <li>Avoid notifying destroyed electron window</li>
+                    <li>Multi window check while re-indexing</li>
+                    <li>Graph view hang due to duplicated node/edge</li>
+                    <li>Separate references/queries collapse state from db</li>
+                    <li>Block expand/collapse not working under some scenario</li>
+                    <li>Sometimes a page's name is altered into lower letters</li>
+                    <li>Right sidebar not being cleared upon switching graphs</li>
+                    <li>Clicking raw HTML links loads target URL in the desktop app</li>
+                    <li>Remove orphaned Pages will delete namespace pages</li>
+                    <li>Youtube timestamp not work</li>
+                </ul>
+                <p>
+                    <em>Enhancement</em>
+                </p>
+                <ul>
+                    <li>Apply text normalization to the whole app. NOTE: This is a BREAKING CHANGE, requires re-indexing.</li>
+                    <li>Reload custom.css when file changed</li>
+                    <li>DWIM on paste in source block or admonition</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.5.8</url>
+        </release>
         <release version="0.5.6" date="2021-12-29" />
     </releases>
 </component>
