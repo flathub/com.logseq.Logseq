@@ -160,5 +160,11 @@
             ]
         }
     ],
-    "cleanup": ["/clojure", "*.js.map"]
+    "cleanup": [
+        "/clojure",
+        "/logseq/resources/app/node_modules/better-sqlite3/build/Release/obj.target",
+        "/logseq/resources/app/node_modules/better-sqlite3/build/Release/obj",
+        "/logseq/resources/app/node_modules/better-sqlite3/build/Release/sqlite3.a",
+        "*.js.map"
+    ]
 }
