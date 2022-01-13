@@ -21,7 +21,8 @@
         "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
-        "--filesystem=home"
+        "--filesystem=home",
+        "--persist=.logseq"
     ],
     "modules": [
         {
