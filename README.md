@@ -22,23 +22,6 @@ sha256sum logseq-$VERSION.tar.gz
 
 Update the release url and the sha257sum in the `com.logseq.Logseq.json` file.
 
-Then you need to generate both the `yarn.lock` and `static/yarn.lock` files.
-
-```shell
-tar xf logseq-$VERSION.tar.gz
-cd logseq-$VERSION
-yarn install
-cd resources
-yarn install
-```
-
-Then copy the generated yarn.lock files
-
-```shell
-cp logseq-$VERSION/yarn.lock .
-cp logseq-$VERSION/resources/yarn.lock static-yarn.lock
-```
-
 Generate `generated-sources.json` use the `flatpak-node-generator.py` script from
 [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools)
 
@@ -60,7 +43,7 @@ yarn gulp:build && yarn cljs:release-electron
 Then update the `maven-sources.json` file
 
 ```shell
-pytnon3 flatpak-clj-generator-from-cache.py > maven-sources.json
+python3 flatpak-clj-generator-from-cache.py > maven-sources.json
 ```
 
 Finally, test the build

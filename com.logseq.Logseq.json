@@ -101,8 +101,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.5.8.tar.gz",
-                    "sha256": "e8d5e5c8175cfb13e1d073eef08d47c1b3473d3c4a827e2cc32634fe173264bb",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.5.9.tar.gz",
+                    "sha256": "f69f237c20abb6f544ca37ffb8359c4619d4350ec82a281f0a256a5e7e2f8014",
                     "dest": "main"
                 },
                 {
@@ -114,17 +114,6 @@
                     "type": "patch",
                     "path": "patches/rewrite-edn-deps-edn.patch",
                     "strip-components": 0
-                },
-                {
-                    "type": "file",
-                    "path": "yarn.lock",
-                    "dest": "main"
-                },
-                {
-                    "type": "file",
-                    "path": "static-yarn.lock",
-                    "dest-filename": "yarn.lock",
-                    "dest": "main/static"
                 },
                 {
                     "type": "script",
