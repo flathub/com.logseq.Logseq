@@ -21,6 +21,7 @@
         "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
+        "--device=dri",
         "--filesystem=home"
     ],
     "modules": [
