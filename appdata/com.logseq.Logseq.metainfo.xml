@@ -58,6 +58,59 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.0" date="2022-02-19">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>New commands to switch between graphs (Cmd/Ctrl+Shift+G), add a graph, remove a graph and copy current file</li>
+                    <li>Shift+click to select multiple blocks</li>
+                    <li>Upgrade Excalidraw to 0.10.0</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Alexey Korolev - Fix typo in Russian localization</li>
+                    <li>Clovis Fabricio Costa - pt-BR translation</li>
+                    <li>cynial - Update Chinese translation</li>
+                    <li>ingepettersen - Updated Norwegian translation</li>
+                    <li>Manjusaka - Add new friendly issue template for bug report</li>
+                    <li>sawhney17 - Fix bullet lines not fully hidden in document mode</li>
+                    <li>pedroserigatto - Translated a few more keywords to pt-BR</li>
+                    <li>Martin Sauter - Add missing German translations</li>
+                    <li>xxchan - Improve issue template</li>
+                    <li>Paulo Oliva - Updated the EU Portuguese translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Title property is not added when creating or renaming</li>
+                    <li>custom.js not works</li>
+                    <li>Fix block collapse state not being saved</li>
+                    <li>Ignore changes in bak folder</li>
+                    <li>Fix property page links</li>
+                    <li>Disable blank alias</li>
+                    <li>Calc result overlaps with input text when the latter is very long</li>
+                    <li>Srs cards shortcuts not working</li>
+                    <li>Fix checkbox floats above button</li>
+                    <li>Search cache contamination on windows causing missing sanitization</li>
+                    <li>Unwanted left padding when pdf viewer active</li>
+                    <li>Long page stall loading and collapsed state</li>
+                    <li>Fix querying integer properties</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Performance improvement while saving files</li>
+                    <li>Performance improvement via incremental queries</li>
+                    <li>Performance improvement of long pages and queries</li>
+                    <li>Reduce memory usage</li>
+                    <li>Add tag and url support for follow-link-under-cursor cmd</li>
+                    <li>Plugin api of `get_block` with shallow children uuid results</li>
+                    <li>Add default right click context menu</li>
+                    <li>Refine page search autocompletion</li>
+                    <li>Refine page title renaming dialog</li>
+                    <li>Enhance settings UI of plugins</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.0</url>
+        </release>
         <release version="0.5.9" date="2022-01-20">
             <description>
                 <p>Features</p>

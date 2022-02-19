@@ -68,14 +68,14 @@
             },
             "subdir": "main",
             "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.0.tar.gz",
+                    "sha256": "a1b3bd59b956f461f48f0b8b2239955f7be150c23d9ab0b2888c56705340989c",
+                    "dest": "main"
+                },
                 "generated-sources.json",
                 "maven-sources.json",
-                {
-                    "type": "git",
-                    "url": "https://github.com/logseq/datascript",
-                    "commit": "de8df66e69ecd847c048f548fa0d5de0d4378bd0",
-                    "dest": "libs/datascript"
-                },
                 {
                     "type": "git",
                     "url": "https://github.com/borkdude/rewrite-edn",
@@ -99,12 +99,6 @@
                     "url": "https://github.com/logseq/hickory",
                     "commit": "9c2c2f1fc2c45efaad906e0faabc3201278deeaa",
                     "dest": "libs/hickory"
-                },
-                {
-                    "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.5.9.tar.gz",
-                    "sha256": "f69f237c20abb6f544ca37ffb8359c4619d4350ec82a281f0a256a5e7e2f8014",
-                    "dest": "main"
                 },
                 {
                     "type": "patch",

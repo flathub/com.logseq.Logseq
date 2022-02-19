@@ -541,6 +541,18 @@
   },
   {
     "type": "file",
+    "url": "https://clojars.org/repo/datascript/datascript/1.3.8/datascript-1.3.8.pom",
+    "sha256": "9bc6c6945253f5054cdd815a7398a0d6d943179a4af082d685d5ccb57ff92c60",
+    "dest": "flatpak-openjdk/cache/datascript/datascript/1.3.8"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/datascript/datascript/1.3.8/datascript-1.3.8.jar",
+    "sha256": "bc46ad6ddffb471ebf87a14e37a714e202438b30250803e9ce425cc556804db3",
+    "dest": "flatpak-openjdk/cache/datascript/datascript/1.3.8"
+  },
+  {
+    "type": "file",
     "url": "https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar",
     "sha256": "a4ec02336f49253ea50405698b79232b8c5cbf02cb60df3a674d77a749a1def7",
     "dest": "flatpak-openjdk/cache/commons-fileupload/commons-fileupload/1.4"
