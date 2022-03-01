@@ -58,6 +58,30 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.1" date="2022-02-20">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Ben Jaffe - enhance(ui): add data-ref for items in left sidebar</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>SRS cards can't be edited during preview or in /cards queries</li>
+                    <li>Can't sort by properties in query table</li>
+                    <li>Electron context menu</li>
+                    <li>When a page name has a word with an accent, it lost data</li>
+                    <li>Mobile - Tweet component loading failed</li>
+                    <li>Mobile - Add Excalidraw support</li>
+                    <li>Plugins - Return value of remove_block</li>
+                    <li>Tags not working on org mode</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>ESC to cancel renaming page</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.1</url>
+        </release>
         <release version="0.6.0" date="2022-02-19">
             <description>
                 <p>Features</p>

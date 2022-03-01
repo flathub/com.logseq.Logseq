@@ -856,6 +856,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@logseq/react-tweet-embed/-/react-tweet-embed-1.3.1-1.tgz#119d22be8234de006fc35c3fa2a36f85634c5be6",
+        "sha512": "f4ed281ece5d7a90af87a650bf0b65d716fb07cd181b9ad47d8d74b9251ab798ad3a5704dc859a618a5eea9fed70712ba875a75a09171e2b4007d336f4531b42",
+        "dest-filename": "@logseq-react-tweet-embed-1.3.1-1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/@malept/cross-spawn-promise/-/cross-spawn-promise-1.1.1.tgz#504af200af6b98e198bce768bc1730c6936ae01d",
         "sha512": "45304658be45590720f68ac3382729e0bbc8b4dcd43dcc8453d6f069e257d2b275210c73b9c0b8f18d3fb102e9fe0eadf7d21080094621a7ac252fa04e7eed55",
         "dest-filename": "@malept-cross-spawn-promise-1.1.1.tgz",
@@ -7709,9 +7716,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/mldoc/-/mldoc-1.3.0.tgz#e72a157cc1204442ea5e90facd60837343a66338",
-        "sha512": "a83c6d217cce85e1491ead1dff86c3bcc90cfd5ae16c32cc2b0f4c66ead66cd3d6e8fc5941db82d018572066723f8a93fa979c66950431b53231b3469fccedb3",
-        "dest-filename": "mldoc-1.3.0.tgz",
+        "url": "https://registry.yarnpkg.com/mldoc/-/mldoc-1.3.1.tgz#50a8ad73d0489624883ad1414dd8a11ccff0ddf1",
+        "sha512": "5a5b0aedf290395e2ddd8055a271ce384f9239890f9fafe36f739bf879fc747fd2319ef539f85d288c63a89ad89f833ed7415f890bca4bd9575472c01aab25fc",
+        "dest-filename": "mldoc-1.3.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -9546,13 +9553,6 @@
         "url": "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683",
         "sha512": "d6a455d59b9549dc4f94f7f83bcb7b8a7c541a97723b9cc6f48a0d7c9c523b422653603561690442f14fb883d998c2e4839858b3bbefe6630ec9f81292f030bf",
         "dest-filename": "react-transition-group-4.3.0.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/react-tweet-embed/-/react-tweet-embed-1.3.1.tgz#066d45dd3fc4c72c6ea61a85857c9044d408235f",
-        "sha512": "a950256f7fdddd88581c707a63727ff0e098f9ae4a3b30a763fa946819caf2ab442972bda9678f96919ebc3420af25ae2b1820c315b55073cb6775693dced751",
-        "dest-filename": "react-tweet-embed-1.3.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {

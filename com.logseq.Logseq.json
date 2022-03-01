@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.0.tar.gz",
-                    "sha256": "a1b3bd59b956f461f48f0b8b2239955f7be150c23d9ab0b2888c56705340989c",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.1.tar.gz",
+                    "sha256": "ffe14ae950697ddda7f2ff0f08ae66251268797a3ef5b26733349bef56dc93ba",
                     "dest": "main"
                 },
                 "generated-sources.json",
@@ -99,6 +99,11 @@
                     "url": "https://github.com/logseq/hickory",
                     "commit": "9c2c2f1fc2c45efaad906e0faabc3201278deeaa",
                     "dest": "libs/hickory"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/yarnlock.patch",
+                    "options": ["-dmain"]
                 },
                 {
                     "type": "patch",

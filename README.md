@@ -37,6 +37,7 @@ First we need to build the new release to force download dependencies.
 ```shell
 rm -rf ~/.m2/repository
 cd logseq-$VERSION
+yarn
 yarn gulp:build && yarn cljs:release-electron
 ```
 
