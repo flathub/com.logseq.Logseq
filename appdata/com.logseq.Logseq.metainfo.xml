@@ -58,6 +58,63 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.2" date="2022-03-08">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Open links in search with keybinding(mod+o)</li>
+                    <li>Shift click a repo name to open it in new window</li>
+                    <li>Support block-embed alias in org-mode</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Jonah Goldsaito - Load more journal entries</li>
+                    <li>Peng Xiao - Fix block ref id in block-reference</li>
+                    <li>Peng Xiao - Remember right sidebar width after resizing</li>
+                    <li>Peng Xiao - Shift click a repo name to open it in new window</li>
+                    <li>Hayden Chen - Better notifications-content support</li>
+                    <li>Ben Jaffe - Add comments near plugin event listeners to make events more searchable</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Collapsed state not persisted for blocks with properties</li>
+                    <li>Add :graph/ready event; check search version of each repo</li>
+                    <li>Change export to not depend on printing</li>
+                    <li>Exit block edit mode when prompt</li>
+                    <li>Can't parse graphs because of links regular expressions</li>
+                    <li>Avoid annoying javascript alert window for error debug</li>
+                    <li>Set timestamp to correct editing block</li>
+                    <li>Checking of zh-CN environment for supported command</li>
+                    <li>Fix wrong block marker toggle if its reference is in editing</li>
+                    <li>Notify broken config and restore to the default configuration</li>
+                    <li>Wrong logbook creation</li>
+                    <li>Fix some UI warnings under web browser</li>
+                    <li>Display error if DSL query fails hard</li>
+                    <li>Italic syntax typo in help doc</li>
+                    <li>Fix wrong namespace routes</li>
+                    <li>ID link in org-mode format</li>
+                    <li>Link property causes wrong pages creation</li>
+                    <li>Fix page-property bug</li>
+                    <li>Fix task and priority query bug</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Add custom https proxy options for settings</li>
+                    <li>More natural electron context-menu</li>
+                    <li>Add command to save graph to disk </li>
+                    <li>Only run custom queries when not typing</li>
+                    <li>Add develop instructions for Windows</li>
+                    <li>Add a test runner command</li>
+                    <li>Add timestamps for pages created from references and timestamps</li>
+                    <li>Backup files when there're differences between db and disk</li>
+                    <li>Optimizing nested query rules for graph traversal</li>
+                    <li>Persist widen mode state</li>
+                    <li>Ignore logbook and default properties in unlinked reference</li>
+                    <li>Support multiple file watchers for multiple windows</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.2</url>
+        </release>
         <release version="0.6.1" date="2022-02-20">
             <description>
                 <p>Thanks</p>

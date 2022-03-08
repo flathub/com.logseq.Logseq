@@ -11,7 +11,7 @@ export VERSION=0.5.7
 Download the latest release from <https://github.com/logseq/logseq/releases>
 
 ```shell
-curl -O https://github.com/logseq/logseq/archive/refs/tags/$VERSION.tar.gz
+curl -L -o logseq-$VERSION.tar.gz https://github.com/logseq/logseq/archive/refs/tags/$VERSION.tar.gz
 ```
 
 Generate the sha256sum
@@ -21,6 +21,12 @@ sha256sum logseq-$VERSION.tar.gz
 ```
 
 Update the release url and the sha257sum in the `com.logseq.Logseq.json` file.
+
+Uncompress the file
+
+```shell
+tar xf logseq-$VERSION.tar.gz
+```
 
 Generate `generated-sources.json` use the `flatpak-node-generator.py` script from
 [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools)
