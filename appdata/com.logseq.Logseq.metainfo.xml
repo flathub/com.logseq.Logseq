@@ -58,6 +58,32 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.3" date="2022-03-11">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Flashcards random mode</li>
+                    <li>Open file backups directory</li>
+                    <li>Use query-dsl rules from advanced query</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>@0xflotus - Add syntax highlighting for nginx in docs</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>:yesterday in query should be a date</li>
+                    <li>error while cycling todos</li>
+                    <li>Refresh window causing file changes not synced to db</li>
+                    <li>PDF toolbar covers top of scrollbar and page number bug</li>
+                    <li>DSL query bugs</li>
+                    <li>Return value of move block in plugin API</li>
+                    <li>Only half of cards viewable</li>
+                    <li>Collapse/expand in publishing</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.3</url>
+        </release>
         <release version="0.6.2" date="2022-03-08">
             <description>
                 <p>Features</p>
