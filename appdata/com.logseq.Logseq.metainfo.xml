@@ -58,6 +58,45 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.4" date="2022-03-21">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Add a configuration option to support the previous collapse behavior, simply set :outliner/block-title-collapse-enabled? true in config.edn</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix cloze CSS selector</li>
+                    <li>Yue Yang - Fix cycle marker will remove "#" unexpectedly</li>
+                    <li>Yue Yang - Make &lt;hr/&gt; not be displayed if there is only one repo</li>
+                    <li>Michiel Borkent - Update deps, sci</li>
+                    <li>Peng Xiao - Fix replace-block-reference-with-content-at-point not working</li>
+                    <li>sawhney17 - Readability improvements in Plugin Settings</li>
+                    <li>Giuseppe D'Andrea - Fix broken links in docs</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Click with selection in code editor saves wrong data #4567</li>
+                    <li>Cloze CSS selector #4561</li>
+                    <li>Fix blank screen on home page #4575</li>
+                    <li>Block disappears when dragged to another block #4536</li>
+                    <li>Nested boolean query bugs #4540</li>
+                    <li>#+keyword issues in org-mode #4573</li>
+                    <li>Cycle marker will remove "#" unexpectedly #4589</li>
+                    <li>Query fixes related to use of lookup refs #4596</li>
+                    <li>replace-block-reference-with-content-at-point not working #4591</li>
+                    <li>Make &lt;hr/&gt; not be displayed if there is only one repo #4602</li>
+                    <li>Rules to advanced query #4627</li>
+                    <li>Search indices are outdated when in multi-window mode #4547</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Readability improvements in Plugin Settings #4617</li>
+                    <li>Gracefully fail references component and other small errors #4634</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.4</url>
+        </release>
         <release version="0.6.3" date="2022-03-11">
             <description>
                 <p>Features</p>

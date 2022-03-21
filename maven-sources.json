@@ -913,27 +913,15 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/borkdude/sci/0.1.1-alpha.6/sci-0.1.1-alpha.6.pom",
-    "sha256": "c8b384def176460971e6cee2afef706545a0768302f7d2f4ba25a64ea00428be",
-    "dest": "flatpak-openjdk/cache/borkdude/sci/0.1.1-alpha.6"
+    "url": "https://clojars.org/repo/borkdude/edamame/0.0.19/edamame-0.0.19.jar",
+    "sha256": "0c53b5bd78fae76af728492512ec5c9b212c8f10b66e2c31ff7465675cf39f8f",
+    "dest": "flatpak-openjdk/cache/borkdude/edamame/0.0.19"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/borkdude/sci/0.1.1-alpha.6/sci-0.1.1-alpha.6.jar",
-    "sha256": "aa49ba51a7da7c206df288becf29bd2989de197e77d73dc23ae7348eb1397e8c",
-    "dest": "flatpak-openjdk/cache/borkdude/sci/0.1.1-alpha.6"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/borkdude/edamame/0.0.11-alpha.13/edamame-0.0.11-alpha.13.pom",
-    "sha256": "e6520281c8145f025a7fb743f6af89f42f9c4953ab072c55a6080e33e4ae9b47",
-    "dest": "flatpak-openjdk/cache/borkdude/edamame/0.0.11-alpha.13"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/borkdude/edamame/0.0.11-alpha.13/edamame-0.0.11-alpha.13.jar",
-    "sha256": "f1030614315f0791cea05fd0d8aeade09d2078832238a0238bd45da71374d79c",
-    "dest": "flatpak-openjdk/cache/borkdude/edamame/0.0.11-alpha.13"
+    "url": "https://clojars.org/repo/borkdude/edamame/0.0.19/edamame-0.0.19.pom",
+    "sha256": "07816f37a60b3d5f2e0d5abb99d7c13c8b0a4d25eb2ce6be723fc7281d17737c",
+    "dest": "flatpak-openjdk/cache/borkdude/edamame/0.0.19"
   },
   {
     "type": "file",
@@ -1138,6 +1126,18 @@
     "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom",
     "sha256": "11647956e48a0c5bfb3ac33f6da7e83f341002b6857efd335a505b687be34b75",
     "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-parent/1.7.30"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.jar",
+    "sha256": "63888b8c11b1c1431fd553d5d521d28c92e5ea710970fe5075cedb2611d2a22a",
+    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.pom",
+    "sha256": "9debad1a238b870257f98f8279fc1ecf0b12cc765a9cc3ccf0ba0fdbc3237645",
+    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
   },
   {
     "type": "file",
