@@ -58,6 +58,33 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.5" date="2022-03-24">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix cycle-marker bug</li>
+                    <li>Yue Yang - Fix Backspace handling bug</li>
+                    <li>Moritz Ulrich - Sort 'Pages tagged with' list alphabetically</li>
+                    <li>sawhney17 - Add favorite toggling shortcut to settings</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Loading on long page never finishes #4673</li>
+                    <li>Slow unlinked references #4672</li>
+                    <li>Error in cycle-marker, fix regression #4661</li>
+                    <li>Avoid actions when code editor closed #4664</li>
+                    <li>Error while toggling favorite in journals #4667</li>
+                    <li>Always trigger removing file of separate git directory #4656</li>
+                    <li>Backspace handling in first char of a page #4691</li>
+                    <li>Add favorite toggling shortcut setting to the settings pane #4708</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Sort 'Pages tagged with' list alphabetically #4675</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.5</url>
+        </release>
         <release version="0.6.4" date="2022-03-21">
             <description>
                 <p>Features</p>
