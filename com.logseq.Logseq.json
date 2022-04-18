@@ -70,9 +70,15 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.5.tar.gz",
-                    "sha256": "448185b94cc642e66d8b592e24659a316b87cbc23c9f7a6c96350a2c64e62f5a",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.6.tar.gz",
+                    "sha256": "ce4f78740a797f1a1513d5a4135cacd26b0cfb4afa1c55f82ed3c04c9e123ba0",
                     "dest": "main"
+                },
+                {
+                    "type": "file",
+                    "path": "static/yarn.lock",
+                    "sha256": "425f21b6f8ddbb6405a70153dd5d54916d3e8f2038b8b13c8b3b31aca2d45964",
+                    "dest": "main/resources"
                 },
                 "generated-sources.json",
                 "maven-sources.json",
