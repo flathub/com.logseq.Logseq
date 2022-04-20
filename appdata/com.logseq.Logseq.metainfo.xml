@@ -21,31 +21,31 @@
         <screenshot type="default">
             <caption>Logseq default page</caption>
             <image type="source" width="1600" height="900">
-                https://cloudflare-ipfs.com/ipfs/bafybeiaqm4lswmxs47al35intgwuci7zruzzimfwuntyrslp5ncm6rq2my?filename=logseq1.png
+                https://logseq-flathub-screenshots.s3.us-west-2.amazonaws.com/logseq1.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Search in Logseq</caption>
             <image type="source" width="1600" height="900">
-                https://cloudflare-ipfs.com/ipfs/bafybeibu5j3zbfus47ubsyxdwtzxrj6yllcauwyfyevkszwsidx27ctdt4?filename=logseq2.png
+                https://logseq-flathub-screenshots.s3.us-west-2.amazonaws.com/logseq2.png
             </image>
         </screenshot>
         <screenshot>
             <caption>General settings in Logseq</caption>
             <image type="source" width="1600" height="900">
-                https://cloudflare-ipfs.com/ipfs/bafybeigwujqdhhjacppb2wzdfjjiu6vngvbt4y7pyfyq47ocrzxw66a6y4?filename=logseq3.png
+                https://logseq-flathub-screenshots.s3.us-west-2.amazonaws.com/logseq3.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Editor settings in Logseq</caption>
             <image type="source" width="1600" height="900">
-                https://cloudflare-ipfs.com/ipfs/bafybeie24rewdhd4kqsapgqdfblpbcuxfgtbb5zbk3jwckliimh53fp5na?filename=logseq4.png
+                https://logseq-flathub-screenshots.s3.us-west-2.amazonaws.com/logseq4.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Graph view in Logseq</caption>
             <image type="source" width="1600" height="900">
-                https://cloudflare-ipfs.com/ipfs/bafybeiaaiieybdez4obxcg2qchcnmhls3sqopviq55ko3n22uvbleikaue?filename=logseq5.png
+                https://logseq-flathub-screenshots.s3.us-west-2.amazonaws.com/logseq5.png
             </image>
         </screenshot>
     </screenshots>
