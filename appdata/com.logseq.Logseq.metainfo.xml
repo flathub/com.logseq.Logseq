@@ -58,6 +58,60 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.7" date="2022-04-29">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Parsing progress bar #4980</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peng Xiao - Fix code block in published graph is not copyable</li>
+                    <li>Peng Xiao - Custom query title may also render rich texts</li>
+                    <li>Peng Xiao - expose start-of-week to plugins</li>
+                    <li>Peng Xiao - Do not display onboarding card in published graph</li>
+                    <li>Peng Xiao - Resolve datascript query inputs with Logseq DSL for plugins</li>
+                    <li>arcstur - Add start-of-week config to default config.edn</li>
+                    <li>salevdns - Docker arm64 build</li>
+                    <li>KKKIIO -Add smooth-select action</li>
+                    <li>sawhney17 - Add shortcuts for opening file in default app and directory</li>
+                    <li>Shotaro Yamada - Fix logbook clock-summary</li>
+                    <li>Marco G - Fix error in mailto link</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Wrong condition when handling incoming graph URL #4955</li>
+                    <li>Missing variable in macro expansion #4961</li>
+                    <li>Code block in published graph is not copyable #4981</li>
+                    <li>Editor freeze when cut and paste blocks at the bottom #5014</li>
+                    <li>Input of ordered list numbers #5012</li>
+                    <li>Cmd-v sometimes pastes wrong content #5022</li>
+                    <li>Do not display onboarding card in published graph #5030</li>
+                    <li>New pages from bracketing text is broken #5018</li>
+                    <li>Page crash when navigating to home if default home is a custom page #5061</li>
+                    <li>Logbook clock-summary #5056</li>
+                    <li>Error in mailto link #5081</li>
+                    <li>Auto save of title property on editing #4700</li>
+                    <li>PDF area highlight position #5095</li>
+                    <li>Unexpected behavior of code block when saving and editing</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>logseq:// protocol non-darwin OS support #4976</li>
+                    <li>Add start-of-week config to default config.edn #4949</li>
+                    <li>Expose start-of-week to plugins #4977</li>
+                    <li>Core outliner operations refactoring #4880</li>
+                    <li>Custom query title may also render rich texts #5006</li>
+                    <li>plugin api enhancement and bug fixes #4828 #5029 #5116</li>
+                    <li>Add arm64 Docker image #5017</li>
+                    <li>Add smooth-select action #4988</li>
+                    <li>Resolve datascript query inputs with Logseq DSL for plugins #5047</li>
+                    <li>Add shortcuts for opening file in default app and directory #4990</li>
+                    <li>Capture invalid PDF error #5031</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.7</url>
+        </release>
         <release version="0.6.6" date="2022-04-18">
             <description>
                 <p>Features</p>
