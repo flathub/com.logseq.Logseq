@@ -58,6 +58,53 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.8" date="2022-05-10">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Reimplement encryption #5259</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Optimize the calculation of clock-summary</li>
+                    <li>Hidekazu Kubota - Refine Japanese translation</li>
+                    <li>Peng Xiao - Fix the popup position</li>
+                    <li>queeup - Turkish translation</li>
+                    <li>ntotao - Italian translation</li>
+                    <li>KKKIIO - Split hover and focus status in auto-completion</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Wrong popup position sometimes #5193</li>
+                    <li>Initial renderer bug of Katex extension hooks #5220</li>
+                    <li>Editing of empty last block #5105</li>
+                    <li>UI page of shortcuts crashed when parsing unsupported binding key #5236</li>
+                    <li>Missing title properties when page name contains / or reserved char #5250</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Optimize the calculation of clock-summary #5159</li>
+                    <li>Patch Japanese translation #5205</li>
+                    <li>Support idiomatic shortcut ctrl+n for auto-complete navigation #5202</li>
+                    <li>Adds emacs keybindings to other up/down movements #5214</li>
+                    <li>Turkish language translation #5215</li>
+                    <li>Italian language translation #5179</li>
+                    <li>Migrate first namespaces for nbb compatibility #5192</li>
+                    <li>Split hover and focus status #5211</li>
+                    <li>Breadcrumb context navigation #5249</li>
+                    <li>Click block references number to toggle references below the number #5230</li>
+                </ul>
+                <p>
+                    <b>Special NOTE:</b>
+                    Encryption is reimplemented and added back.
+                </p>
+                <p>
+                    <b>Flatpak NOTE:</b>
+                    Deeplink is now supprted by the Flatpak build. #4984
+                </p>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.7</url>
+        </release>
         <release version="0.6.7" date="2022-04-29">
             <description>
                 <p>Features</p>
