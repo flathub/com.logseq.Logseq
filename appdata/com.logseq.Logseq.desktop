@@ -2,7 +2,8 @@
 Type=Application
 NoDisplay=false
 Terminal=false
-Exec=run.sh
+Exec=run.sh %U
 Icon=com.logseq.Logseq
 Name=Logseq
 Categories=Office
+MimeType=x-scheme-handler/logseq;
