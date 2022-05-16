@@ -1,2 +1,6 @@
 /.flatpak-builder
 /build-dir
+/logseq-*
+/.clj-kondo
+/.lsp
+/.pc

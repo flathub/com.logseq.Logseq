@@ -58,6 +58,37 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.6.9" date="2022-05-17">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Kan-Ru Chen - Update electron-deeplink to fix deeplink under Linux</li>
+                    <li>Shihao Yu - Fix modals positions</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Eduardo Vedes - Preview popup's position when on-hover</li>
+                    <li>Alex L - Improve Italian localization</li>
+                    <li>sawhney17 - Fix scrollbar appearing with code block and some latex</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>App start crash under some Windows and Linux platforms #5264</li>
+                    <li>Deeplink on Linux not working #5291</li>
+                    <li>Positions of modals are wrong #5163</li>
+                    <li>Wrong position of page preview tip #5319 #5307</li>
+                    <li>Scrollbar appearing when current block has code or latex #5308</li>
+                    <li>Undo sometimes cause duplicated contents #5277</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Performance improvements for pages with many linked references #5270</li>
+                    <li>lazy-loading for journals and queries, with loading skeleton</li>
+                    <li>Add URL testing for network proxy settings #5223</li>
+                    <li>Update Turkish translation #5314</li>
+                    <li>Improve Italian localization #5304</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.9</url>
+        </release>
         <release version="0.6.8" date="2022-05-10">
             <description>
                 <p>Features</p>
@@ -103,7 +134,7 @@
                     Deeplink is now supprted by the Flatpak build. #4984
                 </p>
             </description>
-            <url>https://github.com/logseq/logseq/releases/tag/0.6.7</url>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.8</url>
         </release>
         <release version="0.6.7" date="2022-04-29">
             <description>

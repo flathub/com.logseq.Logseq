@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.8.tar.gz",
-                    "sha256": "433369ba55aad8975b2f45479bb80fa0d4a2d35cb52a6c959a4d6af840f039a5",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.6.9.tar.gz",
+                    "sha256": "f7c552eab973d8da9816fddf475c482e266e255926299c28d5e8ad8d90e3ae10",
                     "dest": "main"
                 },
                 {
@@ -114,12 +114,6 @@
                     "type": "patch",
                     "path": "patches/rewrite-edn-deps-edn.patch",
                     "strip-components": 0
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/update_deeplink.patch",
-                    "options": ["-dmain"],
-                    "strip-components": 2
                 },
                 {
                     "type": "script",
