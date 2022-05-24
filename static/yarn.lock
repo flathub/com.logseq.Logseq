@@ -333,35 +333,35 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@logseq/rsapi-darwin-arm64@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@logseq/rsapi-darwin-arm64/-/rsapi-darwin-arm64-0.0.11.tgz#5ea1a238119bf4f3908a3dfa8e87efb74dfb0a16"
-  integrity sha512-BDSY1qXt3CgoXLKsjOnrxDhtZToJrzXtboUvZiNYfoAU81e3Vy82B6TkRMn7rq8vGm1TQen8zX2b2csU0eM8vg==
+"@logseq/rsapi-darwin-arm64@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@logseq/rsapi-darwin-arm64/-/rsapi-darwin-arm64-0.0.16.tgz#ee9db160713e95f2430d1b9b78eba59868bf6730"
+  integrity sha512-MAtWbb2EzLRweqDTsOunJJT8Lu1GM4dLwvh1mREWNdTbaUvwx0CvLiJqGrjas/XqLdmjV+M/NSw4ugHpFIZF/w==
 
-"@logseq/rsapi-darwin-x64@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@logseq/rsapi-darwin-x64/-/rsapi-darwin-x64-0.0.11.tgz#0b2930b3fcc3ee386a58e01a1bc6fe17a76fcb90"
-  integrity sha512-M9Gv0Zv45KFinLdT0hNzKoaHyfXiKVLPm5oACnHON8fj6mPrvC88rGKzV3iX9IhIwtPMMb0KaQn/LEkdF8CjxA==
+"@logseq/rsapi-darwin-x64@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@logseq/rsapi-darwin-x64/-/rsapi-darwin-x64-0.0.16.tgz#355dc377bc790aaf500e5904b6626396db434f01"
+  integrity sha512-mwcCtCfzV1N2E16aMWd9LKj98hlZh26BuS9oJsLIfA5gJaX86v+4mp5fAOSfvs0gGkwdlZeDJQiFORaUiuY8ew==
 
-"@logseq/rsapi-linux-x64-gnu@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@logseq/rsapi-linux-x64-gnu/-/rsapi-linux-x64-gnu-0.0.11.tgz#9f50b2ca441f55604bd80c90a30f13b748924dd0"
-  integrity sha512-jHUBFGAzCjmO8WpBsDLNDam1GyObzC1wpqBr9qMKR3ds/sp3Se2MWrB3qaE4ropx2ql4WRNbDwVJtBuZ2ZgRDQ==
+"@logseq/rsapi-linux-x64-gnu@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@logseq/rsapi-linux-x64-gnu/-/rsapi-linux-x64-gnu-0.0.16.tgz#0be0814e32b02f69cac6b04ad9ba6fac01e8f8d9"
+  integrity sha512-2s/janOvax8ptkl1cEnK3DREZdvLYqepH0NInp+J16ZYw45xyN02z7AD4MsXEtnQIIsvfpXranznJy0kL3rMpw==
 
-"@logseq/rsapi-win32-x64-msvc@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@logseq/rsapi-win32-x64-msvc/-/rsapi-win32-x64-msvc-0.0.11.tgz#a0d4d59a9c9c930df900d713d7887210ddd2ed1f"
-  integrity sha512-I19wnn2AOBjpZ0jeO/hpJq3T9gt9UDAUxsuCu5MAl5kzo9SNNbWT7WC5VEpdTq2Bozw/z+DTCNZ4WY5V3dMR3A==
+"@logseq/rsapi-win32-x64-msvc@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@logseq/rsapi-win32-x64-msvc/-/rsapi-win32-x64-msvc-0.0.16.tgz#1d01eea7a67f8d929c1ab8517523e0419021a412"
+  integrity sha512-8sG5SvotZmwGC3wDDZy1lhvYYhBvNYtBpsljdcvVlGcIi0MJlZvJ+0v4vqhZWJ+jnSdiu88nA73s7rlf88nksw==
 
-"@logseq/rsapi@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@logseq/rsapi/-/rsapi-0.0.11.tgz#5ed871aa1d405bf14718f5e90266b3d0aacf18a8"
-  integrity sha512-Co4pZpv1u4uQ+u40TIQb6U6uORbJXyHE5NQtSmVASXDu4uaEozLYvJAFEaH/O19kKIjyHDbJeyVqrDfF8mh/cg==
+"@logseq/rsapi@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@logseq/rsapi/-/rsapi-0.0.16.tgz#ae715c0fc4f6040bcbedbfd25a439be9b89fe890"
+  integrity sha512-XI1dpsTNJjIcnzP/6Q8Sntwls89le/DAAOsEaJBqoqevrKU9ieVn3Luc8wb43vgBO3l0jNkZbnjpbVv+FVxbEQ==
   optionalDependencies:
-    "@logseq/rsapi-darwin-arm64" "0.0.11"
-    "@logseq/rsapi-darwin-x64" "0.0.11"
-    "@logseq/rsapi-linux-x64-gnu" "0.0.11"
-    "@logseq/rsapi-win32-x64-msvc" "0.0.11"
+    "@logseq/rsapi-darwin-arm64" "0.0.16"
+    "@logseq/rsapi-darwin-x64" "0.0.16"
+    "@logseq/rsapi-linux-x64-gnu" "0.0.16"
+    "@logseq/rsapi-win32-x64-msvc" "0.0.16"
 
 "@malept/cross-spawn-promise@^1.0.0", "@malept/cross-spawn-promise@^1.1.0":
   version "1.1.1"
@@ -616,19 +616,14 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.34.tgz#3b0b6a50ff797280b8d000c6281d229f9c538cef"
-  integrity sha512-XImEz7XwTvDBtzlTnm8YvMqGW/ErMWBsKZ+hMTvnDIjGCKxwK5Xpc+c/oQjOauwq8M4OS11hEkpjX8rrI/eEgA==
+  version "17.0.35"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.35.tgz#635b7586086d51fb40de0a2ec9d1014a5283ba4a"
+  integrity sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==
 
 "@types/node@^14.6.2":
   version "14.18.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.18.tgz#5c9503030df484ccffcbb935ea9a9e1d6fad1a20"
   integrity sha512-B9EoJFjhqcQ9OmQrNorItO+OwEOORNn3S31WuiHvZY/dm9ajkB7AKD/8toessEtHHNL+58jofbq7hMMY9v4yig==
-
-"@types/node@^16.11.26":
-  version "16.11.36"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.36.tgz#9ab9f8276987132ed2b225cace2218ba794fc751"
-  integrity sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==
 
 "@types/plist@^3.0.1":
   version "3.0.2"
@@ -1423,7 +1418,12 @@ color-support@^1.1.3:
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
 
-colors@1.0.3, colors@1.4.0, colors@^1.3.3:
+colors@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
+  integrity sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
+
+colors@^1.3.3:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -2051,16 +2051,7 @@ electron-winstaller@^5.0.0:
     lodash.template "^4.2.2"
     temp "^0.9.0"
 
-electron@*:
-  version "18.2.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-18.2.3.tgz#36bcb8f71e41631e6b11179eeff291c8228bfd6a"
-  integrity sha512-DJWX03hCRKTscsfXxmW4gmgFuseop+g+m4ml7NfOMfankD8uYyr2Xyi3Ui02inL9qZOlbLMeLVCu6jKCKs8p/w==
-  dependencies:
-    "@electron/get" "^1.13.0"
-    "@types/node" "^16.11.26"
-    extract-zip "^1.0.3"
-
-electron@15.1.2:
+electron@*, electron@15.1.2:
   version "15.1.2"
   resolved "https://registry.yarnpkg.com/electron/-/electron-15.1.2.tgz#be1e362ab7307e38155709b0862e6a87f5e748b3"
   integrity sha512-cU5x1ZvhwcTtzClJrsxqbvCocs40uhuXcdXbXFMpe6XnbnjruTbwrB2V0OxN01pStDrYihnfKo2yhfEvhO3zmw==
@@ -3249,9 +3240,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0:
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.2.8.tgz#6c91189fe6134d8a526cb360566693c095fcfb60"
-  integrity sha512-IZZo6krhHWPhgsP5mBkEdPopVPN/stgCnBVuqi6dda/Nm5mDTOSVTrFMkWqlJsDum+B0YSe887tNxdjDWkO7aQ==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.3.0.tgz#b4352e0e4fe7c94111947d6738a6d3fe7903027c"
+  integrity sha512-C30Un9+63J0CsR7Wka5quXKqYZsT6dcRQ2aOwGcSc3RiQ4HGWpTAHlCA+puNfw2jA/s11EsxA1nCXgZRuRKMQQ==
   dependencies:
     compress-brotli "^1.3.8"
     json-buffer "3.0.1"
@@ -3640,9 +3631,9 @@ nice-try@^1.0.4:
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
 node-abi@^3.0.0, node-abi@^3.3.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.15.0.tgz#cd9ac8c58328129b49998cc6fa16aa5506152716"
-  integrity sha512-Ic6z/j6I9RLm4ov7npo1I48UQr2BEyFCqh6p7S1dhEx9jPO0GPGq/e2Rb7x7DroQrmiVMz/Bw1vJm9sPAl2nxA==
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.21.0.tgz#cd3c6bfca94fb08b3ae6f2bb1e09da628c97540c"
+  integrity sha512-0ChvtQmmNYzXju0fjG0Vfg72q2D8FxUhluvV9uqivtXsKblSekJE2juxfg+9HoSgqPMqCmVEC/GHHtGzi4xYTg==
   dependencies:
     semver "^7.3.5"
 
