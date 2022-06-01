@@ -33,7 +33,7 @@ Generate `generated-sources.json` use the `flatpak-node-generator.py` script fro
 
 ```shell
 python3 ~/r/flatpak-builder-tools/node/flatpak-node-generator.py -r yarn \
-  logseq-$VERSION/yarn.lock --xdg-layout -o generated-sources.json
+  logseq-$VERSION/yarn.lock --xdg-layout --electron-node-headers --electron-from-rcfile -o generated-sources.json
 ```
 
 Finally we may also need to update the clojure dependencies.

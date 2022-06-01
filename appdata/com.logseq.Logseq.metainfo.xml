@@ -58,6 +58,44 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.1" date="2022-06-01">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Copy &amp; Paste with rich-text formats, Use Cmd+shift+v or Ctrl+shift+v for copying/pasting without formatting #5471</li>
+                    <li>Onboarding Quick tour, more friendly UI guide #5247</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix theme switching bugs</li>
+                    <li>ntotao - Italian tutorial and dummy notes</li>
+                    <li>sawhney17 - Calendar icon in toolbar not rearranging(for mobile devices)</li>
+                    <li>Taylor Hoffmann - Fully translated in Portuguese (BR) and Italian</li>
+                    <li>Jonas Diemer - Improved float numbers formatting for calculator</li>
+                    <li>Alex - Use separate export.css instead of custom.css for export</li>
+                    <li>queeup - Update Turkish translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Save mode when switching themes #5439</li>
+                    <li>Block can't be deleted if backspace at the block beginning #5450</li>
+                    <li>Page title position when in editing mode #5507</li>
+                    <li>Startup runtime error under some Windows platforms #5508</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Fully translated in Portuguese (BR) and Italian #5465</li>
+                    <li>Added Italian tutorial and dummy notes #5419</li>
+                    <li>Slash command UX #5475</li>
+                    <li>Improved float numbers formatting for calculator #5374</li>
+                    <li>Use separate export.css instead of custom.css for export #5303</li>
+                    <li>Improve record timer implementation #5492</li>
+                    <li>Refine App menu, add About and Document menu entry #5500</li>
+                    <li>Disable left menu button when pdf view active #5509</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.1</url>
+        </release>
         <release version="0.7.0" date="2022-05-25">
             <description>
                 <p>Features</p>
