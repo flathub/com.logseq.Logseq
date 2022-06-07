@@ -70,20 +70,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.7.1.tar.gz",
-                    "sha256": "48f7733f8e387a42b9e884fd64346ff4fd283a00953accfdc34ea7a201627df1",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.7.2.tar.gz",
+                    "sha256": "ad06e5170e6755899a174c4e101bd3928f92cb89ac554875f9d402b930369f6d",
                     "dest": "main"
                 },
                 {
                     "type": "file",
                     "path": "static/yarn.lock",
                     "dest": "main/resources"
-                },
-                {
-                    "type": "file",
-                    "path": "static/top-yarn.lock",
-                    "dest": "main",
-                    "dest-filename": "yarn.lock"
                 },
                 "generated-sources.json",
                 "maven-sources.json",
@@ -118,8 +112,12 @@
                 },
                 {
                     "type": "patch",
-                    "path": "patches/rewrite-edn-deps-edn.patch",
-                    "strip-components": 0
+                    "path": "patches/graph_parser_deps_edn_local.patch",
+                    "options": ["-dmain"]
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/rewrite-edn-deps-edn.patch"
                 },
                 {
                     "type": "script",

@@ -58,6 +58,41 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.2" date="2022-06-07">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>ingepettersen - Norwegian dummy-notes.md and tutorial.md</li>
+                    <li>ingepettersen - Norwegian translation</li>
+                    <li>simonla - Update mobile.md</li>
+                    <li>Sunghyun Cho - Korean Translations</li>
+                    <li>ranfdev - Reduce shadows on sidebar and inline cards</li>
+                    <li>Darwis - Predefined view and transform</li>
+                    <li>sawhney17 - Add edit button to queries</li>
+                    <li>WsinGithub - Fix missing katex.min.js in publishing</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Bugs introduced by changing of Copy &amp; Paste logic</li>
+                    <li>Block lost when moving, cutting, pasting</li>
+                    <li>Handle graph directory change and file inode change(compatibility with some third-party file/folder syncing tool)</li>
+                    <li>Performance regression when re-indexing</li>
+                    <li>Missing page icon from left sidebar page item #5523</li>
+                    <li>Missing app menu under macOS #5524</li>
+                    <li>Highlight refs lose association with related pdf #5554</li>
+                    <li>Missing katex.min.js in publishing #5578</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Norwegian dummy-notes.md and tutorial.md, Norwegian translation #5514 #5513 #5515 #5527</li>
+                    <li>Update mobile.md #5525</li>
+                    <li>Korean Translations #5534</li>
+                    <li>Predefined view and transform #5479</li>
+                    <li>Add edit button to queries #5538</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.2</url>
+        </release>
         <release version="0.7.1" date="2022-06-01">
             <description>
                 <p>Features</p>

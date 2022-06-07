@@ -1,8 +1,8 @@
-Index: logseq-0.6.4/deps.edn
+Index: logseq-0.7.2/deps.edn
 ===================================================================
---- logseq-0.6.4.orig/deps.edn
-+++ logseq-0.6.4/deps.edn
-@@ -1,25 +1,24 @@
+--- logseq-0.7.2.orig/deps.edn
++++ logseq-0.7.2/deps.edn
+@@ -1,24 +1,23 @@
  {:paths ["src/main" "src/electron" "src/workspaces" "templates"]
 + :mvn/local-repo "/run/build/logseq/flatpak-openjdk/cache"
   :deps
