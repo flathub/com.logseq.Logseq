@@ -58,6 +58,32 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.3" date="2022-06-09">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>ingepettersen - Norwegian translations</li>
+                    <li>sawhney17 - Support mod+e to copy block embed to current block</li>
+                    <li>sawhney17 - Edit button should not be shown in default queries</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Regression on Windows and Linux, accessing parent directory, causing high memory consumption #5607</li>
+                    <li>Cannot unindent multiple blocks #5604</li>
+                    <li>Unable to perform block operations in the document mode #5615</li>
+                    <li>Cannot paste plain unordered list in markdown #5605</li>
+                    <li>Missing db persistency when creating new window via file menu #5600</li>
+                    <li>Edit button should not be shown in default queries</li>
+                    <li>Should show bullet when hovering a block on the document mode</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Support mod+e to copy block embed to current block</li>
+                    <li>Allow query property keys with char _</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.3</url>
+        </release>
         <release version="0.7.2" date="2022-06-07">
             <description>
                 <p>Thanks</p>
