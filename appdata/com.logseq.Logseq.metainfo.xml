@@ -58,6 +58,37 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.4" date="2022-06-14">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Sunghyun Cho - Fix typo in Korean Translation</li>
+                    <li>Hounsou Dansou - Add missing config item to config template</li>
+                    <li>Andrew Zhurov - Making excalidraw follow the theme of Logseq</li>
+                    <li>ranfdev - Icon alignment + various little UI changes</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Typo in Korean Translation #5622</li>
+                    <li>Missing mod+n shortcut under macOS #5629</li>
+                    <li>Add missing config item to config template #5679</li>
+                    <li>Notify graph dir when it is gone #5649</li>
+                    <li>Wrong file name of journal files under certain condition #5521</li>
+                    <li>Slow re-index for large graphs</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Force inline layout of block ref elements #5630</li>
+                    <li>Remove extra white space of code block from top #5655</li>
+                    <li>Marketplace metadata requests now uses node fetch client #5671</li>
+                    <li>Making excalidraw follow the theme of Logseq #5667</li>
+                    <li>Icon alignment + various little UI changes #5663</li>
+                    <li>Hold Shift to select without entering editor mode</li>
+                    <li>New options to disable Flashcards(under Advanced setting tab)</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.4</url>
+        </release>
         <release version="0.7.3" date="2022-06-09">
             <description>
                 <p>Thanks</p>

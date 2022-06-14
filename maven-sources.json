@@ -13,6 +13,564 @@
   },
   {
     "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/clojurescript/1.11.54/clojurescript-1.11.54.pom",
+    "sha256": "a80331b9a8d96fc5d43dfc71341fee3dd96030c93d363ad389dceadf25615f75",
+    "dest": "flatpak-openjdk/cache/org/clojure/clojurescript/1.11.54"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/clojurescript/1.11.54/clojurescript-1.11.54.jar",
+    "sha256": "734360390709c33defcba687005a407dd42bdd1811f00f61e0b1e6a950722282",
+    "dest": "flatpak-openjdk/cache/org/clojure/clojurescript/1.11.54"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.10.0/clojure-1.10.0.pom",
+    "sha256": "200d2eca8665240cbcbaee48c007324b7b44d366080e958df1d22e8dde24838c",
+    "dest": "flatpak-openjdk/cache/org/clojure/clojure/1.10.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.10.0/clojure-1.10.0.jar",
+    "sha256": "5014094a58c0576edf82cbd64de2536511b2f70e9c17ac78c1121524eabbae38",
+    "dest": "flatpak-openjdk/cache/org/clojure/clojure/1.10.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.pom",
+    "sha256": "2363e2d5b860e8d95772bd33da620ef3e5b0fbf3821c3492413f5fb6a248ddbe",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.namespace/0.2.11"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar",
+    "sha256": "0c5f0be70614edf5b0772d157de067c4f276c1f7ed27a3cd20bc0654aed8adae",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.namespace/0.2.11"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.1.2/pom.contrib-0.1.2.pom",
+    "sha256": "4680bd838dccba8c17c258171347f16f5baae6b5dfb781ab7382bc6385ff8006",
+    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.1.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.2.2/pom.contrib-0.2.2.pom",
+    "sha256": "e0ea227c49c5c3e30754cd26fcc57be7e4de973fe43aa5cc6667401ec5c10323",
+    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.2.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/1.0.0/pom.contrib-1.0.0.pom",
+    "sha256": "1011faae5c9e496858e4c650ba33713abd469a5d52e00aeb7f5b01a2bcaf47e9",
+    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/1.1.0/pom.contrib-1.1.0.pom",
+    "sha256": "10ece4bb5f9829010dc16561f42ebb83baf2f47605b51f9105b92f3caa089715",
+    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/1.1.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.2.0/pom.contrib-0.2.0.pom",
+    "sha256": "2c7a7745f1a723ba2fa83563f6aa09e3d665d0dde2d1f0a54dc45547af83ee7b",
+    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.2.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.match/1.0.0/core.match-1.0.0.pom",
+    "sha256": "645bdfed4460e4ef983e70a5b101e75422ff408f3195a1dfc0ed5ad5cdf0d2e4",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.match/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.match/1.0.0/core.match-1.0.0.jar",
+    "sha256": "c77584c8755760bd862794280b6ffaf72c797c93324fc2e801c13c7c05ab788c",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.match/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.3.610/core.async-1.3.610.pom",
+    "sha256": "660499543a866efac93c2ef73a88c5cea6caef5f470cc23ea1e48f45e74d2f7c",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.async/1.3.610"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.3.610/core.async-1.3.610.jar",
+    "sha256": "03bb2fcf466c95615132f679a95818bfd63b9d0af2da8b8267fab57a180c6177",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.async/1.3.610"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.pom",
+    "sha256": "c99cc0477b584cc8b76a9cd66a03e5bfc90b19d439757f1832103b6af820b292",
+    "dest": "flatpak-openjdk/cache/org/clojure/spec.alpha/0.2.176"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar",
+    "sha256": "fc4e96ecff34ddd2ab7fd050e74ae1379342ee09daa6028da52024c5de836cc4",
+    "dest": "flatpak-openjdk/cache/org/clojure/spec.alpha/0.2.176"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.pom",
+    "sha256": "8dd37b66c9d8e53f11702ef953c9371c5a8f2339be44715086f97b545799a686",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.specs.alpha/0.2.44"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar",
+    "sha256": "3b1ec4d6f0e8e41bf76842709083beb3b56adf3c82f9a4f174c3da74774b381c",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.specs.alpha/0.2.44"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.pom",
+    "sha256": "aef5ee828b7cb14a1c58f45b9f8a10ff340c5769925ea0ef5c35d1e49d920bea",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.reader/1.3.6"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar",
+    "sha256": "11d1b31f2c65c3355b292bb9b44b8fcafda54b44da63e34ab97b79a8ab3bb8e0",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.reader/1.3.6"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/data.json/2.4.0/data.json-2.4.0.pom",
+    "sha256": "a42ea70f17b517666ad8492a1bfa917de5defac7b47c516f6d0d4d89c2780cf4",
+    "dest": "flatpak-openjdk/cache/org/clojure/data.json/2.4.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/data.json/2.4.0/data.json-2.4.0.jar",
+    "sha256": "ec3f2f994e1eedd420313c452ba5518c5f5c97be5152dfed5650bc6611486adf",
+    "dest": "flatpak-openjdk/cache/org/clojure/data.json/2.4.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.pom",
+    "sha256": "fd00cd0b8ab5c9f7c16958b056502dbaf72a47a4cb886e8002b5b0dbbb38f49e",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.cli/1.0.206"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar",
+    "sha256": "6b97d2691919b9ea944a898fec798a90ecb81a17732916edbc73a6f5afd1f616",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.cli/1.0.206"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library/0.0-20211011-0726fdeb/google-closure-library-0.0-20211011-0726fdeb.pom",
+    "sha256": "c4bc302e235c2acaf8117511a3db0e3b9d12ea6a8129d95ab8927b9ba8886098",
+    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library/0.0-20211011-0726fdeb"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library/0.0-20211011-0726fdeb/google-closure-library-0.0-20211011-0726fdeb.jar",
+    "sha256": "2a33c54b0f27a993d18dc05e197b91472c3c908200e0d0d82129bde107b164e2",
+    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library/0.0-20211011-0726fdeb"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb/google-closure-library-third-party-0.0-20211011-0726fdeb.pom",
+    "sha256": "4c975713c58fae328767101b51666c93c939ffcb832e2c10fb18c450e3c64260",
+    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb/google-closure-library-third-party-0.0-20211011-0726fdeb.jar",
+    "sha256": "fc536cabf4812f487ddc9ef49c7b88768ce7226e03a006c182ba49eb2920885a",
+    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer.jvm/1.1.0/tools.analyzer.jvm-1.1.0.pom",
+    "sha256": "a1444190c99d2b9f8e7d22e1260c9afae56ed9e89a64c8099795d82b9083de33",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer.jvm/1.1.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer.jvm/1.1.0/tools.analyzer.jvm-1.1.0.jar",
+    "sha256": "dfab5712605d98165d1566c78fdd5713697e16a379ca30f5a9d9d72682658e4d",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer.jvm/1.1.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.pom",
+    "sha256": "8ee2bacafc3843358cce76510d73324212bb3519fad57804eceabdc37ac5091f",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.rrb-vector/0.1.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.jar",
+    "sha256": "51f98eba7b2cd42ee30f3826925dcde8791167f76f712329ae51b88244e8138e",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.rrb-vector/0.1.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer/1.0.0/tools.analyzer-1.0.0.pom",
+    "sha256": "0453cff0ab9d4550e2c867d8e9955f0c0203e13968370eb3ce47bdf59332e4f9",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer/1.0.0/tools.analyzer-1.0.0.jar",
+    "sha256": "463f431f89bdc2e69e3cdfbda5fdb8c2d3b7f6da5eddaa0367df0db047ec4156",
+    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.memoize/1.0.236/core.memoize-1.0.236.pom",
+    "sha256": "634e890fae5b33cdd2b1589e11f8e6b78594d57413c02fa1178f688bcf2209e8",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.memoize/1.0.236"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.memoize/1.0.236/core.memoize-1.0.236.jar",
+    "sha256": "849cf738ff59ed74dcc6cc41c43b220ff4e4d35e06808b6bc1b17b9018265441",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.memoize/1.0.236"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha3/test.check-0.10.0-alpha3.pom",
+    "sha256": "d2d2923b407a9cd9d178031f1f424815a09c7eda06425ac1cb239a7dc7fc266a",
+    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha3"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.pom",
+    "sha256": "a9abc10088ffe35c80aa216dc21d7060cc88c40472b896e3b0003450666327d1",
+    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.jar",
+    "sha256": "25a649e940fff315c67e2a93352070dc91e6267b6bde72ac4b366be147e2ab5a",
+    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.pom",
+    "sha256": "326b75d9f435449a6e00ffc9c62d5ac8ed0d961faeffbc58360fd46975ff2d59",
+    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.jar",
+    "sha256": "14cca4ab9c0a4c226f788aec8d6d6d3617c5a461e797861d4f7bfca2a2535652",
+    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.207/core.cache-1.0.207.pom",
+    "sha256": "713ea52ff1748d12e8ec58ffdc8cfbbb6bdf0ecd8f16a710cf9e29946eb0c01b",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.cache/1.0.207"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.207/core.cache-1.0.207.jar",
+    "sha256": "8f44eda53336883b461fb9c87e48b1743a4d826b7d3afb04c88f7ad997565eca",
+    "dest": "flatpak-openjdk/cache/org/clojure/core.cache/1.0.207"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.0.0/data.priority-map-1.0.0.pom",
+    "sha256": "a1e9665673a60bc23703c14c4f47c021e7201cbf32cd4a59e2c249c89f5b1315",
+    "dest": "flatpak-openjdk/cache/org/clojure/data.priority-map/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.0.0/data.priority-map-1.0.0.jar",
+    "sha256": "b1183e583f592564e6ddb0c0d5291da92843e4a72532a58031442d88d197cbf4",
+    "dest": "flatpak-openjdk/cache/org/clojure/data.priority-map/1.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.pom",
+    "sha256": "bf1b1a2894792ccdc223343e884d1a32c06b9a6d061fa1aec0dc4cffb8c68033",
+    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.jar",
+    "sha256": "8befe62a8dfc5fc16b58280cadf3b58ba006eadfd726743c8fa31679a6e9707b",
+    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.pom",
+    "sha256": "2976f9745feb66a73ee11b2488dc79d72949e4d8550ddb42698942778fd30e00",
+    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.jar",
+    "sha256": "673205c0465661b943fbc33293c68c6637d8169b239f0211696d8301cf7d88e5",
+    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom",
+    "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454",
+    "dest": "flatpak-openjdk/cache/org/sonatype/oss/oss-parent/7"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom",
+    "sha256": "fb40265f982548212ff82e362e59732b2187ec6f0d80182885c14ef1f982827a",
+    "dest": "flatpak-openjdk/cache/org/sonatype/oss/oss-parent/9"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.pom",
+    "sha256": "9debad1a238b870257f98f8279fc1ecf0b12cc765a9cc3ccf0ba0fdbc3237645",
+    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.jar",
+    "sha256": "63888b8c11b1c1431fd553d5d521d28c92e5ea710970fe5075cedb2611d2a22a",
+    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom",
+    "sha256": "93a219081bb855ff1d76c91a8ff9562234b8601e0bae59e2845e3e8691ed097e",
+    "dest": "flatpak-openjdk/cache/org/jsoup/jsoup/1.9.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar",
+    "sha256": "9c1885f1b182256e06f1e30b8451caed0c0dee96299d6348f968d18b54d0a46a",
+    "dest": "flatpak-openjdk/cache/org/jsoup/jsoup/1.9.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom",
+    "sha256": "cd313494c670b483ec256972af1698b330e598f807002354eb765479f604b09c",
+    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/42"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom",
+    "sha256": "75dbe8f34e98e4c3ff42daae4a2f9eb4cbcd3b5f1047d54460ace906dbb4502e",
+    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/52"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom",
+    "sha256": "8a8ecb570553bf9f1ffae211a8d4ca9ee630c17afe59293368fba7bd9b42fcb7",
+    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/47"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom",
+    "sha256": "7831307285fd475bbc36b20ae38e7882f11c3153b1d5930f852d44eda8f33c17",
+    "dest": "flatpak-openjdk/cache/org/apache/apache/18"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/apache/23/apache-23.pom",
+    "sha256": "bc10624e0623f36577fac5639ca2936d3240ed152fb6d8d533ab4d270543491c",
+    "dest": "flatpak-openjdk/cache/org/apache/apache/23"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom",
+    "sha256": "91f7a33096ea69bac2cbaf6d01feb934cac002c48d8c8cfa9c240b40f1ec21df",
+    "dest": "flatpak-openjdk/cache/org/apache/apache/19"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/35/jboss-parent-35.pom",
+    "sha256": "fc3b57aa32467b8785be6d5abd004f20a339af27ab10d60c58fc7ce972eddec7",
+    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/35"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/34/jboss-parent-34.pom",
+    "sha256": "4a7c22624e01c6c45b021fc4609e8835a807c5a6a2d9615e8aae63ea20ad4859",
+    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/34"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/36/jboss-parent-36.pom",
+    "sha256": "000dd616298aebd21a9d5731874df083d7298424b91e037b73cbdd07ebc83e0e",
+    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/36"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/23/jboss-parent-23.pom",
+    "sha256": "6cfafa155bf4689e4ac926d00f10f05816e9ab255739436dfe42d99352a95613",
+    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/23"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.pom",
+    "sha256": "f711f40e16ac3ea4807a33456122c9bb112d27845e7dcc688558d34831ca92b9",
+    "dest": "flatpak-openjdk/cache/org/jboss/logging/jboss-logging/3.4.1.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar",
+    "sha256": "8efe877d93e5e1057a1388b2950503b88b0c28447364fde08adbec61e524eeb8",
+    "dest": "flatpak-openjdk/cache/org/jboss/logging/jboss-logging/3.4.1.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.0.Final/xnio-api-3.8.0.Final.pom",
+    "sha256": "e51b95d3391f20559c3bb4c561fae34efc89e2d53e5035cd16c1bb14d545da7d",
+    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-api/3.8.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.0.Final/xnio-api-3.8.0.Final.jar",
+    "sha256": "543a79d5cdbe3237ea22ca44b85c65a5d068046d7b88e6bbab6f2e72d6b63810",
+    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-api/3.8.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.0.Final/xnio-nio-3.8.0.Final.pom",
+    "sha256": "d4aad5dfed3fbe425674dbb5c807d8c150090a5fe397473ea7c98e81717ce679",
+    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-nio/3.8.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.0.Final/xnio-nio-3.8.0.Final.jar",
+    "sha256": "4e1a547ee83d62963fb1e9439c9fc10f353f26961f20f986e0982362cab2cdfe",
+    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-nio/3.8.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-all/3.8.0.Final/xnio-all-3.8.0.Final.pom",
+    "sha256": "bd6fef717bb891777c90964e9876579bffd97222292e4f697d85b5515cc410b8",
+    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-all/3.8.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final.pom",
+    "sha256": "8b61d7c49870778de2115f55d64f7b1ddb1076fa57e72b494ea92a245fe5233f",
+    "dest": "flatpak-openjdk/cache/org/jboss/threads/jboss-threads/3.1.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final.jar",
+    "sha256": "c9396af3b47ddddbce14335aaad5b85b49fa704f11e33da1c450fae3c3b98079",
+    "dest": "flatpak-openjdk/cache/org/jboss/threads/jboss-threads/3.1.0.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom",
+    "sha256": "7e0747751e9b67e19dcb5206f04ea22cc03d250c422426402eadd03513f2c314",
+    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-api/1.7.30"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+    "sha256": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57",
+    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-api/1.7.30"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom",
+    "sha256": "11647956e48a0c5bfb3ac33f6da7e83f341002b6857efd335a505b687be34b75",
+    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-parent/1.7.30"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.pom",
+    "sha256": "94497d8f02f8de8159a5b7d5136e010f57f5d9ac65886112eced8695c5056dee",
+    "dest": "flatpak-openjdk/cache/org/msgpack/msgpack/0.6.12"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar",
+    "sha256": "e09ca65d8520488e80a5dc426848a8afccfd40f4a2eb3b9646042595d3bd9b5e",
+    "dest": "flatpak-openjdk/cache/org/msgpack/msgpack/0.6.12"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom",
+    "sha256": "cd14aaa869991f82021c585d570d31ff342bcba58bb44233b70193771b96487b",
+    "dest": "flatpak-openjdk/cache/org/junit/junit-bom/5.7.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.pom",
+    "sha256": "289f7fbbd7b0c576d5286e8adcf8d0735134d3915efea6436e2be35c11fcf050",
+    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm/5.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar",
+    "sha256": "3e5ea0d7da2c5155ef4f470d9092d42de34e3f53db6589c7c07d6721adf4ba3e",
+    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm/5.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.2/asm-parent-5.2.pom",
+    "sha256": "cbfacd5dd812db16dc910994007fe58d9402a25507f81a1c2218e15c2c1bedfa",
+    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm-parent/5.2"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom",
+    "sha256": "51215c67d2c068d8b7d2f6f80f51372a098075deccc448d4bdd7b987ba8328fb",
+    "dest": "flatpak-openjdk/cache/org/ow2/ow2/1.3"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom",
+    "sha256": "5ab1956fe8c45f35d46a5e47f320744d9fc4f5857cda9311b37189c5d353da0f",
+    "dest": "flatpak-openjdk/cache/org/javassist/javassist/3.18.1-GA"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar",
+    "sha256": "3fb71231afd098bb0f93f5eb97aa8291c8d0556379125e596f92ec8f944c6162",
+    "dest": "flatpak-openjdk/cache/org/javassist/javassist/3.18.1-GA"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.pom",
+    "sha256": "e875d14c650d4d67212f26d33fcc5bb2b86a02839f18556309c37c5c550bbca6",
+    "dest": "flatpak-openjdk/cache/org/wildfly/client/wildfly-client-config/1.0.1.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.jar",
+    "sha256": "80a4e963ce94ebb043ecb0f2c0e77d327f23dc87d81350b863752eedfa2c3bb3",
+    "dest": "flatpak-openjdk/cache/org/wildfly/client/wildfly-client-config/1.0.1.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.pom",
+    "sha256": "b960e7cb7039dcc2780f7f6048cff15a937729412f2d0986adba307702566629",
+    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.jar",
+    "sha256": "ab5c980c499ff18358fd5bdd0f8dd45c15243eca32515ed5fdad2fdc529d339f",
+    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.pom",
+    "sha256": "d433e579d79e5df3335cde4cd1044dd96d34867a2811ea35ff2759329e647092",
+    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.jar",
+    "sha256": "0523f12303c2d1f5713b56a27d3eda9e38d6f41e0b904a353a47604522fd99ac",
+    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
+  },
+  {
+    "type": "file",
     "url": "https://clojars.org/repo/com/lambdaisland/glogi/1.1.144/glogi-1.1.144.pom",
     "sha256": "e452ae5f00e88be399f33511059f4b2fd5e191870b4cc504efc6ab2989b65d9b",
     "dest": "flatpak-openjdk/cache/com/lambdaisland/glogi/1.1.144"
@@ -355,564 +913,6 @@
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/clojurescript/1.11.54/clojurescript-1.11.54.pom",
-    "sha256": "a80331b9a8d96fc5d43dfc71341fee3dd96030c93d363ad389dceadf25615f75",
-    "dest": "flatpak-openjdk/cache/org/clojure/clojurescript/1.11.54"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/clojurescript/1.11.54/clojurescript-1.11.54.jar",
-    "sha256": "734360390709c33defcba687005a407dd42bdd1811f00f61e0b1e6a950722282",
-    "dest": "flatpak-openjdk/cache/org/clojure/clojurescript/1.11.54"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.10.0/clojure-1.10.0.pom",
-    "sha256": "200d2eca8665240cbcbaee48c007324b7b44d366080e958df1d22e8dde24838c",
-    "dest": "flatpak-openjdk/cache/org/clojure/clojure/1.10.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.10.0/clojure-1.10.0.jar",
-    "sha256": "5014094a58c0576edf82cbd64de2536511b2f70e9c17ac78c1121524eabbae38",
-    "dest": "flatpak-openjdk/cache/org/clojure/clojure/1.10.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.pom",
-    "sha256": "2363e2d5b860e8d95772bd33da620ef3e5b0fbf3821c3492413f5fb6a248ddbe",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.namespace/0.2.11"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar",
-    "sha256": "0c5f0be70614edf5b0772d157de067c4f276c1f7ed27a3cd20bc0654aed8adae",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.namespace/0.2.11"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.match/1.0.0/core.match-1.0.0.pom",
-    "sha256": "645bdfed4460e4ef983e70a5b101e75422ff408f3195a1dfc0ed5ad5cdf0d2e4",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.match/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.match/1.0.0/core.match-1.0.0.jar",
-    "sha256": "c77584c8755760bd862794280b6ffaf72c797c93324fc2e801c13c7c05ab788c",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.match/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.1.2/pom.contrib-0.1.2.pom",
-    "sha256": "4680bd838dccba8c17c258171347f16f5baae6b5dfb781ab7382bc6385ff8006",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.1.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.2.2/pom.contrib-0.2.2.pom",
-    "sha256": "e0ea227c49c5c3e30754cd26fcc57be7e4de973fe43aa5cc6667401ec5c10323",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.2.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/1.0.0/pom.contrib-1.0.0.pom",
-    "sha256": "1011faae5c9e496858e4c650ba33713abd469a5d52e00aeb7f5b01a2bcaf47e9",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/1.1.0/pom.contrib-1.1.0.pom",
-    "sha256": "10ece4bb5f9829010dc16561f42ebb83baf2f47605b51f9105b92f3caa089715",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/1.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.2.0/pom.contrib-0.2.0.pom",
-    "sha256": "2c7a7745f1a723ba2fa83563f6aa09e3d665d0dde2d1f0a54dc45547af83ee7b",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.2.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.3.610/core.async-1.3.610.pom",
-    "sha256": "660499543a866efac93c2ef73a88c5cea6caef5f470cc23ea1e48f45e74d2f7c",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.async/1.3.610"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.3.610/core.async-1.3.610.jar",
-    "sha256": "03bb2fcf466c95615132f679a95818bfd63b9d0af2da8b8267fab57a180c6177",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.async/1.3.610"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.pom",
-    "sha256": "c99cc0477b584cc8b76a9cd66a03e5bfc90b19d439757f1832103b6af820b292",
-    "dest": "flatpak-openjdk/cache/org/clojure/spec.alpha/0.2.176"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar",
-    "sha256": "fc4e96ecff34ddd2ab7fd050e74ae1379342ee09daa6028da52024c5de836cc4",
-    "dest": "flatpak-openjdk/cache/org/clojure/spec.alpha/0.2.176"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.pom",
-    "sha256": "8dd37b66c9d8e53f11702ef953c9371c5a8f2339be44715086f97b545799a686",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.specs.alpha/0.2.44"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar",
-    "sha256": "3b1ec4d6f0e8e41bf76842709083beb3b56adf3c82f9a4f174c3da74774b381c",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.specs.alpha/0.2.44"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/data.json/2.4.0/data.json-2.4.0.pom",
-    "sha256": "a42ea70f17b517666ad8492a1bfa917de5defac7b47c516f6d0d4d89c2780cf4",
-    "dest": "flatpak-openjdk/cache/org/clojure/data.json/2.4.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/data.json/2.4.0/data.json-2.4.0.jar",
-    "sha256": "ec3f2f994e1eedd420313c452ba5518c5f5c97be5152dfed5650bc6611486adf",
-    "dest": "flatpak-openjdk/cache/org/clojure/data.json/2.4.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.pom",
-    "sha256": "fd00cd0b8ab5c9f7c16958b056502dbaf72a47a4cb886e8002b5b0dbbb38f49e",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.cli/1.0.206"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar",
-    "sha256": "6b97d2691919b9ea944a898fec798a90ecb81a17732916edbc73a6f5afd1f616",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.cli/1.0.206"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.pom",
-    "sha256": "aef5ee828b7cb14a1c58f45b9f8a10ff340c5769925ea0ef5c35d1e49d920bea",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.reader/1.3.6"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar",
-    "sha256": "11d1b31f2c65c3355b292bb9b44b8fcafda54b44da63e34ab97b79a8ab3bb8e0",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.reader/1.3.6"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library/0.0-20211011-0726fdeb/google-closure-library-0.0-20211011-0726fdeb.pom",
-    "sha256": "c4bc302e235c2acaf8117511a3db0e3b9d12ea6a8129d95ab8927b9ba8886098",
-    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library/0.0-20211011-0726fdeb"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library/0.0-20211011-0726fdeb/google-closure-library-0.0-20211011-0726fdeb.jar",
-    "sha256": "2a33c54b0f27a993d18dc05e197b91472c3c908200e0d0d82129bde107b164e2",
-    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library/0.0-20211011-0726fdeb"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb/google-closure-library-third-party-0.0-20211011-0726fdeb.pom",
-    "sha256": "4c975713c58fae328767101b51666c93c939ffcb832e2c10fb18c450e3c64260",
-    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb/google-closure-library-third-party-0.0-20211011-0726fdeb.jar",
-    "sha256": "fc536cabf4812f487ddc9ef49c7b88768ce7226e03a006c182ba49eb2920885a",
-    "dest": "flatpak-openjdk/cache/org/clojure/google-closure-library-third-party/0.0-20211011-0726fdeb"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer.jvm/1.1.0/tools.analyzer.jvm-1.1.0.pom",
-    "sha256": "a1444190c99d2b9f8e7d22e1260c9afae56ed9e89a64c8099795d82b9083de33",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer.jvm/1.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer.jvm/1.1.0/tools.analyzer.jvm-1.1.0.jar",
-    "sha256": "dfab5712605d98165d1566c78fdd5713697e16a379ca30f5a9d9d72682658e4d",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer.jvm/1.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.pom",
-    "sha256": "8ee2bacafc3843358cce76510d73324212bb3519fad57804eceabdc37ac5091f",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.rrb-vector/0.1.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.jar",
-    "sha256": "51f98eba7b2cd42ee30f3826925dcde8791167f76f712329ae51b88244e8138e",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.rrb-vector/0.1.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer/1.0.0/tools.analyzer-1.0.0.pom",
-    "sha256": "0453cff0ab9d4550e2c867d8e9955f0c0203e13968370eb3ce47bdf59332e4f9",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer/1.0.0/tools.analyzer-1.0.0.jar",
-    "sha256": "463f431f89bdc2e69e3cdfbda5fdb8c2d3b7f6da5eddaa0367df0db047ec4156",
-    "dest": "flatpak-openjdk/cache/org/clojure/tools.analyzer/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.memoize/1.0.236/core.memoize-1.0.236.pom",
-    "sha256": "634e890fae5b33cdd2b1589e11f8e6b78594d57413c02fa1178f688bcf2209e8",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.memoize/1.0.236"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.memoize/1.0.236/core.memoize-1.0.236.jar",
-    "sha256": "849cf738ff59ed74dcc6cc41c43b220ff4e4d35e06808b6bc1b17b9018265441",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.memoize/1.0.236"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha3/test.check-0.10.0-alpha3.pom",
-    "sha256": "d2d2923b407a9cd9d178031f1f424815a09c7eda06425ac1cb239a7dc7fc266a",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha3"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.pom",
-    "sha256": "a9abc10088ffe35c80aa216dc21d7060cc88c40472b896e3b0003450666327d1",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.jar",
-    "sha256": "25a649e940fff315c67e2a93352070dc91e6267b6bde72ac4b366be147e2ab5a",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.pom",
-    "sha256": "326b75d9f435449a6e00ffc9c62d5ac8ed0d961faeffbc58360fd46975ff2d59",
-    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.jar",
-    "sha256": "14cca4ab9c0a4c226f788aec8d6d6d3617c5a461e797861d4f7bfca2a2535652",
-    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.207/core.cache-1.0.207.pom",
-    "sha256": "713ea52ff1748d12e8ec58ffdc8cfbbb6bdf0ecd8f16a710cf9e29946eb0c01b",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.cache/1.0.207"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.207/core.cache-1.0.207.jar",
-    "sha256": "8f44eda53336883b461fb9c87e48b1743a4d826b7d3afb04c88f7ad997565eca",
-    "dest": "flatpak-openjdk/cache/org/clojure/core.cache/1.0.207"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.0.0/data.priority-map-1.0.0.pom",
-    "sha256": "a1e9665673a60bc23703c14c4f47c021e7201cbf32cd4a59e2c249c89f5b1315",
-    "dest": "flatpak-openjdk/cache/org/clojure/data.priority-map/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.0.0/data.priority-map-1.0.0.jar",
-    "sha256": "b1183e583f592564e6ddb0c0d5291da92843e4a72532a58031442d88d197cbf4",
-    "dest": "flatpak-openjdk/cache/org/clojure/data.priority-map/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.pom",
-    "sha256": "bf1b1a2894792ccdc223343e884d1a32c06b9a6d061fa1aec0dc4cffb8c68033",
-    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.jar",
-    "sha256": "8befe62a8dfc5fc16b58280cadf3b58ba006eadfd726743c8fa31679a6e9707b",
-    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.pom",
-    "sha256": "2976f9745feb66a73ee11b2488dc79d72949e4d8550ddb42698942778fd30e00",
-    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.jar",
-    "sha256": "673205c0465661b943fbc33293c68c6637d8169b239f0211696d8301cf7d88e5",
-    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom",
-    "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454",
-    "dest": "flatpak-openjdk/cache/org/sonatype/oss/oss-parent/7"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom",
-    "sha256": "fb40265f982548212ff82e362e59732b2187ec6f0d80182885c14ef1f982827a",
-    "dest": "flatpak-openjdk/cache/org/sonatype/oss/oss-parent/9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.pom",
-    "sha256": "9debad1a238b870257f98f8279fc1ecf0b12cc765a9cc3ccf0ba0fdbc3237645",
-    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/babashka/sci/0.3.2/sci-0.3.2.jar",
-    "sha256": "63888b8c11b1c1431fd553d5d521d28c92e5ea710970fe5075cedb2611d2a22a",
-    "dest": "flatpak-openjdk/cache/org/babashka/sci/0.3.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom",
-    "sha256": "93a219081bb855ff1d76c91a8ff9562234b8601e0bae59e2845e3e8691ed097e",
-    "dest": "flatpak-openjdk/cache/org/jsoup/jsoup/1.9.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar",
-    "sha256": "9c1885f1b182256e06f1e30b8451caed0c0dee96299d6348f968d18b54d0a46a",
-    "dest": "flatpak-openjdk/cache/org/jsoup/jsoup/1.9.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom",
-    "sha256": "cd313494c670b483ec256972af1698b330e598f807002354eb765479f604b09c",
-    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/42"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom",
-    "sha256": "8a8ecb570553bf9f1ffae211a8d4ca9ee630c17afe59293368fba7bd9b42fcb7",
-    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/47"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom",
-    "sha256": "75dbe8f34e98e4c3ff42daae4a2f9eb4cbcd3b5f1047d54460ace906dbb4502e",
-    "dest": "flatpak-openjdk/cache/org/apache/commons/commons-parent/52"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom",
-    "sha256": "7831307285fd475bbc36b20ae38e7882f11c3153b1d5930f852d44eda8f33c17",
-    "dest": "flatpak-openjdk/cache/org/apache/apache/18"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom",
-    "sha256": "91f7a33096ea69bac2cbaf6d01feb934cac002c48d8c8cfa9c240b40f1ec21df",
-    "dest": "flatpak-openjdk/cache/org/apache/apache/19"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/apache/apache/23/apache-23.pom",
-    "sha256": "bc10624e0623f36577fac5639ca2936d3240ed152fb6d8d533ab4d270543491c",
-    "dest": "flatpak-openjdk/cache/org/apache/apache/23"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom",
-    "sha256": "7e0747751e9b67e19dcb5206f04ea22cc03d250c422426402eadd03513f2c314",
-    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-api/1.7.30"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
-    "sha256": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57",
-    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-api/1.7.30"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom",
-    "sha256": "11647956e48a0c5bfb3ac33f6da7e83f341002b6857efd335a505b687be34b75",
-    "dest": "flatpak-openjdk/cache/org/slf4j/slf4j-parent/1.7.30"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.pom",
-    "sha256": "94497d8f02f8de8159a5b7d5136e010f57f5d9ac65886112eced8695c5056dee",
-    "dest": "flatpak-openjdk/cache/org/msgpack/msgpack/0.6.12"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar",
-    "sha256": "e09ca65d8520488e80a5dc426848a8afccfd40f4a2eb3b9646042595d3bd9b5e",
-    "dest": "flatpak-openjdk/cache/org/msgpack/msgpack/0.6.12"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/35/jboss-parent-35.pom",
-    "sha256": "fc3b57aa32467b8785be6d5abd004f20a339af27ab10d60c58fc7ce972eddec7",
-    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/35"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/34/jboss-parent-34.pom",
-    "sha256": "4a7c22624e01c6c45b021fc4609e8835a807c5a6a2d9615e8aae63ea20ad4859",
-    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/34"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/36/jboss-parent-36.pom",
-    "sha256": "000dd616298aebd21a9d5731874df083d7298424b91e037b73cbdd07ebc83e0e",
-    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/36"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/jboss-parent/23/jboss-parent-23.pom",
-    "sha256": "6cfafa155bf4689e4ac926d00f10f05816e9ab255739436dfe42d99352a95613",
-    "dest": "flatpak-openjdk/cache/org/jboss/jboss-parent/23"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.pom",
-    "sha256": "f711f40e16ac3ea4807a33456122c9bb112d27845e7dcc688558d34831ca92b9",
-    "dest": "flatpak-openjdk/cache/org/jboss/logging/jboss-logging/3.4.1.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar",
-    "sha256": "8efe877d93e5e1057a1388b2950503b88b0c28447364fde08adbec61e524eeb8",
-    "dest": "flatpak-openjdk/cache/org/jboss/logging/jboss-logging/3.4.1.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.0.Final/xnio-api-3.8.0.Final.pom",
-    "sha256": "e51b95d3391f20559c3bb4c561fae34efc89e2d53e5035cd16c1bb14d545da7d",
-    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-api/3.8.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.8.0.Final/xnio-api-3.8.0.Final.jar",
-    "sha256": "543a79d5cdbe3237ea22ca44b85c65a5d068046d7b88e6bbab6f2e72d6b63810",
-    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-api/3.8.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.0.Final/xnio-nio-3.8.0.Final.pom",
-    "sha256": "d4aad5dfed3fbe425674dbb5c807d8c150090a5fe397473ea7c98e81717ce679",
-    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-nio/3.8.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.0.Final/xnio-nio-3.8.0.Final.jar",
-    "sha256": "4e1a547ee83d62963fb1e9439c9fc10f353f26961f20f986e0982362cab2cdfe",
-    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-nio/3.8.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/xnio/xnio-all/3.8.0.Final/xnio-all-3.8.0.Final.pom",
-    "sha256": "bd6fef717bb891777c90964e9876579bffd97222292e4f697d85b5515cc410b8",
-    "dest": "flatpak-openjdk/cache/org/jboss/xnio/xnio-all/3.8.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final.pom",
-    "sha256": "8b61d7c49870778de2115f55d64f7b1ddb1076fa57e72b494ea92a245fe5233f",
-    "dest": "flatpak-openjdk/cache/org/jboss/threads/jboss-threads/3.1.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final.jar",
-    "sha256": "c9396af3b47ddddbce14335aaad5b85b49fa704f11e33da1c450fae3c3b98079",
-    "dest": "flatpak-openjdk/cache/org/jboss/threads/jboss-threads/3.1.0.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.pom",
-    "sha256": "289f7fbbd7b0c576d5286e8adcf8d0735134d3915efea6436e2be35c11fcf050",
-    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm/5.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar",
-    "sha256": "3e5ea0d7da2c5155ef4f470d9092d42de34e3f53db6589c7c07d6721adf4ba3e",
-    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm/5.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.2/asm-parent-5.2.pom",
-    "sha256": "cbfacd5dd812db16dc910994007fe58d9402a25507f81a1c2218e15c2c1bedfa",
-    "dest": "flatpak-openjdk/cache/org/ow2/asm/asm-parent/5.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom",
-    "sha256": "51215c67d2c068d8b7d2f6f80f51372a098075deccc448d4bdd7b987ba8328fb",
-    "dest": "flatpak-openjdk/cache/org/ow2/ow2/1.3"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom",
-    "sha256": "cd14aaa869991f82021c585d570d31ff342bcba58bb44233b70193771b96487b",
-    "dest": "flatpak-openjdk/cache/org/junit/junit-bom/5.7.2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom",
-    "sha256": "5ab1956fe8c45f35d46a5e47f320744d9fc4f5857cda9311b37189c5d353da0f",
-    "dest": "flatpak-openjdk/cache/org/javassist/javassist/3.18.1-GA"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar",
-    "sha256": "3fb71231afd098bb0f93f5eb97aa8291c8d0556379125e596f92ec8f944c6162",
-    "dest": "flatpak-openjdk/cache/org/javassist/javassist/3.18.1-GA"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.pom",
-    "sha256": "b960e7cb7039dcc2780f7f6048cff15a937729412f2d0986adba307702566629",
-    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.jar",
-    "sha256": "ab5c980c499ff18358fd5bdd0f8dd45c15243eca32515ed5fdad2fdc529d339f",
-    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.pom",
-    "sha256": "e875d14c650d4d67212f26d33fcc5bb2b86a02839f18556309c37c5c550bbca6",
-    "dest": "flatpak-openjdk/cache/org/wildfly/client/wildfly-client-config/1.0.1.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.jar",
-    "sha256": "80a4e963ce94ebb043ecb0f2c0e77d327f23dc87d81350b863752eedfa2c3bb3",
-    "dest": "flatpak-openjdk/cache/org/wildfly/client/wildfly-client-config/1.0.1.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.pom",
-    "sha256": "d433e579d79e5df3335cde4cd1044dd96d34867a2811ea35ff2759329e647092",
-    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.jar",
-    "sha256": "0523f12303c2d1f5713b56a27d3eda9e38d6f41e0b904a353a47604522fd99ac",
-    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/cljs-bean/cljs-bean/1.5.0/cljs-bean-1.5.0.pom",
     "sha256": "44a8a3e7d3e13bed569b12009fc0936263ffb7c67f23e7a3064585d6dfa3cef7",
     "dest": "flatpak-openjdk/cache/cljs-bean/cljs-bean/1.5.0"
@@ -973,6 +973,18 @@
   },
   {
     "type": "file",
+    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.pom",
+    "sha256": "970deb25e501f91e3b35caf99c086b93cc042dfb334169f193650246f61c2735",
+    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.jar",
+    "sha256": "d8983e4c605f6172c1c6619136a296bade77a34e005868f03f90ca382c4b585e",
+    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
+  },
+  {
+    "type": "file",
     "url": "https://clojars.org/repo/cider/cider-nrepl/0.26.0/cider-nrepl-0.26.0.pom",
     "sha256": "16f9654b9b66eb8f405e9e426ac1dca58ee8224f4404a79624f77b3a357cd4cc",
     "dest": "flatpak-openjdk/cache/cider/cider-nrepl/0.26.0"
@@ -997,18 +1009,6 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.pom",
-    "sha256": "970deb25e501f91e3b35caf99c086b93cc042dfb334169f193650246f61c2735",
-    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.jar",
-    "sha256": "d8983e4c605f6172c1c6619136a296bade77a34e005868f03f90ca382c4b585e",
-    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/funcool/promesa/4.0.2/promesa-4.0.2.pom",
     "sha256": "9daca0bfab449a5709bc01bfb3310baaf9839fe8bf1851c51e77d201fe87254d",
     "dest": "flatpak-openjdk/cache/funcool/promesa/4.0.2"
@@ -1021,18 +1021,6 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/tongue/tongue/0.4.4/tongue-0.4.4.pom",
-    "sha256": "c2a02e8938bc41b6e5f96fdd70480ab0d9bb2c26c514cf7ff9f9b0826d54c8a1",
-    "dest": "flatpak-openjdk/cache/tongue/tongue/0.4.4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/tongue/tongue/0.4.4/tongue-0.4.4.jar",
-    "sha256": "60939ed8d07d0a6ea4b42f91b203501bc67a73497d8c06ddf6cf8b2d48d69057",
-    "dest": "flatpak-openjdk/cache/tongue/tongue/0.4.4"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/datascript/datascript/1.3.8/datascript-1.3.8.pom",
     "sha256": "9bc6c6945253f5054cdd815a7398a0d6d943179a4af082d685d5ccb57ff92c60",
     "dest": "flatpak-openjdk/cache/datascript/datascript/1.3.8"
@@ -1042,6 +1030,18 @@
     "url": "https://clojars.org/repo/datascript/datascript/1.3.8/datascript-1.3.8.jar",
     "sha256": "bc46ad6ddffb471ebf87a14e37a714e202438b30250803e9ce425cc556804db3",
     "dest": "flatpak-openjdk/cache/datascript/datascript/1.3.8"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/tongue/tongue/0.4.4/tongue-0.4.4.pom",
+    "sha256": "c2a02e8938bc41b6e5f96fdd70480ab0d9bb2c26c514cf7ff9f9b0826d54c8a1",
+    "dest": "flatpak-openjdk/cache/tongue/tongue/0.4.4"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/tongue/tongue/0.4.4/tongue-0.4.4.jar",
+    "sha256": "60939ed8d07d0a6ea4b42f91b203501bc67a73497d8c06ddf6cf8b2d48d69057",
+    "dest": "flatpak-openjdk/cache/tongue/tongue/0.4.4"
   },
   {
     "type": "file",
@@ -1081,18 +1081,6 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/medley/medley/1.4.0/medley-1.4.0.pom",
-    "sha256": "26112007870c5ee8d572bbc3c389fc6bd6cc646d5c50075f6e895840c58610c0",
-    "dest": "flatpak-openjdk/cache/medley/medley/1.4.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/medley/medley/1.4.0/medley-1.4.0.jar",
-    "sha256": "4cf21169bbdcb46b99e77d409beeb7bfd1aa366088528757424cb997d496f355",
-    "dest": "flatpak-openjdk/cache/medley/medley/1.4.0"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/camel-snake-kebab/camel-snake-kebab/0.4.2/camel-snake-kebab-0.4.2.pom",
     "sha256": "ab4929e9851909ebd1140d49e8e4a7577f76dbebb87874a53bfc1aeb9b2e1327",
     "dest": "flatpak-openjdk/cache/camel-snake-kebab/camel-snake-kebab/0.4.2"
@@ -1102,6 +1090,18 @@
     "url": "https://clojars.org/repo/camel-snake-kebab/camel-snake-kebab/0.4.2/camel-snake-kebab-0.4.2.jar",
     "sha256": "a7b8715638391a69230f50fc361e96fb3b7fbc05978f9ccc74efaf79a98176bb",
     "dest": "flatpak-openjdk/cache/camel-snake-kebab/camel-snake-kebab/0.4.2"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/medley/medley/1.4.0/medley-1.4.0.pom",
+    "sha256": "26112007870c5ee8d572bbc3c389fc6bd6cc646d5c50075f6e895840c58610c0",
+    "dest": "flatpak-openjdk/cache/medley/medley/1.4.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/medley/medley/1.4.0/medley-1.4.0.jar",
+    "sha256": "4cf21169bbdcb46b99e77d409beeb7bfd1aa366088528757424cb997d496f355",
+    "dest": "flatpak-openjdk/cache/medley/medley/1.4.0"
   },
   {
     "type": "file",
@@ -1237,6 +1237,18 @@
   },
   {
     "type": "file",
+    "url": "https://clojars.org/repo/hiccup/hiccup/1.0.5/hiccup-1.0.5.pom",
+    "sha256": "386059d4fe2b5f2297ea9791c2596718333a79000882c39fc99a974843c0e552",
+    "dest": "flatpak-openjdk/cache/hiccup/hiccup/1.0.5"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar",
+    "sha256": "0fd4a7e47461dbdae720b684b197164ebb693bb6358c8e1467ffa787076c07fc",
+    "dest": "flatpak-openjdk/cache/hiccup/hiccup/1.0.5"
+  },
+  {
+    "type": "file",
     "url": "https://clojars.org/repo/ring/ring-core/1.9.5/ring-core-1.9.5.pom",
     "sha256": "6fee9aa3d425ae6991a606fa6358a6a377d3c90de4414f9de1ae0c05bbd74004",
     "dest": "flatpak-openjdk/cache/ring/ring-core/1.9.5"
@@ -1300,18 +1312,6 @@
     "url": "https://clojars.org/repo/io/aviso/pretty/0.1.33/pretty-0.1.33.jar",
     "sha256": "ae119c7ef36b15b6c6bb8b255663a8ea08ee042cf87ece0ef1f864c6de85871b",
     "dest": "flatpak-openjdk/cache/io/aviso/pretty/0.1.33"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/hiccup/hiccup/1.0.5/hiccup-1.0.5.pom",
-    "sha256": "386059d4fe2b5f2297ea9791c2596718333a79000882c39fc99a974843c0e552",
-    "dest": "flatpak-openjdk/cache/hiccup/hiccup/1.0.5"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar",
-    "sha256": "0fd4a7e47461dbdae720b684b197164ebb693bb6358c8e1467ffa787076c07fc",
-    "dest": "flatpak-openjdk/cache/hiccup/hiccup/1.0.5"
   },
   {
     "type": "file",

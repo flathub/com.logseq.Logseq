@@ -1,14 +1,14 @@
-Index: logseq-0.7.2/deps/graph-parser/deps.edn
+Index: logseq-0.7.4/deps/graph-parser/deps.edn
 ===================================================================
---- logseq-0.7.2.orig/deps/graph-parser/deps.edn
-+++ logseq-0.7.2/deps/graph-parser/deps.edn
-@@ -3,8 +3,7 @@
-  ;; Deps should be kept in sync with https://github.com/logseq/nbb-logseq/blob/main/bb.edn
-  {datascript/datascript {:mvn/version "1.3.8"}
-   frankiesardo/linked {:mvn/version "1.3.0"}
+--- logseq-0.7.4.orig/deps/graph-parser/deps.edn
++++ logseq-0.7.4/deps/graph-parser/deps.edn
+@@ -2,8 +2,7 @@
+  :deps
+  ;; External deps should be kept in sync with https://github.com/logseq/nbb-logseq/blob/main/bb.edn
+  {frankiesardo/linked {:mvn/version "1.3.0"}
 -  com.andrewmcveigh/cljs-time {:git/url "https://github.com/logseq/cljs-time" ;; fork
 -                               :sha     "5704fbf48d3478eedcf24d458c8964b3c2fd59a9"}
 +  com.andrewmcveigh/cljs-time {:local/root "../libs/cljs-time"}
+   ;; local dep
+   logseq/db {:local/root "../db"}
    ;; stubbed in nbb
-   com.lambdaisland/glogi {:mvn/version "1.1.144"}
-   ;; built in to nbb
