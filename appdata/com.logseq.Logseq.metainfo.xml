@@ -58,6 +58,35 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.5" date="2022-06-22">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Add quick capture support to Logseq Protocol #5762</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Allan Chain - Trim spaces when sanitizing page name</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Update Turkish translation #5692</li>
+                    <li>Trim spaces when sanitizing page name #5699</li>
+                    <li>Fix header icons display when :custom-default-page is non-nil #5719</li>
+                    <li>Handle CRLF for Windows clipboard #5732</li>
+                    <li>Repeated registration key to plugin ui items #5730</li>
+                    <li>Fetch marketplace plugins list via system proxy if no proxy configured #5716</li>
+                    <li>Home button when journal disabled #5749</li>
+                    <li>Fix for paste state</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Add request support, toolbar button pin/unpin to plugin API #5712</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.5</url>
+        </release>
         <release version="0.7.4" date="2022-06-14">
             <description>
                 <p>Thanks</p>
