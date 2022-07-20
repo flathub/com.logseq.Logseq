@@ -58,6 +58,69 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.7.7" date="2022-07-20">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Auto-complete support for both block properties and their values #5922</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>deciia wang - Update translation for Simplified Chinese, Traditional Chinese</li>
+                    <li>Kyle Ibrahim - Update desktop app run instructions</li>
+                    <li>Jonas Diemer - Adding tests for calculator rounding errors</li>
+                    <li>Phoenix Eliot - Replace react-visibility-sensor with react-intersection-observer</li>
+                    <li>playerofgames - Calculator bug fix and improvements</li>
+                    <li>Yuriy Piskun - Add heading in plugin settings</li>
+                    <li>Yuriy Piskun - Add data-key to plugin settings</li>
+                    <li>SainoNamkho - Fix math equation style bug</li>
+                    <li>Wojciech Nawrocki - Fix formatting of copied PDF text</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Peng Xiao - Fix export as html issue</li>
+                    <li>Peng Xiao - Only log query when debug is enabled</li>
+                    <li>sawhney17 - Make the git commit shortcut customizable</li>
+                    <li>sawhney17 - Improve reference filters</li>
+                    <li>sawhney17 - Fix block references crash</li>
+                    <li>8N9KT - Fix boolean in query table</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Rename namespace also rename substring in sub-namespace pages #5925</li>
+                    <li>Remove plugin ui items manager from page bar #5934</li>
+                    <li>Fix some query table issues #5886</li>
+                    <li>Reorder items in page search auto-complete #5935</li>
+                    <li>Bug fix for calculator #5918 #5939</li>
+                    <li>Quick capture across desktops #5960</li>
+                    <li>Fix for page bouncing when lazy loading #5973</li>
+                    <li>Flashcards not working #5990</li>
+                    <li>Don't enter editing when click query table #6000</li>
+                    <li>Key duplicates caused by key case when insert page property #5889</li>
+                    <li>Fix formatting of copied PDF text #4564</li>
+                    <li>Avoid handling delete too early, compatibility with some sync disks #6019</li>
+                    <li>Click not working on cards preview mode #6016</li>
+                    <li>Bug while exporting as html #5997</li>
+                    <li>Occasional memory leak with dynamic provide UI within slot UI #6006</li>
+                    <li>Missing asset resource when file name with specific url encoded chars #5888</li>
+                    <li>Block references crash #6061</li>
+                    <li>Boolean in query table #6063</li>
+                    <li>Undo in long page, block not shown when lazy-loading #6088</li>
+                    <li>Display cards shortcut on narrow screen #6097</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Translation enhancement to Simplified Chinese, Traditional Chinese #5924</li>
+                    <li>Replace react-visibility-sensor with react-intersection-observer #5909</li>
+                    <li>Add heading in plugin settings #5958</li>
+                    <li>Refactor inline html markup element conversion #5954</li>
+                    <li>Update Turkish translation #6031</li>
+                    <li>make the git commit shortcut customizable #6025</li>
+                    <li>Property page enhancements #6024</li>
+                    <li>Add data-key to plugin settings #6045</li>
+                    <li>Calculator improvements: new operations, display formats, constants and bases #6056</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.7</url>
+        </release>
         <release version="0.7.6" date="2022-07-05">
             <description>
                 <p>Features</p>
