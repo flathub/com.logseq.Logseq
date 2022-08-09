@@ -58,6 +58,55 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.0" date="2022-08-09">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>New setting option :feature/enable-search-remove-accents for better search experience Documentation #6199</li>
+                    <li>Extract macros as blocks; Add a refresh button for slow queries(Those queries will not be re-executed automatically); Query list for flashcard #6105</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>8N9KT - Remove links for each level of the namespaces hierarchy pages in the global graph view</li>
+                    <li>Alex L - Clearer examples in config.edn</li>
+                    <li>Yue Yang - Cursor style of restart text</li>
+                    <li>Giuseppe D'Andrea - Fix navigation with multiple selected blocks #6296</li>
+                    <li>Herman Sandoval - Add more Spanish language strings</li>
+                    <li>Katze Prior - Dutch translation</li>
+                    <li>lecoan - Improve UX design: click the plugin title to open README</li>
+                    <li>maxweilun1989 - Fix recent in sidebar do not remember its state</li>
+                    <li>maxweilun1989 - New setting options :feature/enable-search-remove-accents</li>
+                    <li>maxweilun1989 - Only show property search modal when necessary</li>
+                    <li>netwjx - More Chinese translation</li>
+                    <li>Phoenix Eliot - Fix pasting race condition</li>
+                    <li>Phoenix Eliot - Add comments to editor keyup-handler cases</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Remove links for each level of the namespaces hierarchy pages in the global graph view #6115</li>
+                    <li>Timezone wrong when expanding template time variables #6237</li>
+                    <li>Recent in sidebar does not remember its state #6144</li>
+                    <li>Property completion for hidden properties and property ordering #6214</li>
+                    <li>Cursor style of restart text #6141</li>
+                    <li>Avoiding race condition in pasting #5964</li>
+                    <li>Remove absolute file path from linked file path for zotero #5995</li>
+                    <li>Bug fixes for linked references and queries; Performance enhancement for queries #6105</li>
+                    <li>Only show property search modal when necessary #6176</li>
+                    <li>Navigation with multiple selected blocks #6296</li>
+                    <li>Handle corrupted search DB, causing App crash #6299</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Friendly linebreak for multiple language highlighted PDF text #6212</li>
+                    <li>More Spanish language strings added #6217</li>
+                    <li>Dutch translation #6233</li>
+                    <li>More Chinese translations #6257</li>
+                    <li>Click the plugin title to open README #6286</li>
+                    <li>Some plugin API enhancements #6021</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.0</url>
+        </release>
         <release version="0.7.9" date="2022-07-27">
             <description>
                 <p>Thanks</p>

@@ -5,7 +5,7 @@
 Set the VERSION environment variable
 
 ```shell
-export VERSION=0.5.7
+export VERSION=0.8.0
 ```
 
 Download the latest release from <https://github.com/logseq/logseq/releases>
@@ -28,12 +28,13 @@ Uncompress the file
 tar xf logseq-$VERSION.tar.gz
 ```
 
-Generate `generated-sources.json` use the `flatpak-node-generator.py` script from
-[flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools)
+Install `flatpak-node-generator` from [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools)
+
+Generate `generated-sources.json`
 
 ```shell
-python3 ~/r/flatpak-builder-tools/node/flatpak-node-generator.py -r yarn \
-  logseq-$VERSION/yarn.lock --xdg-layout --electron-node-headers --electron-from-rcfile -o generated-sources.json
+flatpak-node-generator.py -r yarn \
+  logseq-$VERSION/yarn.lock --electron-node-headers -o generated-sources.json
 ```
 
 Finally we may also need to update the clojure dependencies.
