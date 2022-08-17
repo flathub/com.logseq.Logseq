@@ -80,6 +80,12 @@
                     "path": "static/yarn.lock",
                     "dest": "main/resources"
                 },
+                {
+                    "type": "file",
+                    "path": "static/root-yarn.lock",
+                    "dest-filename": "yarn.lock",
+                    "dest": "main"
+                },
                 "generated-sources.json",
                 "maven-sources.json",
                 {
@@ -114,6 +120,11 @@
                 {
                     "type": "patch",
                     "path": "patches/graph_parser_deps_edn_local.patch",
+                    "options": ["-dmain"]
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/electron_19_0_12.patch",
                     "options": ["-dmain"]
                 },
                 {

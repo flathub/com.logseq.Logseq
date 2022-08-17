@@ -29,13 +29,6 @@
     },
     {
         "type": "archive",
-        "url": "https://www.electronjs.org/headers/v19.0.10/node-v19.0.10-headers.tar.gz",
-        "strip-components": 1,
-        "sha256": "da33d0c0e942222bbd26669bfe0cc94ca86b3c6fc762e063a4623f1168104fb5",
-        "dest": "flatpak-node/cache/node-gyp/19.0.10"
-    },
-    {
-        "type": "archive",
         "url": "https://www.electronjs.org/headers/v19.0.12/node-v19.0.12-headers.tar.gz",
         "strip-components": 1,
         "sha256": "fe3385eae9cc00ff1abf0600c7dd4a3252ed16a58d40cd89423f430246171c44",
@@ -54,43 +47,6 @@
         "sha256": "9695452f923867f943d983fb3e9bf5781449cb78fac4901958a0304817e23996",
         "dest-filename": "dugite-native-v2.35.3-f7287d1-ubuntu.tar.gz",
         "dest": "flatpak-node/tmp",
-        "only-arches": [
-            "x86_64"
-        ]
-    },
-    {
-        "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v19.0.10/SHASUMS256.txt",
-        "sha256": "69a683e052327d5c077864b32b15d7ce8d949cca252771a8c455f540bdd65b82",
-        "dest-filename": "SHASUMS256.txt-19.0.10",
-        "dest": "flatpak-node/cache/electron"
-    },
-    {
-        "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v19.0.10/electron-v19.0.10-linux-arm64.zip",
-        "sha256": "7e8de84f39337b717cad72323037593decd40d5fabb5ec76222eb065d7282d1c",
-        "dest-filename": "electron-v19.0.10-linux-arm64.zip",
-        "dest": "flatpak-node/cache/electron",
-        "only-arches": [
-            "aarch64"
-        ]
-    },
-    {
-        "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v19.0.10/electron-v19.0.10-linux-armv7l.zip",
-        "sha256": "fa83f5a084244612a9a87b9976c87d7aacf4f8039f1696ad2362be0300848ed3",
-        "dest-filename": "electron-v19.0.10-linux-armv7l.zip",
-        "dest": "flatpak-node/cache/electron",
-        "only-arches": [
-            "arm"
-        ]
-    },
-    {
-        "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v19.0.10/electron-v19.0.10-linux-x64.zip",
-        "sha256": "656d2b2d6f0ae0e4d6a0cd565bcc594d1233dafe246981e49a6825e6e547ec3d",
-        "dest-filename": "electron-v19.0.10-linux-x64.zip",
-        "dest": "flatpak-node/cache/electron",
         "only-arches": [
             "x86_64"
         ]
@@ -7991,13 +7947,6 @@
         "url": "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-5.0.0.tgz#0db968f34d498b16c69566a40848f562e70e7bcc",
         "sha512": "57e8c575aeda5409b486d086f10f796ee3d4a665d95bdba38751dd85295663acb8427267c384dfae6c53950595e29da2a05ffbd49308ff5605fbfa9b4880a880",
         "dest-filename": "electron-winstaller-5.0.0.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/electron/-/electron-19.0.10.tgz#4d2f03f307fbb70a295ff419112130b75661eda9",
-        "sha512": "1225ad3d6743ec2ce4464a75730eedd0df56daa848e5764eb9d1d7edd68e879c08d3bea7b1d57676d9407ff5f24c784f368291e6a8535ab4a760bf4f63a0f5be",
-        "dest-filename": "electron-19.0.10.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -23726,12 +23675,6 @@
         "type": "inline",
         "contents": "9",
         "dest-filename": "installVersion",
-        "dest": "flatpak-node/cache/node-gyp/19.0.10"
-    },
-    {
-        "type": "inline",
-        "contents": "9",
-        "dest-filename": "installVersion",
         "dest": "flatpak-node/cache/node-gyp/19.0.12"
     },
     {
@@ -23795,45 +23738,6 @@
         "type": "shell",
         "commands": [
             "bash flatpak-node/setup_sdk_node_headers.sh"
-        ]
-    },
-    {
-        "type": "shell",
-        "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-arm64.zip\"",
-            "ln -s \"../electron-v19.0.10-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-arm64.zip/electron-v19.0.10-linux-arm64.zip\"",
-            "mkdir -p \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8\"",
-            "ln -s \"../electron-v19.0.10-linux-arm64.zip\" \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8/electron-v19.0.10-linux-arm64.zip\""
-        ],
-        "dest": "flatpak-node/cache/electron",
-        "only-arches": [
-            "aarch64"
-        ]
-    },
-    {
-        "type": "shell",
-        "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-armv7l.zip\"",
-            "ln -s \"../electron-v19.0.10-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-armv7l.zip/electron-v19.0.10-linux-armv7l.zip\"",
-            "mkdir -p \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8\"",
-            "ln -s \"../electron-v19.0.10-linux-armv7l.zip\" \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8/electron-v19.0.10-linux-armv7l.zip\""
-        ],
-        "dest": "flatpak-node/cache/electron",
-        "only-arches": [
-            "arm"
-        ]
-    },
-    {
-        "type": "shell",
-        "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-x64.zip\"",
-            "ln -s \"../electron-v19.0.10-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv19.0.10electron-v19.0.10-linux-x64.zip/electron-v19.0.10-linux-x64.zip\"",
-            "mkdir -p \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8\"",
-            "ln -s \"../electron-v19.0.10-linux-x64.zip\" \"a24406618f2094bb7dc558a3f0f2aa21e789c4c401cdef4a3436f61d78cc68a8/electron-v19.0.10-linux-x64.zip\""
-        ],
-        "dest": "flatpak-node/cache/electron",
-        "only-arches": [
-            "x86_64"
         ]
     },
     {
