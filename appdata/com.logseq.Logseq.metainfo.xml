@@ -58,6 +58,53 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.1" date="2022-08-17">
+            <description>
+                <p>
+                    <b>NOTE</b>
+                    : This release updates Electron to version 19. If you encounter any errors,
+                </p>
+                <p>
+                    <b>Clear Cache</b>
+                    and re-add your graphs. Sorry for the inconvenience.
+                </p>
+                <p>Thanks</p>
+                <ul>
+                    <li>AlexFullmoon - Improved Russian translation</li>
+                    <li>Grant Moyer - Upgrade Electron to 19</li>
+                    <li>Michał Świtoń - Polish translation</li>
+                    <li>Giuseppe D'Andrea - Cursor position cannot be moved when editing a page title</li>
+                    <li>maxweilun1989 - Keep the favorites item when publishing</li>
+                    <li>Phoenix Eliot - Fix wrapped-by? utility function</li>
+                    <li>Phoenix Eliot - Press the Escape Key to close the action menu</li>
+                    <li>Phoenix Eliot - Fix moving cursor outside brackets when auto-complete</li>
+                    <li>Phoenix Eliot - Fix undo/redo while action menu is open</li>
+                    <li>Aryan Sawhney - Fix incorrect feature request URL</li>
+                    <li>swk777 - Fix Alias of a page in the sidebar that did not redirect to the original page</li>
+                    <li>Yuriy Piskun - Add plugin id to buttons and panel</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Performance degradation introduced last release #6347</li>
+                    <li>Android App crashes when picking graph folder for some devices #6328 #6315</li>
+                    <li>Cursor position cannot be moved when editing a page title #6311</li>
+                    <li>Keep the favorites item when publishing #6256</li>
+                    <li>Alias of a page in sidebar did not redirect to the original page #6085</li>
+                    <li>Fix roam export error caused by typo #6364</li>
+                    <li>Fix moving cursor outside brackets when auto-complete #6283</li>
+                    <li>Fix undo/redo while action menu is open #6273</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Upgrade electron to 19 #6032, NOTE This might requires Clear Cache and re-adding your graphs under some environment</li>
+                    <li>I18N: Polish translation #6318, Improved Russian translation #6324</li>
+                    <li>Press the Escape key to close the action menu #6270</li>
+                    <li>Support import current graph assets file in custom.css #6331</li>
+                    <li>Add plugin id to buttons and panel in settings menu #6373</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.1</url>
+        </release>
         <release version="0.8.0" date="2022-08-09">
             <description>
                 <p>Features</p>

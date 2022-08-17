@@ -33,7 +33,7 @@ Install `flatpak-node-generator` from [flatpak-builder-tools](https://github.com
 Generate `generated-sources.json`
 
 ```shell
-flatpak-node-generator.py -r yarn \
+flatpak-node-generator -r yarn \
   logseq-$VERSION/yarn.lock --electron-node-headers -o generated-sources.json
 ```
 
