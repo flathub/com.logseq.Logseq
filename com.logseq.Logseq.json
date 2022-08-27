@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.8.1.tar.gz",
-                    "sha256": "7bca528c9dbf1b2e0b21774d1d2095cbaa0993c13845e32f4ebe0757f3e821ee",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.8.2.tar.gz",
+                    "sha256": "464280eb6b1bd035e9ffcc1c94476b71e205935b79b3161cc18441f63372170a",
                     "dest": "main"
                 },
                 {

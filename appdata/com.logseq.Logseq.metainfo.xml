@@ -58,6 +58,31 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.2" date="2022-08-23">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peter Stuifzand - Fix typo in Markdown syntax</li>
+                    <li>queeup - Update Turkish translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Refactor mobile path handling, fix file backup for mobile platforms #6389</li>
+                    <li>Use the correct journal title format while first opening a graph #6425</li>
+                    <li>Skip empty block when cycle multiple todos #6433</li>
+                    <li>Fix query filters and wrong page refs #6423</li>
+                    <li>Arrow up/down to close property autocomplete</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>New style context and dropdown menus #6416</li>
+                    <li>I18n: update Turkish translation #6378</li>
+                    <li>Plugin API enhancements #6423</li>
+                    <li>Increase the limit on search items for templates and properties</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.2</url>
+        </release>
         <release version="0.8.1" date="2022-08-17">
             <description>
                 <p>
