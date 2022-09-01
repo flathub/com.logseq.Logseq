@@ -58,6 +58,51 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.3" date="2022-09-01">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Config option to allow for longer, richer property values, new config option :rich-property-values? #6336</li>
+                    <li>Find in page on electron, use CMD+F or Ctrl+F to search term in current page Documentation #6443</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>David Vargas - Add an option to skip redirect on page rename</li>
+                    <li>Viktor Moros - Improve backtick auto-pairing</li>
+                    <li>Viktor Moros - Adding E2E test for scenario with text after a soft return</li>
+                    <li>Giuseppe D'Andrea - Fix shift-click on recently searched page</li>
+                    <li>Mike Travers - Shift click on “Journals” opens latest in the right sidebar</li>
+                    <li>Kan-Ru Chen - Update electron 19.0.12, fixed a bug in wayland rendering for Linux desktops</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>star.lit - Add guide to speed up build process on Windows</li>
+                    <li>swk777 - Re-enabling Journals options does not work when default home page is filled out</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Shift-click on recently searched page #6461</li>
+                    <li>Electron-only commands should only show up in electron #6469</li>
+                    <li>CJK hashtag update failure #6479</li>
+                    <li>Hide icon page property #6473</li>
+                    <li>Handle delete image with no actual file #6482</li>
+                    <li>Error while importing from edn/json #6477</li>
+                    <li>Handle invalid property names #6492</li>
+                    <li>Re-enabling Journals options does not work when home page is filled out #6498</li>
+                    <li>Tabindex react dev warnings #6520</li>
+                    <li>Custom css not reload #6510</li>
+                    <li>Search or editor frozen caused by large text #6455</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Massive accessibility enhancements #6442</li>
+                    <li>Tips of plugin loader perf #6467</li>
+                    <li>Improved backtick auto-pairing #6496</li>
+                    <li>Shift click on “Journals” opens latest in the right sidebar #6511</li>
+                    <li>I18n: update Turkish translation #6507</li>
+                    <li>Add an option to skip redirect on page rename #6519</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.3</url>
+        </release>
         <release version="0.8.2" date="2022-08-23">
             <description>
                 <p>Thanks</p>
