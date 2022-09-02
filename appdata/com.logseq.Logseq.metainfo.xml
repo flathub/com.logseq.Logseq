@@ -58,6 +58,21 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.4" date="2022-09-02">
+            <description>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Do not loading persist vars when nil graph #6542</li>
+                    <li>Recover open new window button #6540</li>
+                    <li>Android crash at start, accessing illegal path #6551</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Nested scroll container for left sidebar dynamic modules #6553</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.4</url>
+        </release>
         <release version="0.8.3" date="2022-09-01">
             <description>
                 <p>Features</p>
