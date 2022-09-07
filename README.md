@@ -28,6 +28,14 @@ Uncompress the file
 tar xf logseq-$VERSION.tar.gz
 ```
 
+Generate missing yarn lock file
+
+```shell
+cd logseq-$VERSION/resources
+yarn
+cp yarn.lock ../../static/yarn.lock
+```
+
 Install `flatpak-node-generator` from [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools)
 
 Generate `generated-sources.json`
