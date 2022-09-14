@@ -1,273 +1,99 @@
 [
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/lambdaisland/glogi/1.1.144/glogi-1.1.144.pom",
-    "sha256": "e452ae5f00e88be399f33511059f4b2fd5e191870b4cc504efc6ab2989b65d9b",
-    "dest": "flatpak-openjdk/cache/com/lambdaisland/glogi/1.1.144"
+    "url": "https://clojars.org/repo/thheller/shadow-cljs/2.19.0/shadow-cljs-2.19.0.pom",
+    "sha256": "088d2acccc5e99bccec00d77cea0fba743aebab6996baa36c9cfba551d981b74",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-cljs/2.19.0"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/lambdaisland/glogi/1.1.144/glogi-1.1.144.jar",
-    "sha256": "c96e8c1fd5f2954b633c613555dab31c7657ff1522f277ef291d1a9b2423aba5",
-    "dest": "flatpak-openjdk/cache/com/lambdaisland/glogi/1.1.144"
+    "url": "https://clojars.org/repo/thheller/shadow-cljs/2.19.0/shadow-cljs-2.19.0.jar",
+    "sha256": "980aee230e2962f78dc36bd6b5631e038d64df7d1e9d1ce9303861995bacdee1",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-cljs/2.19.0"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.256/transit-cljs-0.8.256.pom",
-    "sha256": "f1cb71623e6b064a3fd0272343724335921e65d424dbdc33022a01cc3285ebcc",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.256"
+    "url": "https://clojars.org/repo/thheller/shadow-util/0.7.0/shadow-util-0.7.0.pom",
+    "sha256": "889e0ba8bd167021d8c6c533fc3ce5c240d7c6465444ea318ddaed5b945640f8",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-util/0.7.0"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.269/transit-cljs-0.8.269.pom",
-    "sha256": "f3b332d24271f333bd97eeb2ba4728f6e28a2974f47cc4bc4f4a8928058e1f66",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.269"
+    "url": "https://clojars.org/repo/thheller/shadow-util/0.7.0/shadow-util-0.7.0.jar",
+    "sha256": "e566901e70d6bf1a12e7b9bb067e4bb38951a2a0332ad291558efdf3335ecd81",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-util/0.7.0"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.269/transit-cljs-0.8.269.jar",
-    "sha256": "6ce6af12c0fdff7b3b01da082d0ce4c83fe48dc52b88b00510785334aa56515b",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.269"
+    "url": "https://clojars.org/repo/thheller/shadow-client/1.3.3/shadow-client-1.3.3.pom",
+    "sha256": "34e7445501befa1b224a922c8411558028a7e1c583242c522c38ddad5471b86c",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-client/1.3.3"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.pom",
-    "sha256": "abf8eb18abb80efecd12d5adf40b2dd407c2926941ccfa524c4b1e9d7b82ac74",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-clj/1.0.329"
+    "url": "https://clojars.org/repo/thheller/shadow-client/1.3.3/shadow-client-1.3.3.jar",
+    "sha256": "1774a6ce716c1bb1f7bd6f378fc5b1be764a7e715619b2149b43dbee8dc85b8d",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-client/1.3.3"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.jar",
-    "sha256": "819a439cdb3fcf0ba46914691cc18dfdccb91c9225fd97722b77d4ea34aac96a",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-clj/1.0.329"
+    "url": "https://clojars.org/repo/thheller/shadow-undertow/0.2.1/shadow-undertow-0.2.1.pom",
+    "sha256": "69d4f75cb0831659895c8228e588b7cc52f757f2e1c4564f4fe15d2067a5131a",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-undertow/0.2.1"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-java/1.0.362/transit-java-1.0.362.pom",
-    "sha256": "d1d63c8014b8b6642dd0aac7063366bffcb8eddd58e2762fda8c82b45b6fe7c1",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-java/1.0.362"
+    "url": "https://clojars.org/repo/thheller/shadow-undertow/0.2.1/shadow-undertow-0.2.1.jar",
+    "sha256": "46750b45f26f6c278e974c1c70891c3207563cfc86d1c01a1d509dadca9ef45d",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-undertow/0.2.1"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-java/1.0.362/transit-java-1.0.362.jar",
-    "sha256": "eb68573d46dda85601cc63d9b1c287feb5e89e76e92502e826efd0a323f7cb54",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-java/1.0.362"
+    "url": "https://clojars.org/repo/thheller/shadow-cljsjs/0.0.22/shadow-cljsjs-0.0.22.pom",
+    "sha256": "df6327a1afe93738fb80a659000282247ae32439833da4b7cc29ad93bf4f49e9",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-cljsjs/0.0.22"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-js/0.8.874/transit-js-0.8.874.pom",
-    "sha256": "27bc96e2af9c9fae9b585d100074532e9f45459f51dd0609039d138c7aad51b8",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-js/0.8.874"
+    "url": "https://clojars.org/repo/thheller/shadow-cljsjs/0.0.22/shadow-cljsjs-0.0.22.jar",
+    "sha256": "f63ba0baa337f05505458d334ccec4a8728afe55868bb71cb4c14e385e6492ae",
+    "dest": "flatpak-openjdk/cache/thheller/shadow-cljsjs/0.0.22"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-js/0.8.874/transit-js-0.8.874.jar",
-    "sha256": "ad6e4bd2d695565da79eb58020c9665d22850d6b39cb86f8330bb6da3bbf0909",
-    "dest": "flatpak-openjdk/cache/com/cognitect/transit-js/0.8.874"
+    "url": "https://clojars.org/repo/expound/expound/0.8.6/expound-0.8.6.pom",
+    "sha256": "be38cea896bd754b3ad151a487781eade7b86026da9deca4bd9c0521f64c3d77",
+    "dest": "flatpak-openjdk/cache/expound/expound/0.8.6"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/fulcrologic/fulcro/3.0.5/fulcro-3.0.5.pom",
-    "sha256": "c0896a6c0371ee05fa41cd91d0561a14b82f70dc4c9167400a9b468607621b39",
-    "dest": "flatpak-openjdk/cache/com/fulcrologic/fulcro/3.0.5"
+    "url": "https://clojars.org/repo/expound/expound/0.8.6/expound-0.8.6.jar",
+    "sha256": "bdc759530613224c9d184a78a08136026ad6d9e39389257ad9acd13534d3c2e8",
+    "dest": "flatpak-openjdk/cache/expound/expound/0.8.6"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/fulcrologic/fulcro/3.0.5/fulcro-3.0.5.jar",
-    "sha256": "abc4841a3e33498e4bd96c6aefa7b31ab61d8190e4eaa2054076840c0f9d484b",
-    "dest": "flatpak-openjdk/cache/com/fulcrologic/fulcro/3.0.5"
+    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.pom",
+    "sha256": "bf1b1a2894792ccdc223343e884d1a32c06b9a6d061fa1aec0dc4cffb8c68033",
+    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/fulcrologic/fulcro-garden-css/3.0.6/fulcro-garden-css-3.0.6.pom",
-    "sha256": "8e418546b977281457acb41291288d207340c6b0b53e14ddf41ea9df7030a431",
-    "dest": "flatpak-openjdk/cache/com/fulcrologic/fulcro-garden-css/3.0.6"
+    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.jar",
+    "sha256": "8befe62a8dfc5fc16b58280cadf3b58ba006eadfd726743c8fa31679a6e9707b",
+    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/fulcrologic/fulcro-garden-css/3.0.6/fulcro-garden-css-3.0.6.jar",
-    "sha256": "3bf0cbe40ef20e5a6060c04c97f6000f6157bf298ea552c879264eb8a5432ef7",
-    "dest": "flatpak-openjdk/cache/com/fulcrologic/fulcro-garden-css/3.0.6"
+    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.pom",
+    "sha256": "2976f9745feb66a73ee11b2488dc79d72949e4d8550ddb42698942778fd30e00",
+    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/fuzzy/1.0.0/fuzzy-1.0.0.pom",
-    "sha256": "7a1954c1f1f852a43b1224e3f3775d2f247b91903c33a244a93525e4f577e520",
-    "dest": "flatpak-openjdk/cache/com/wsscode/fuzzy/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/fuzzy/1.0.0/fuzzy-1.0.0.jar",
-    "sha256": "1074a7eab5f33a2622c249dc90b42f31b906930bb37111de87cdaab549b3b122",
-    "dest": "flatpak-openjdk/cache/com/wsscode/fuzzy/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/pathom/2.2.0-beta4/pathom-2.2.0-beta4.pom",
-    "sha256": "64f865fcc2aad2bf4ec65abc8389af594acb9cdc1ad05c54f7f666db2a52184a",
-    "dest": "flatpak-openjdk/cache/com/wsscode/pathom/2.2.0-beta4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/pathom/2.2.0-beta4/pathom-2.2.0-beta4.jar",
-    "sha256": "39b6a878335716a5251b1b243ec96330c8ff3c1f8089b59d5b692470bd4aa414",
-    "dest": "flatpak-openjdk/cache/com/wsscode/pathom/2.2.0-beta4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/spec-inspec/1.0.0-alpha2/spec-inspec-1.0.0-alpha2.pom",
-    "sha256": "ac8ea18f7a8b411d133a46eec7977996088178c3cd02f0c3fc7b067820213f6e",
-    "dest": "flatpak-openjdk/cache/com/wsscode/spec-inspec/1.0.0-alpha2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/wsscode/spec-inspec/1.0.0-alpha2/spec-inspec-1.0.0-alpha2.jar",
-    "sha256": "0722a27af887e0197316608cf436e1f7543771936738540b9c172303b156f520",
-    "dest": "flatpak-openjdk/cache/com/wsscode/spec-inspec/1.0.0-alpha2"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20220502/closure-compiler-unshaded-v20220502.pom",
-    "sha256": "336c0324b3971b8264b471d864d4811f45f72108bb3160a2f3b0d2cddc0ae0c6",
-    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-unshaded/v20220502"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20220502/closure-compiler-unshaded-v20220502.jar",
-    "sha256": "590c794057a9ffb4818a4aa0d140f91bc1aa0afe7b421b628c957ec1732d9a4d",
-    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-unshaded/v20220502"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-main/v20220502/closure-compiler-main-v20220502.pom",
-    "sha256": "ec5f4fa9bb10787e31c57d2d74fa92999c9a4e8fccc220e131486cbdc638eb5c",
-    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-main/v20220502"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-parent/v20220502/closure-compiler-parent-v20220502.pom",
-    "sha256": "e8beb9ea7cf241c86b747f6be795bf7ec190ea890a8c3c892e98ff4dbc1e8496",
-    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-parent/v20220502"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/bhauman/cljs-test-display/0.1.1/cljs-test-display-0.1.1.pom",
-    "sha256": "f00d06d18761fa0608a13ff3a315a1b3846acdcfba63f6dbdf40d796bc9e57d8",
-    "dest": "flatpak-openjdk/cache/com/bhauman/cljs-test-display/0.1.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/bhauman/cljs-test-display/0.1.1/cljs-test-display-0.1.1.jar",
-    "sha256": "c1f21b0f31ecd398921f442d374c9dbca78201229e7ae200e4e6f6930e4c098c",
-    "dest": "flatpak-openjdk/cache/com/bhauman/cljs-test-display/0.1.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/encore/2.115.0/encore-2.115.0.pom",
-    "sha256": "3e6d6c941a181d5a60f6c3f5c991b5ec20898c97bf2ebf3bef1dc3d6c35ffe87",
-    "dest": "flatpak-openjdk/cache/com/taoensso/encore/2.115.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/encore/2.115.0/encore-2.115.0.jar",
-    "sha256": "08c21593b6a72022583a30e2e8965ef352aacbf4383c3113c0f9e0155fc87a47",
-    "dest": "flatpak-openjdk/cache/com/taoensso/encore/2.115.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/timbre/4.10.0/timbre-4.10.0.pom",
-    "sha256": "db12d30c83e0b883329c82d3da0eb91120134b3125bbde1e47061d63f8c8fda8",
-    "dest": "flatpak-openjdk/cache/com/taoensso/timbre/4.10.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/timbre/4.10.0/timbre-4.10.0.jar",
-    "sha256": "3ed3697c28e71e786caa119a2069e46cfb74b9fff83b9ecb8c55fe093311eae7",
-    "dest": "flatpak-openjdk/cache/com/taoensso/timbre/4.10.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/truss/1.5.0/truss-1.5.0.pom",
-    "sha256": "b0d05db8b6c9c369af949e45c60b8efaa7529fb3d0abd23c7a65ff90ae3b4406",
-    "dest": "flatpak-openjdk/cache/com/taoensso/truss/1.5.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/taoensso/truss/1.5.0/truss-1.5.0.jar",
-    "sha256": "3a7378e7fe253ab1cdb68f8dbbeb3c429399aa0507570e5fafc65f611fd589a8",
-    "dest": "flatpak-openjdk/cache/com/taoensso/truss/1.5.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/stuartsierra/component/0.3.2/component-0.3.2.pom",
-    "sha256": "b0729b4c0f39752dc53748e18c41e8cf71be8f757986a078bec218288c624997",
-    "dest": "flatpak-openjdk/cache/com/stuartsierra/component/0.3.2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/stuartsierra/component/0.3.2/component-0.3.2.jar",
-    "sha256": "a4836f97ff4a9caaefd397059a0423b25ae3cf939f1f046be817ab6ac6560659",
-    "dest": "flatpak-openjdk/cache/com/stuartsierra/component/0.3.2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/stuartsierra/dependency/0.2.0/dependency-0.2.0.pom",
-    "sha256": "2748dd2099c46405573d6ca0f15629d9cda32d656f699ed257fce7ee04036c88",
-    "dest": "flatpak-openjdk/cache/com/stuartsierra/dependency/0.2.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/com/stuartsierra/dependency/0.2.0/dependency-0.2.0.jar",
-    "sha256": "41231d65f357099291da7e1a7b54f19fee301fe873d8a9be7eec4c2c015a2bcf",
-    "dest": "flatpak-openjdk/cache/com/stuartsierra/dependency/0.2.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.pom",
-    "sha256": "0d8f415d56320fbe3883ab7adee73bbb2c9a69c2a49af3608fd6b1efa15d8b5a",
-    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/core/jackson-core/2.8.7"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar",
-    "sha256": "256ff34118ab292d1b4f3ee4d2c3e5e5f0f609d8e07c57e8ad1f51c46d4fbb46",
-    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/core/jackson-core/2.8.7"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom",
-    "sha256": "3b51994c1a3a29c2c89728226c0be14b69888a1bb0ef311f8d65904cdfbd9358",
-    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/jackson-parent/2.8"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom",
-    "sha256": "b9b8f388fd628057b1249756468b86726c8fd5816ce14d313cb40003a509beeb",
-    "dest": "flatpak-openjdk/cache/com/fasterxml/oss-parent/27"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.pom",
-    "sha256": "4cfc18125cb86bff37cf6cd800afa4ebcaf2a26cd2f99ac62eda28a873b8b397",
-    "dest": "flatpak-openjdk/cache/com/yahoo/platform/yui/yuicompressor/2.4.8"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar",
-    "sha256": "980d7c2fe1a44cad09841d6f4a6f7ab6dd06341a10d2244330b9802ab4d813d2",
-    "dest": "flatpak-openjdk/cache/com/yahoo/platform/yui/yuicompressor/2.4.8"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom",
-    "sha256": "665f63590defb63d62add21d3525362cf937cf6a1c05e4b0145bae8da8a57f83",
-    "dest": "flatpak-openjdk/cache/com/googlecode/json-simple/json-simple/1.1.1"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar",
-    "sha256": "4e69696892b88b41c55d49ab2fdcc21eead92bf54acc588c0050596c3b75199c",
-    "dest": "flatpak-openjdk/cache/com/googlecode/json-simple/json-simple/1.1.1"
+    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.jar",
+    "sha256": "673205c0465661b943fbc33293c68c6637d8169b239f0211696d8301cf7d88e5",
+    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
   },
   {
     "type": "file",
@@ -328,12 +154,6 @@
     "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/1.1.0/pom.contrib-1.1.0.pom",
     "sha256": "10ece4bb5f9829010dc16561f42ebb83baf2f47605b51f9105b92f3caa089715",
     "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/1.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/pom.contrib/0.2.0/pom.contrib-0.2.0.pom",
-    "sha256": "2c7a7745f1a723ba2fa83563f6aa09e3d665d0dde2d1f0a54dc45547af83ee7b",
-    "dest": "flatpak-openjdk/cache/org/clojure/pom.contrib/0.2.0"
   },
   {
     "type": "file",
@@ -493,36 +313,6 @@
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha3/test.check-0.10.0-alpha3.pom",
-    "sha256": "d2d2923b407a9cd9d178031f1f424815a09c7eda06425ac1cb239a7dc7fc266a",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha3"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.pom",
-    "sha256": "a9abc10088ffe35c80aa216dc21d7060cc88c40472b896e3b0003450666327d1",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/0.10.0-alpha4/test.check-0.10.0-alpha4.jar",
-    "sha256": "25a649e940fff315c67e2a93352070dc91e6267b6bde72ac4b366be147e2ab5a",
-    "dest": "flatpak-openjdk/cache/org/clojure/test.check/0.10.0-alpha4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.pom",
-    "sha256": "326b75d9f435449a6e00ffc9c62d5ac8ed0d961faeffbc58360fd46975ff2d59",
-    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.jar",
-    "sha256": "14cca4ab9c0a4c226f788aec8d6d6d3617c5a461e797861d4f7bfca2a2535652",
-    "dest": "flatpak-openjdk/cache/org/clojure/math.combinatorics/0.1.4"
-  },
-  {
-    "type": "file",
     "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.207/core.cache-1.0.207.pom",
     "sha256": "713ea52ff1748d12e8ec58ffdc8cfbbb6bdf0ecd8f16a710cf9e29946eb0c01b",
     "dest": "flatpak-openjdk/cache/org/clojure/core.cache/1.0.207"
@@ -544,30 +334,6 @@
     "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.0.0/data.priority-map-1.0.0.jar",
     "sha256": "b1183e583f592564e6ddb0c0d5291da92843e4a72532a58031442d88d197cbf4",
     "dest": "flatpak-openjdk/cache/org/clojure/data.priority-map/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.pom",
-    "sha256": "bf1b1a2894792ccdc223343e884d1a32c06b9a6d061fa1aec0dc4cffb8c68033",
-    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/knubie/cljs-run-test/1.0.1/cljs-run-test-1.0.1.jar",
-    "sha256": "8befe62a8dfc5fc16b58280cadf3b58ba006eadfd726743c8fa31679a6e9707b",
-    "dest": "flatpak-openjdk/cache/org/clojars/knubie/cljs-run-test/1.0.1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.pom",
-    "sha256": "2976f9745feb66a73ee11b2488dc79d72949e4d8550ddb42698942778fd30e00",
-    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/org/clojars/mmb90/cljs-cache/0.1.4/cljs-cache-0.1.4.jar",
-    "sha256": "673205c0465661b943fbc33293c68c6637d8169b239f0211696d8301cf7d88e5",
-    "dest": "flatpak-openjdk/cache/org/clojars/mmb90/cljs-cache/0.1.4"
   },
   {
     "type": "file",
@@ -793,18 +559,6 @@
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.pom",
-    "sha256": "b960e7cb7039dcc2780f7f6048cff15a937729412f2d0986adba307702566629",
-    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
-  },
-  {
-    "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.jar",
-    "sha256": "ab5c980c499ff18358fd5bdd0f8dd45c15243eca32515ed5fdad2fdc529d339f",
-    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
-  },
-  {
-    "type": "file",
     "url": "https://repo1.maven.org/maven2/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.pom",
     "sha256": "e875d14c650d4d67212f26d33fcc5bb2b86a02839f18556309c37c5c550bbca6",
     "dest": "flatpak-openjdk/cache/org/wildfly/client/wildfly-client-config/1.0.1.Final"
@@ -817,99 +571,153 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/expound/expound/0.8.6/expound-0.8.6.pom",
-    "sha256": "be38cea896bd754b3ad151a487781eade7b86026da9deca4bd9c0521f64c3d77",
-    "dest": "flatpak-openjdk/cache/expound/expound/0.8.6"
+    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.pom",
+    "sha256": "b960e7cb7039dcc2780f7f6048cff15a937729412f2d0986adba307702566629",
+    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/expound/expound/0.8.6/expound-0.8.6.jar",
-    "sha256": "bdc759530613224c9d184a78a08136026ad6d9e39389257ad9acd13534d3c2e8",
-    "dest": "flatpak-openjdk/cache/expound/expound/0.8.6"
+    "url": "https://repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.jar",
+    "sha256": "ab5c980c499ff18358fd5bdd0f8dd45c15243eca32515ed5fdad2fdc529d339f",
+    "dest": "flatpak-openjdk/cache/org/wildfly/common/wildfly-common/1.5.2.Final"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-cljs/2.19.0/shadow-cljs-2.19.0.pom",
-    "sha256": "088d2acccc5e99bccec00d77cea0fba743aebab6996baa36c9cfba551d981b74",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-cljs/2.19.0"
+    "url": "https://clojars.org/repo/com/lambdaisland/glogi/1.1.144/glogi-1.1.144.pom",
+    "sha256": "e452ae5f00e88be399f33511059f4b2fd5e191870b4cc504efc6ab2989b65d9b",
+    "dest": "flatpak-openjdk/cache/com/lambdaisland/glogi/1.1.144"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-cljs/2.19.0/shadow-cljs-2.19.0.jar",
-    "sha256": "980aee230e2962f78dc36bd6b5631e038d64df7d1e9d1ce9303861995bacdee1",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-cljs/2.19.0"
+    "url": "https://clojars.org/repo/com/lambdaisland/glogi/1.1.144/glogi-1.1.144.jar",
+    "sha256": "c96e8c1fd5f2954b633c613555dab31c7657ff1522f277ef291d1a9b2423aba5",
+    "dest": "flatpak-openjdk/cache/com/lambdaisland/glogi/1.1.144"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-util/0.7.0/shadow-util-0.7.0.pom",
-    "sha256": "889e0ba8bd167021d8c6c533fc3ce5c240d7c6465444ea318ddaed5b945640f8",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-util/0.7.0"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.256/transit-cljs-0.8.256.pom",
+    "sha256": "f1cb71623e6b064a3fd0272343724335921e65d424dbdc33022a01cc3285ebcc",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.256"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-util/0.7.0/shadow-util-0.7.0.jar",
-    "sha256": "e566901e70d6bf1a12e7b9bb067e4bb38951a2a0332ad291558efdf3335ecd81",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-util/0.7.0"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.269/transit-cljs-0.8.269.pom",
+    "sha256": "f3b332d24271f333bd97eeb2ba4728f6e28a2974f47cc4bc4f4a8928058e1f66",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.269"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-client/1.3.3/shadow-client-1.3.3.pom",
-    "sha256": "34e7445501befa1b224a922c8411558028a7e1c583242c522c38ddad5471b86c",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-client/1.3.3"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-cljs/0.8.269/transit-cljs-0.8.269.jar",
+    "sha256": "6ce6af12c0fdff7b3b01da082d0ce4c83fe48dc52b88b00510785334aa56515b",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-cljs/0.8.269"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-client/1.3.3/shadow-client-1.3.3.jar",
-    "sha256": "1774a6ce716c1bb1f7bd6f378fc5b1be764a7e715619b2149b43dbee8dc85b8d",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-client/1.3.3"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.pom",
+    "sha256": "abf8eb18abb80efecd12d5adf40b2dd407c2926941ccfa524c4b1e9d7b82ac74",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-clj/1.0.329"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-undertow/0.2.1/shadow-undertow-0.2.1.pom",
-    "sha256": "69d4f75cb0831659895c8228e588b7cc52f757f2e1c4564f4fe15d2067a5131a",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-undertow/0.2.1"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.jar",
+    "sha256": "819a439cdb3fcf0ba46914691cc18dfdccb91c9225fd97722b77d4ea34aac96a",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-clj/1.0.329"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-undertow/0.2.1/shadow-undertow-0.2.1.jar",
-    "sha256": "46750b45f26f6c278e974c1c70891c3207563cfc86d1c01a1d509dadca9ef45d",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-undertow/0.2.1"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-java/1.0.362/transit-java-1.0.362.pom",
+    "sha256": "d1d63c8014b8b6642dd0aac7063366bffcb8eddd58e2762fda8c82b45b6fe7c1",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-java/1.0.362"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-cljsjs/0.0.22/shadow-cljsjs-0.0.22.pom",
-    "sha256": "df6327a1afe93738fb80a659000282247ae32439833da4b7cc29ad93bf4f49e9",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-cljsjs/0.0.22"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-java/1.0.362/transit-java-1.0.362.jar",
+    "sha256": "eb68573d46dda85601cc63d9b1c287feb5e89e76e92502e826efd0a323f7cb54",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-java/1.0.362"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/thheller/shadow-cljsjs/0.0.22/shadow-cljsjs-0.0.22.jar",
-    "sha256": "f63ba0baa337f05505458d334ccec4a8728afe55868bb71cb4c14e385e6492ae",
-    "dest": "flatpak-openjdk/cache/thheller/shadow-cljsjs/0.0.22"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-js/0.8.874/transit-js-0.8.874.pom",
+    "sha256": "27bc96e2af9c9fae9b585d100074532e9f45459f51dd0609039d138c7aad51b8",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-js/0.8.874"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.pom",
-    "sha256": "d433e579d79e5df3335cde4cd1044dd96d34867a2811ea35ff2759329e647092",
-    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
+    "url": "https://repo1.maven.org/maven2/com/cognitect/transit-js/0.8.874/transit-js-0.8.874.jar",
+    "sha256": "ad6e4bd2d695565da79eb58020c9665d22850d6b39cb86f8330bb6da3bbf0909",
+    "dest": "flatpak-openjdk/cache/com/cognitect/transit-js/0.8.874"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/nubank/workspaces/1.1.1/workspaces-1.1.1.jar",
-    "sha256": "0523f12303c2d1f5713b56a27d3eda9e38d6f41e0b904a353a47604522fd99ac",
-    "dest": "flatpak-openjdk/cache/nubank/workspaces/1.1.1"
+    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20220502/closure-compiler-unshaded-v20220502.pom",
+    "sha256": "336c0324b3971b8264b471d864d4811f45f72108bb3160a2f3b0d2cddc0ae0c6",
+    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-unshaded/v20220502"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/cljs-http/cljs-http/0.1.46/cljs-http-0.1.46.pom",
-    "sha256": "787609a9292e672d6b367e814496834494b9a157713c5b4e0d00feb50f1cd118",
-    "dest": "flatpak-openjdk/cache/cljs-http/cljs-http/0.1.46"
+    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20220502/closure-compiler-unshaded-v20220502.jar",
+    "sha256": "590c794057a9ffb4818a4aa0d140f91bc1aa0afe7b421b628c957ec1732d9a4d",
+    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-unshaded/v20220502"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/cljs-http/cljs-http/0.1.46/cljs-http-0.1.46.jar",
-    "sha256": "7564dd116caa1b536c82f6038f277097c053321a2f2af6fa9c008d750a357b93",
-    "dest": "flatpak-openjdk/cache/cljs-http/cljs-http/0.1.46"
+    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-main/v20220502/closure-compiler-main-v20220502.pom",
+    "sha256": "ec5f4fa9bb10787e31c57d2d74fa92999c9a4e8fccc220e131486cbdc638eb5c",
+    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-main/v20220502"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-parent/v20220502/closure-compiler-parent-v20220502.pom",
+    "sha256": "e8beb9ea7cf241c86b747f6be795bf7ec190ea890a8c3c892e98ff4dbc1e8496",
+    "dest": "flatpak-openjdk/cache/com/google/javascript/closure-compiler-parent/v20220502"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/com/bhauman/cljs-test-display/0.1.1/cljs-test-display-0.1.1.pom",
+    "sha256": "f00d06d18761fa0608a13ff3a315a1b3846acdcfba63f6dbdf40d796bc9e57d8",
+    "dest": "flatpak-openjdk/cache/com/bhauman/cljs-test-display/0.1.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/com/bhauman/cljs-test-display/0.1.1/cljs-test-display-0.1.1.jar",
+    "sha256": "c1f21b0f31ecd398921f442d374c9dbca78201229e7ae200e4e6f6930e4c098c",
+    "dest": "flatpak-openjdk/cache/com/bhauman/cljs-test-display/0.1.1"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.pom",
+    "sha256": "0d8f415d56320fbe3883ab7adee73bbb2c9a69c2a49af3608fd6b1efa15d8b5a",
+    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/core/jackson-core/2.8.7"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar",
+    "sha256": "256ff34118ab292d1b4f3ee4d2c3e5e5f0f609d8e07c57e8ad1f51c46d4fbb46",
+    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/core/jackson-core/2.8.7"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom",
+    "sha256": "3b51994c1a3a29c2c89728226c0be14b69888a1bb0ef311f8d65904cdfbd9358",
+    "dest": "flatpak-openjdk/cache/com/fasterxml/jackson/jackson-parent/2.8"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom",
+    "sha256": "b9b8f388fd628057b1249756468b86726c8fd5816ce14d313cb40003a509beeb",
+    "dest": "flatpak-openjdk/cache/com/fasterxml/oss-parent/27"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom",
+    "sha256": "665f63590defb63d62add21d3525362cf937cf6a1c05e4b0145bae8da8a57f83",
+    "dest": "flatpak-openjdk/cache/com/googlecode/json-simple/json-simple/1.1.1"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar",
+    "sha256": "4e69696892b88b41c55d49ab2fdcc21eead92bf54acc588c0050596c3b75199c",
+    "dest": "flatpak-openjdk/cache/com/googlecode/json-simple/json-simple/1.1.1"
   },
   {
     "type": "file",
@@ -922,6 +730,18 @@
     "url": "https://clojars.org/repo/cljs-bean/cljs-bean/1.5.0/cljs-bean-1.5.0.jar",
     "sha256": "6afa02226af9c15df6cd7a19044968f730e66a49a49fbae581d78e2c73681afb",
     "dest": "flatpak-openjdk/cache/cljs-bean/cljs-bean/1.5.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljs-http/cljs-http/0.1.46/cljs-http-0.1.46.pom",
+    "sha256": "787609a9292e672d6b367e814496834494b9a157713c5b4e0d00feb50f1cd118",
+    "dest": "flatpak-openjdk/cache/cljs-http/cljs-http/0.1.46"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljs-http/cljs-http/0.1.46/cljs-http-0.1.46.jar",
+    "sha256": "7564dd116caa1b536c82f6038f277097c053321a2f2af6fa9c008d750a357b93",
+    "dest": "flatpak-openjdk/cache/cljs-http/cljs-http/0.1.46"
   },
   {
     "type": "file",
@@ -973,6 +793,18 @@
   },
   {
     "type": "file",
+    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.pom",
+    "sha256": "970deb25e501f91e3b35caf99c086b93cc042dfb334169f193650246f61c2735",
+    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.jar",
+    "sha256": "d8983e4c605f6172c1c6619136a296bade77a34e005868f03f90ca382c4b585e",
+    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
+  },
+  {
+    "type": "file",
     "url": "https://clojars.org/repo/cider/cider-nrepl/0.28.4/cider-nrepl-0.28.4.pom",
     "sha256": "57024db2686685fa51cfc69db0d892cef85f3dbadf64da4cbd50731dffa08b8f",
     "dest": "flatpak-openjdk/cache/cider/cider-nrepl/0.28.4"
@@ -994,18 +826,6 @@
     "url": "https://clojars.org/repo/cider/piggieback/0.5.3/piggieback-0.5.3.jar",
     "sha256": "598b0f04d2af34f88aa0ba8d03a0bd3a54442292f0c5fab8fb49041a685ced13",
     "dest": "flatpak-openjdk/cache/cider/piggieback/0.5.3"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.pom",
-    "sha256": "970deb25e501f91e3b35caf99c086b93cc042dfb334169f193650246f61c2735",
-    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0/cljs-drag-n-drop-0.1.0.jar",
-    "sha256": "d8983e4c605f6172c1c6619136a296bade77a34e005868f03f90ca382c4b585e",
-    "dest": "flatpak-openjdk/cache/cljs-drag-n-drop/cljs-drag-n-drop/0.1.0"
   },
   {
     "type": "file",
@@ -1129,102 +949,6 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/highlight/9.12.0-2/highlight-9.12.0-2.pom",
-    "sha256": "9fdf2cf74316f157b764fcd5675151d0041c8071038114f8ca40efb32dae24d5",
-    "dest": "flatpak-openjdk/cache/cljsjs/highlight/9.12.0-2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/highlight/9.12.0-2/highlight-9.12.0-2.jar",
-    "sha256": "2f019d57d03db2b8c6c127018df67016b2eb0fc384f5165aa7694014ecdacf5b",
-    "dest": "flatpak-openjdk/cache/cljsjs/highlight/9.12.0-2"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-grid-layout/0.16.6-0/react-grid-layout-0.16.6-0.pom",
-    "sha256": "1b2b15919a957519b2044009a029ae27cef3e72d754851ec21c0a54ce8a029ef",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-grid-layout/0.16.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-grid-layout/0.16.6-0/react-grid-layout-0.16.6-0.jar",
-    "sha256": "8e3d08dfd24e1f1e99378fed87d8b20fff5e3a7bbed0ea80d294a809704168e4",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-grid-layout/0.16.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react/16.8.6-0/react-16.8.6-0.pom",
-    "sha256": "cb5e1fe71c4ed06a7dcfd1b758102b1cc6c2c8adfecbb6c92ff290f83ab8b293",
-    "dest": "flatpak-openjdk/cache/cljsjs/react/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react/16.8.6-0/react-16.8.6-0.jar",
-    "sha256": "b97683c87f28f28f468058ca3afb6ecf3f6b6799c423808925e01805eb622743",
-    "dest": "flatpak-openjdk/cache/cljsjs/react/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-dom/16.8.6-0/react-dom-16.8.6-0.pom",
-    "sha256": "078eb2a60993a5532e64b1f5d6783f8431396b781452d32f96ab9faa78b120bb",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-dom/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-dom/16.8.6-0/react-dom-16.8.6-0.jar",
-    "sha256": "7b9570fea53ff3b672295d7d9e16a80be0e34ffa60bb60eadf80e17af1529296",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-dom/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-dom-server/16.8.6-0/react-dom-server-16.8.6-0.pom",
-    "sha256": "5da86a46ca511866a831dd263b5aacd0c7920446911fb6d80dc49fd014f93a1f",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-dom-server/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/cljsjs/react-dom-server/16.8.6-0/react-dom-server-16.8.6-0.jar",
-    "sha256": "726267961db3ec4a39d0d54adc85332456bdc49ab018f74df80476c368fcb85b",
-    "dest": "flatpak-openjdk/cache/cljsjs/react-dom-server/16.8.6-0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro/2.6.16/fulcro-2.6.16.pom",
-    "sha256": "dc38e0789cf6849a65037a23138a1943332f02bb6fd25de6a59fcc62b8204d09",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro/2.6.16"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro/2.6.16/fulcro-2.6.16.jar",
-    "sha256": "7d0ec7294d1a2915464961b5db43ff2c900ae57031cc6cf55795077d121308bc",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro/2.6.16"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro-incubator/0.0.19/fulcro-incubator-0.0.19.pom",
-    "sha256": "e5b9241642551630d7a1252e3acb775f740a1c918cf9077103fe2eaf3a071017",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro-incubator/0.0.19"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro-incubator/0.0.19/fulcro-incubator-0.0.19.jar",
-    "sha256": "1c1ad159e4d6f6a49526dc0fb181450e77b9419ddc0c631856a54e1176002184",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro-incubator/0.0.19"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro-inspect/2.2.4/fulcro-inspect-2.2.4.pom",
-    "sha256": "0b680ea0081764fc3216314a4d3e13513d40932c039405d16eed71ebf201ea6d",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro-inspect/2.2.4"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/fulcrologic/fulcro-inspect/2.2.4/fulcro-inspect-2.2.4.jar",
-    "sha256": "abbc22bdd9c5c5ab195d2f7678802fb72defe2c1569e6e17d1658ac4e42a767b",
-    "dest": "flatpak-openjdk/cache/fulcrologic/fulcro-inspect/2.2.4"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/nrepl/nrepl/0.9.0/nrepl-0.9.0.pom",
     "sha256": "be5fd3cce4698ef2408caf21c949b1946dbbf5e3fd251e6a46f2f82698138fbd",
     "dest": "flatpak-openjdk/cache/nrepl/nrepl/0.9.0"
@@ -1303,18 +1027,6 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/io/aviso/pretty/0.1.33/pretty-0.1.33.pom",
-    "sha256": "6ba0c3d150df59da9558c1c19706dc7de1bac5b148504c5872eb6366ee82990c",
-    "dest": "flatpak-openjdk/cache/io/aviso/pretty/0.1.33"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/io/aviso/pretty/0.1.33/pretty-0.1.33.jar",
-    "sha256": "ae119c7ef36b15b6c6bb8b255663a8ea08ee042cf87ece0ef1f864c6de85871b",
-    "dest": "flatpak-openjdk/cache/io/aviso/pretty/0.1.33"
-  },
-  {
-    "type": "file",
     "url": "https://clojars.org/repo/fipp/fipp/0.6.26/fipp-0.6.26.pom",
     "sha256": "a7ec6357b81321132fd07c2f57efeb02114415594363d83a14313a194f5f5535",
     "dest": "flatpak-openjdk/cache/fipp/fipp/0.6.26"
@@ -1360,6 +1072,30 @@
     "url": "https://clojars.org/repo/tailrecursion/cljs-priority-map/1.2.1/cljs-priority-map-1.2.1.jar",
     "sha256": "7f94349649ffbce5a15774f63cb01f7d69b266f99c72c94c89cd7af65eee822d",
     "dest": "flatpak-openjdk/cache/tailrecursion/cljs-priority-map/1.2.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljsjs/react/16.8.6-0/react-16.8.6-0.pom",
+    "sha256": "cb5e1fe71c4ed06a7dcfd1b758102b1cc6c2c8adfecbb6c92ff290f83ab8b293",
+    "dest": "flatpak-openjdk/cache/cljsjs/react/16.8.6-0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljsjs/react/16.8.6-0/react-16.8.6-0.jar",
+    "sha256": "b97683c87f28f28f468058ca3afb6ecf3f6b6799c423808925e01805eb622743",
+    "dest": "flatpak-openjdk/cache/cljsjs/react/16.8.6-0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljsjs/react-dom/16.8.6-0/react-dom-16.8.6-0.pom",
+    "sha256": "078eb2a60993a5532e64b1f5d6783f8431396b781452d32f96ab9faa78b120bb",
+    "dest": "flatpak-openjdk/cache/cljsjs/react-dom/16.8.6-0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/cljsjs/react-dom/16.8.6-0/react-dom-16.8.6-0.jar",
+    "sha256": "7b9570fea53ff3b672295d7d9e16a80be0e34ffa60bb60eadf80e17af1529296",
+    "dest": "flatpak-openjdk/cache/cljsjs/react-dom/16.8.6-0"
   },
   {
     "type": "file",
@@ -1450,66 +1186,6 @@
     "url": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
     "sha256": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
     "dest": "flatpak-openjdk/cache/commons-codec/commons-codec/1.15"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/edn-query-language/eql/0.0.8/eql-0.0.8.pom",
-    "sha256": "7a111ce52fb5512acdd34b9553782e1518fbfc24a620acc5ee2c11565c3157cd",
-    "dest": "flatpak-openjdk/cache/edn-query-language/eql/0.0.8"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/edn-query-language/eql/0.0.8/eql-0.0.8.jar",
-    "sha256": "66fdbe2883132a6761ef25153d98109914588acdcce41d2388c250581f79135c",
-    "dest": "flatpak-openjdk/cache/edn-query-language/eql/0.0.8"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel/0.3.9/ghostwheel-0.3.9.pom",
-    "sha256": "41328c922e80273e3a705b10b4c4c7362fffebb284b8b386d9b13d10ef73bb27",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel/0.3.9/ghostwheel-0.3.9.jar",
-    "sha256": "a8e38446c58670460155a7cb3f61ec49bc0889608eab0af1d076751d01c5a7a8",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel.logging/0.3.9/ghostwheel.logging-0.3.9.pom",
-    "sha256": "fbbdf7d3b7aeb3f744b9de6c64f70f052545d014e8e535f66c97e51c5e0b37c7",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel.logging/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel.logging/0.3.9/ghostwheel.logging-0.3.9.jar",
-    "sha256": "5ac1e4d78d7df8bb8b38ab19fe3dbddb6aa014f3f6532622ba0e0cd677f92018",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel.logging/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel.unghost/0.3.9/ghostwheel.unghost-0.3.9.pom",
-    "sha256": "1bac7368c6e77af8002f7eda7157a2bc968ff2849ac2dace0b213880fce4acba",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel.unghost/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/gnl/ghostwheel.unghost/0.3.9/ghostwheel.unghost-0.3.9.jar",
-    "sha256": "6a7dad74119a385c0c3e90370661252c9d4f10030223f1374d0c7692f845e7d0",
-    "dest": "flatpak-openjdk/cache/gnl/ghostwheel.unghost/0.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/garden/garden/1.3.9/garden-1.3.9.pom",
-    "sha256": "057cf272cb0931cadfe5148a91a00f42b0aa7748beb82dd4728cd93b079cd1f8",
-    "dest": "flatpak-openjdk/cache/garden/garden/1.3.9"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/garden/garden/1.3.9/garden-1.3.9.jar",
-    "sha256": "67a8e93f1ea9e9ac3ea4355b7ebf98f5429fde723d81d5803c964a3f1a675958",
-    "dest": "flatpak-openjdk/cache/garden/garden/1.3.9"
   },
   {
     "type": "file",
@@ -1606,29 +1282,5 @@
     "url": "https://clojars.org/repo/meta-merge/meta-merge/1.0.0/meta-merge-1.0.0.jar",
     "sha256": "d7fee2e3e3d706e0e54562e72aa3712108d70186a12cbc090e10680582eb02c7",
     "dest": "flatpak-openjdk/cache/meta-merge/meta-merge/1.0.0"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/orchestra/orchestra/2019.02.06-1/orchestra-2019.02.06-1.pom",
-    "sha256": "ec157eed2e8341b131d2c0fe606f585e308643ad83be290de4be9c696270dc16",
-    "dest": "flatpak-openjdk/cache/orchestra/orchestra/2019.02.06-1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/orchestra/orchestra/2019.02.06-1/orchestra-2019.02.06-1.jar",
-    "sha256": "452657c69762775322e2dc404d3636460e78a4a9bda78b430e81b08397fdf916",
-    "dest": "flatpak-openjdk/cache/orchestra/orchestra/2019.02.06-1"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/spec-coerce/spec-coerce/1.0.0-alpha6/spec-coerce-1.0.0-alpha6.pom",
-    "sha256": "c4f2b2cd63acdae35eb97c026bde9813e0841dae8ec8ba88257ba69a66ee9841",
-    "dest": "flatpak-openjdk/cache/spec-coerce/spec-coerce/1.0.0-alpha6"
-  },
-  {
-    "type": "file",
-    "url": "https://clojars.org/repo/spec-coerce/spec-coerce/1.0.0-alpha6/spec-coerce-1.0.0-alpha6.jar",
-    "sha256": "b70c391175c3303048b3bea873c19afdd91fd3ea1ba7e49b9588a1b1453491d7",
-    "dest": "flatpak-openjdk/cache/spec-coerce/spec-coerce/1.0.0-alpha6"
   }
 ]

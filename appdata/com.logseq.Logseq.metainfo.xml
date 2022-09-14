@@ -58,6 +58,35 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.6" date="2022-09-14">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Support for global config file, shared across all graphs #6531</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Taylor Hoffmann - Fully translated in pt-BR and pt-PT</li>
+                    <li>George Guimarães - pt-BR enhancement</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>xxchan - zh-CN translation improvement</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Mobile backup path handling #6642</li>
+                    <li>Cannot batch insert to search db #6646</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>I18N: Turkish #6608 #6660, Simplified Chinese translation #6638</li>
+                    <li>Fully translated in pt-BR and pt-PT #6657 #6654</li>
+                    <li>Performance improvement when importing graph #6639</li>
+                    <li>Massive improvements to UI/UX and accessibility #6617</li>
+                    <li>Refine electron log #6695</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.6</url>
+        </release>
         <release version="0.8.5" date="2022-09-07">
             <description>
                 <p>Thanks</p>

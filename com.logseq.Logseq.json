@@ -1,10 +1,10 @@
 {
     "id": "com.logseq.Logseq",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "21.08",
+    "base-version": "22.08",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.node16",
         "org.freedesktop.Sdk.Extension.openjdk8"
@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.8.5.tar.gz",
-                    "sha256": "e83909757527308a7c7439939c68161fe1d8677ee7a3a60c54fb0981df9d1958",
+                    "url": "https://github.com/logseq/logseq/archive/refs/tags/0.8.6.tar.gz",
+                    "sha256": "5ca0e1753ed1775c2ac91d96a66da4171d87ebf8c140bbb84619f04db8503144",
                     "dest": "main"
                 },
                 {

@@ -3,7 +3,7 @@ Index: logseq-0.7.2/deps.edn
 --- logseq-0.7.2.orig/deps.edn
 +++ logseq-0.7.2/deps.edn
 @@ -1,24 +1,23 @@
- {:paths ["src/main" "src/electron" "src/workspaces" "templates"]
+ {:paths ["src/main" "src/electron" "templates"]
 + :mvn/local-repo "/run/build/logseq/flatpak-openjdk/cache"
   :deps
   {org.clojure/clojure                   {:mvn/version "1.10.0"}
