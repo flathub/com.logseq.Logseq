@@ -58,6 +58,22 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.7" date="2022-09-15">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peng Xiao - Fix plugin settings not loading</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Plugin settings not loading #6711</li>
+                    <li>Date sorting is nonsensical #6596</li>
+                    <li>Minor UI issues #6732</li>
+                    <li>Remove resizing class on tab #6733</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.7</url>
+        </release>
         <release version="0.8.6" date="2022-09-14">
             <description>
                 <p>Features</p>

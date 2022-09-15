@@ -9743,6 +9743,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/ip/-/ip-1.1.8.tgz#ae05948f6b075435ed3307acce04629da8cdbf48",
+        "sha512": "3ee1313d8522bbaa8c0506f8974e9e726e93eae8f386687e31e25c5bdc1af3d3e8033e69bdde333e0379589575d3899be92d93d40c0d200681ef424dacb41686",
+        "dest-filename": "ip-1.1.8.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/ip/-/ip-2.0.0.tgz#4cf4ab182fee2314c75ede1276f8c80b479936da",
         "sha512": "58a6be5ee2c6d40d51d145a1976fb55d04a2f9f65632c60a7df3194d362c8996940fc936c83023e5ab62993503d93664c8290d11e604e4d845666ba9386b6361",
         "dest-filename": "ip-2.0.0.tgz",
