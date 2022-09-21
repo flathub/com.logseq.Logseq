@@ -63,7 +63,8 @@
                     "DUGITE_CACHE_DIR": "/run/build/logseq/flatpak-node/tmp",
                     "npm_config_cache": "/run/build/logseq/flatpak-node/npm-cache",
                     "npm_config_offline": "true",
-                    "YARN_ENABLE_NETWORK": "0"
+                    "YARN_ENABLE_NETWORK": "0",
+                    "ENABLE_FILE_SYNC_PRODUCTION": "true"
                 }
             },
             "subdir": "main",
