@@ -7,6 +7,7 @@ base-version: '21.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk8
+writable-sdk: true
 build-options:
   append-path: /usr/lib/sdk/node16/bin:/usr/lib/sdk/openjdk8/bin
   env:
@@ -20,25 +21,9 @@ finish-args:
   - --device=dri
   - --filesystem=home
 modules:
-  - name: clojure
-    buildsystem: simple
-    sources:
-      - type: file
-        url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
-        sha256: 91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c
-      - type: shell
-        commands:
-          - sed -ie 's/curl/#curl/' linux-install-1.10.1.763.sh
-      - type: file
-        url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
-        sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
-    build-commands:
-      - chmod +x linux-install-1.10.1.763.sh
-      - ./linux-install-1.10.1.763.sh -p /app/clojure
   - name: logseq
     buildsystem: simple
     build-options:
-      append-path: /app/clojure/bin
       env:
         HOME: /run/build/logseq
         CLJ_CONFIG: /run/build/logseq/clojure
@@ -49,15 +34,23 @@ modules:
         YARN_ENABLE_NETWORK: '0'
         ENABLE_PLUGINS: 'true'
         ENABLE_FILE_SYNC_PRODUCTION: 'true'
-    subdir: main
     sources:
+      - type: file
+        url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
+        sha256: 91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c
+      - type: shell
+        commands:
+          - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
+      - type: file
+        url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
+        sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
       - type: archive
         url: https://github.com/logseq/logseq/archive/refs/tags/0.8.7.tar.gz
         sha256: efaeea2b3e63917e941875bedfadf8bc523e70f456380391968029ea2a6809aa
-        dest: main
+        dest: logseq
       - type: file
         path: static/yarn.lock
-        dest: main/resources
+        dest: logseq/resources
       - generated-sources.json
       - maven-sources.json
       - type: git
@@ -79,11 +72,11 @@ modules:
       - type: patch
         path: patches/deps_edn_local.patch
         options:
-          - -dmain
+          - -dlogseq
       - type: patch
         path: patches/graph_parser_deps_edn_local.patch
         options:
-          - -dmain
+          - -dlogseq
       - type: patch
         path: patches/rewrite-edn-deps-edn.patch
       - type: script
@@ -91,26 +84,32 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: file
-        path: appdata/com.logseq.Logseq.desktop
+        path: com.logseq.Logseq.desktop
       - type: file
-        path: appdata/com.logseq.Logseq.svg
+        path: com.logseq.Logseq.svg
       - type: file
-        path: appdata/com.logseq.Logseq.metainfo.xml
+        path: com.logseq.Logseq.metainfo.xml
     build-commands:
+      # setup clojure
+      - chmod +x linux-install-1.10.1.763.sh
+      - ./linux-install-1.10.1.763.sh
+      # setup offline cache
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
-      - yarn --offline
-      - yarn --offline gulp:build
-      - yarn --offline cljs:release-electron
-      - cd static && yarn --offline
-      - cd static && yarn --offline electron-forge package
-      - cp -a static/out/Logseq-linux-* /app/logseq
-      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps/ ../com.logseq.Logseq.svg
-      - install -Dm644 -t /app/share/applications ../com.logseq.Logseq.desktop
-      - install -Dm644 -t /app/share/metainfo ../com.logseq.Logseq.metainfo.xml
-      - install -Dm755 -t /app/bin/ ../run.sh
+      # compile cljs
+      - yarn --cwd logseq --offline install
+      - yarn --cwd logseq --offline gulp:build
+      - yarn --cwd logseq --offline cljs:release-electron
+      # build linux
+      - yarn --cwd logseq/static --offline install
+      - yarn --cwd logseq/static --offline electron-forge package
+      # install
+      - cp -a logseq/static/out/Logseq-linux-* /app/logseq
+      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps/ com.logseq.Logseq.svg
+      - install -Dm644 -t /app/share/applications com.logseq.Logseq.desktop
+      - install -Dm644 -t /app/share/metainfo com.logseq.Logseq.metainfo.xml
+      - install -Dm755 -t /app/bin/ run.sh
 cleanup:
-  - /clojure
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj.target
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/sqlite3.a
