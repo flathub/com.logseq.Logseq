@@ -26,12 +26,11 @@ modules:
     build-options:
       env:
         HOME: /run/build/logseq
-        CLJ_CONFIG: /run/build/logseq/clojure
+        _JAVA_OPTIONS: -Duser.home=/run/build/logseq
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
-        YARN_ENABLE_NETWORK: '0'
         ENABLE_PLUGINS: 'true'
         ENABLE_FILE_SYNC_PRODUCTION: 'true'
     sources:
@@ -95,7 +94,7 @@ modules:
       - ./linux-install-1.10.1.763.sh
       # setup offline cache
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
-      - yarn config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
+      - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
       - yarn --cwd logseq --offline install
       - yarn --cwd logseq --offline gulp:build
