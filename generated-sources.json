@@ -1931,9 +1931,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@types/node/-/node-16.11.59.tgz#823f238b9063ccc3b3b7f13186f143a57926c4f6",
-        "sha512": "eaefb7e838f7683ce17c15547ff99f99cf76384773436931da371719d8a07e5ef413f9de576d591c4e940b3e0c0f34d1715a8600cdbb7e4f832d7bf20ec9f727",
-        "dest-filename": "@types-node-16.11.59.tgz",
+        "url": "https://registry.yarnpkg.com/@types/node/-/node-16.11.60.tgz#a1fbca80c18dd80c8783557304cdb7d55ac3aff5",
+        "sha512": "9182186b50f52fe1c3bf933945741e12ed68d05280eb279d648a32ba09bf3013d13a42e95f82fb1d1c4cacf572a3c6e7be3a56ff00e5a85346cd734c6fb01d47",
+        "dest-filename": "@types-node-16.11.60.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -1952,9 +1952,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@types/node/-/node-18.7.18.tgz#633184f55c322e4fb08612307c274ee6d5ed3154",
-        "sha512": "9beea74c439a74966e4cf90a47f4982b703677b159ae0125a25f543f529a7bdd15554e1aea6c673ee2e2216d66e02ab8819fe759bf46add557242a026b30c06e",
-        "dest-filename": "@types-node-18.7.18.tgz",
+        "url": "https://registry.yarnpkg.com/@types/node/-/node-18.7.19.tgz#ad83aa9b7af470fab7e0f562be87e97dc8ffe08e",
+        "sha512": "4aad62b4650a517d5aa7b1a0665af3741c9d8dbb092ff35242dff8c24031509eff392e5cd9692837a592a5673661ce70b4a319394034542b3f8f65c969d3771c",
+        "dest-filename": "@types-node-18.7.19.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -2078,9 +2078,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@types/yargs/-/yargs-17.0.12.tgz#0745ff3e4872b4ace98616d4b7e37ccbd75f9526",
-        "sha512": "373e0c3e179c38502bb66f3580542f42a755ed7602ad62b1e6e52de86347ade7451e7d62da6b56a974ce37b10f5ccb4d8b5aa3b6310cfd50870e1707b0030b5d",
-        "dest-filename": "@types-yargs-17.0.12.tgz",
+        "url": "https://registry.yarnpkg.com/@types/yargs/-/yargs-17.0.13.tgz#34cced675ca1b1d51fcf4d34c3c6f0fa142a5c76",
+        "sha512": "f6c59aaee664d891b121053e2212357e13d845c43452e4cdb8ab825bd6d1e5fa7baa2d8b95fed60f335ad7b0b2ed32a787771dc433a2c93bba81a2d2d1e0dab6",
+        "dest-filename": "@types-yargs-17.0.13.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {

@@ -58,6 +58,7 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.7" date="2022-09-24"/>
         <release version="0.8.7" date="2022-09-15">
             <description>
                 <p>This version switched Cloud Sync backend to production environment. If you enabled sync in previous version you will need to setup account again</p>
