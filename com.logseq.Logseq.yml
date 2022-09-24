@@ -7,14 +7,16 @@ base-version: '21.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk8
+# Electron doesn't use a traditional locale format
+separate-locales: false
 writable-sdk: true
 command: run.sh
 finish-args:
+  - --device=dri
   - --share=ipc
   - --socket=x11
   - --socket=pulseaudio
   - --share=network
-  - --device=dri
   - --filesystem=home
 modules:
   - name: logseq
