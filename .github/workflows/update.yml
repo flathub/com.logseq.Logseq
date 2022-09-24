@@ -26,6 +26,7 @@ jobs:
     needs: [ check-update ]
     if: ${{ !needs.check-update.outputs.up_to_date || inputs.force }}
     steps:
+      - uses: actions/checkout@v3
       - name: Install Node.js, NPM and Yarn
         uses: actions/setup-node@v2
         with:
