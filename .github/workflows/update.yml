@@ -45,7 +45,8 @@ jobs:
           91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c linux-install-1.10.1.763.sh
           HERE
           chmod +x linux-install-1.10.1.763.sh
-          ./linux-install-1.10.1.763.sh
+          ./linux-install-1.10.1.763.sh -p $HOME/.local
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
       - name: Install flatpak-node-generator
         run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#egg=subdir&subdirectory=node"
       - name: Generate dependency manifests
