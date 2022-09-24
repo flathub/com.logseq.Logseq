@@ -9,6 +9,10 @@ on:
         type: boolean
         required: true
         default: false
+      version:
+        description: 'Sync specific version'
+        type: string
+
 env:
   CLOJURE_VERSION: '1.10.1.763'
   NODE_VERSION: '16'
@@ -51,7 +55,7 @@ jobs:
       - name: Install flatpak-node-generator
         run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#subdirectory=node"
       - name: Generate dependency manifests
-        run: ./01-sync-release.sh
+        run: ./01-sync-release.sh ${{ inputs.version }}
       # - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
       #   env:
       #     GIT_AUTHOR_NAME: Flatpak External Data Checker
