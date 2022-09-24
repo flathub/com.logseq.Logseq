@@ -65,7 +65,7 @@ python3 flatpak-clj-generator-from-cache.py > maven-sources.json
 Finally, test the build
 
 ```shell
-flatpak-builder --user --install --force-clean build-dir/ com.logseq.Logseq.json
+flatpak-builder --user --install --force-clean build-dir/ com.logseq.Logseq.yml
 ```
 
 If all goes well, we can commit and push a new release.

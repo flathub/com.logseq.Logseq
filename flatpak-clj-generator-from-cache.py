@@ -35,7 +35,7 @@ for root, dirs, files in walk(prefix):
                     'type': 'file',
                     'url': url,
                     'sha256': sha256sum(path.join(root, name)),
-                    'dest': 'flatpak-openjdk/cache/{}'.format(root.removeprefix(prefix))
+                    'dest': '.m2/repository/{}'.format(root.removeprefix(prefix))
                 }
             )
 

@@ -1,0 +1,115 @@
+id: com.logseq.Logseq
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '21.08'
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.openjdk8
+# Electron doesn't use a traditional locale format
+separate-locales: false
+writable-sdk: true
+command: run.sh
+finish-args:
+  - --device=dri
+  - --share=ipc
+  - --socket=x11
+  - --socket=pulseaudio
+  - --share=network
+  - --filesystem=home
+modules:
+  - name: logseq
+    buildsystem: simple
+    build-options:
+      append-path: /usr/lib/sdk/node16/bin:/usr/lib/sdk/openjdk8/bin
+      env:
+        HOME: /run/build/logseq
+        _JAVA_OPTIONS: -Duser.home=/run/build/logseq
+        XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
+        DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
+        NPM_CONFIG_LOGLEVEL: info
+        npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
+        npm_config_offline: 'true'
+        ENABLE_PLUGINS: 'true'
+        ENABLE_FILE_SYNC_PRODUCTION: 'true'
+    sources:
+      - type: file
+        url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
+        sha256: 91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c
+      - type: file
+        url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
+        sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
+      - type: git
+        url: https://github.com/borkdude/rewrite-edn
+        commit: edd87dc7f045f28d7afcbfc44bc0f0a2683dde62
+        dest: libs/rewrite-edn
+      - type: git
+        url: https://github.com/lread/rewrite-cljc-playground
+        commit: ba1e4255cd1c1fd09dbe2e90556bfa66d5459234
+        dest: libs/rewrite-cljc
+      - type: git
+        url: https://github.com/logseq/cljs-time
+        commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
+        dest: libs/cljs-time
+      - type: git
+        url: https://github.com/logseq/hickory
+        commit: 86baee0319a66b7921719a5d2345e09734b23650
+        dest: libs/hickory
+      - type: file
+        path: com.logseq.Logseq.desktop
+      - type: file
+        path: com.logseq.Logseq.svg
+      - type: file
+        path: com.logseq.Logseq.metainfo.xml
+      - type: script
+        dest-filename: run.sh
+        commands:
+          - zypak-wrapper.sh /app/logseq/Logseq "$@"
+      - type: archive
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.8.7.tar.gz
+        sha256: efaeea2b3e63917e941875bedfadf8bc523e70f456380391968029ea2a6809aa
+        dest: logseq
+        x-checker-data:
+          type: anitya
+          project-id: 291486
+          url-template: "https://github.com/logseq/logseq/archive/refs/tags/$version.tar.gz"
+      - type: file
+        path: static/yarn.lock
+        dest: logseq/resources
+      - generated-sources.json
+      - maven-sources.json
+    build-commands:
+      # setup clojure
+      - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
+      - chmod +x linux-install-1.10.1.763.sh
+      - ./linux-install-1.10.1.763.sh
+      # disable clojure tools online fetching
+      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
+      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      # setup offline cache
+      - git clone --bare libs/rewrite-edn .gitlibs/_repos/github.com/borkdude/rewrite-edn
+      - git clone --bare libs/rewrite-cljc .gitlibs/_repos/github.com/lread/rewrite-cljc-playground
+      - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
+      - git clone --bare libs/hickory .gitlibs/_repos/github.com/logseq/hickory
+      - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
+      - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
+      # compile cljs
+      - yarn --cwd logseq --offline install
+      - yarn --cwd logseq --offline gulp:build
+      - yarn --cwd logseq --offline cljs:release-electron
+      # build linux
+      - yarn --cwd logseq/static --offline install
+      - yarn --cwd logseq/static --offline electron-forge package
+      # install
+      - cp -a logseq/static/out/Logseq-linux-* /app/logseq
+      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps/ com.logseq.Logseq.svg
+      - install -Dm644 -t /app/share/applications com.logseq.Logseq.desktop
+      - install -Dm644 -t /app/share/metainfo com.logseq.Logseq.metainfo.xml
+      - install -Dm755 -t /app/bin/ run.sh
+cleanup:
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj.target
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/sqlite3.a
+  - '*.js.map'
