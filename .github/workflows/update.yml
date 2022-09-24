@@ -39,9 +39,12 @@ jobs:
         with:
           java-version: 1.8
       - name: Setup clojure
-        uses: DeLaGuardo/setup-clojure@3.5
-        with:
-          cli: ${{ env.CLOJURE_VERSION }}
+        run: |
+          curl -O -L https://download.clojure.org/install/linux-install-1.10.1.763.sh
+          sha256sum -c - <<HERE
+          91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c linux-install-1.10.1.763.sh
+          HERE
+          sh linux-install-1.10.1.763.sh
       - name: Install flatpak-node-generator
         run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#egg=subdir&subdirectory=node"
       - name: Generate dependency manifests
