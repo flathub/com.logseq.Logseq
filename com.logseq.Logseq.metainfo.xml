@@ -5,7 +5,7 @@
     <project_license>AGPL-3.0-or-later</project_license>
     <name>Logseq</name>
     <summary>A local-first, non-linear, outliner notebook for organizing and sharing your personal knowledge base</summary>
-    <content_rating type="oars-1.0" />
+    <content_rating type="oars-1.0"/>
 
     <description>
         <p>Logseq is a platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.</p>
@@ -1132,6 +1132,6 @@
             </description>
             <url>https://github.com/logseq/logseq/releases/tag/0.5.8</url>
         </release>
-        <release version="0.5.6" date="2021-12-29" />
+        <release version="0.5.6" date="2021-12-29"/>
     </releases>
 </component>

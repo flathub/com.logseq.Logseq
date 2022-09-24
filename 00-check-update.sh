@@ -14,25 +14,3 @@ if test -z "$FORCE_VERSION"; then
 else
     VERSION=$FORCE_VERSION
 fi
-
-
-BASE_URL=https://github.com/logseq/logseq/archive/refs/tags
-
-curl -L -o logseq-$VERSION.tar.gz $BASE_URL/$VERSION.tar.gz
-
-tar xf logseq-$VERSION.tar.gz
-cd logseq-$VERSION/resources
-yarn
-cp yarn.lock ../../static/yarn.lock
-cd ../..
-
-flatpak-node-generator -r yarn \
-  logseq-$VERSION/yarn.lock --electron-node-headers -o generated-sources.json
-
-rm -rf ~/.m2/repository
-cd logseq-$VERSION
-yarn
-yarn gulp:build && yarn cljs:release-electron
-cd ..
-
-python3 flatpak-clj-generator-from-cache.py > maven-sources.json
