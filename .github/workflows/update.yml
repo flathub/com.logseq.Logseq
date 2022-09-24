@@ -5,10 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: 'True to force sync / generate dependency manifests'
+        description: 'Force sync/generate dependency manifests'
         type: boolean
         required: true
         default: false
+      version:
+        description: 'Sync specific version'
+        type: string
+
 env:
   CLOJURE_VERSION: '1.10.1.763'
   NODE_VERSION: '16'
@@ -18,6 +22,7 @@ jobs:
     outputs:
       up_to_date: ${{ steps.check-update.outputs.up_to_date }}
     steps:
+      - uses: actions/checkout@v3
       - id: check-update
         run: ./00-check-update.sh
   flatpak-external-data-checker:
@@ -39,20 +44,25 @@ jobs:
         with:
           java-version: 1.8
       - name: Setup clojure
-        uses: DeLaGuardo/setup-clojure@3.5
-        with:
-          cli: ${{ env.CLOJURE_VERSION }}
+        run: |
+          curl -O -L https://download.clojure.org/install/linux-install-1.10.1.763.sh
+          sha256sum -c - <<HERE
+          91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c linux-install-1.10.1.763.sh
+          HERE
+          chmod +x linux-install-1.10.1.763.sh
+          ./linux-install-1.10.1.763.sh -p $HOME/.local
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
       - name: Install flatpak-node-generator
-        run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#egg=subdir&subdirectory=node"
+        run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#subdirectory=node"
       - name: Generate dependency manifests
-        run: ./01-sync-release.sh
-      # - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
-      #   env:
-      #     GIT_AUTHOR_NAME: Flatpak External Data Checker
-      #     GIT_COMMITTER_NAME: Flatpak External Data Checker
-      #     GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-      #     GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-      #     EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     args: --update --never-fork com.logseq.Logseq.yml
+        run: ./01-sync-release.sh ${{ inputs.version }}
+      - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
+        env:
+          GIT_AUTHOR_NAME: Flatpak External Data Checker
+          GIT_COMMITTER_NAME: Flatpak External Data Checker
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: --update --never-fork com.logseq.Logseq.yml
