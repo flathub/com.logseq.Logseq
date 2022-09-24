@@ -42,15 +42,19 @@ modules:
         sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
       - type: git
         url: https://github.com/borkdude/rewrite-edn
+        commit: edd87dc7f045f28d7afcbfc44bc0f0a2683dde62
         dest: libs/rewrite-edn
       - type: git
         url: https://github.com/lread/rewrite-cljc-playground
+        commit: ba1e4255cd1c1fd09dbe2e90556bfa66d5459234
         dest: libs/rewrite-cljc
       - type: git
         url: https://github.com/logseq/cljs-time
+        commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
       - type: git
         url: https://github.com/logseq/hickory
+        commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/hickory
       - type: file
         path: com.logseq.Logseq.desktop
