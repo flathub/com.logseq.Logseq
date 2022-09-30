@@ -23,6 +23,10 @@ jobs:
       up_to_date: ${{ steps.check-update.outputs.up_to_date }}
     steps:
       - uses: actions/checkout@v3
+      - name: Install xmllint tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
       - id: check-update
         run: ./00-check-update.sh
   flatpak-external-data-checker:
@@ -31,6 +35,10 @@ jobs:
     if: ${{ !needs.check-update.outputs.up_to_date || inputs.force }}
     steps:
       - uses: actions/checkout@v3
+      - name: Install xmllint tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
       - name: Install Node.js, NPM and Yarn
         uses: actions/setup-node@v2
         with:
