@@ -1,8 +1,10 @@
 #!/bin/sh
 
-FLATHUB_VERSION=$(curl 'https://release-monitoring.org/api/v2/packages/?name=com.logseq.Logseq&distribution=Flathub'|jq -r '.items[].version')
-LATEST_VERSION=$(curl 'https://release-monitoring.org/api/v2/versions/?project_id=291486'|jq -r .latest_version)
+FLATHUB_VERSION=$(xmllint --xpath "string(//component/releases/release[1]/@version)" com.logseq.Logseq.metainfo.xml)
+LATEST_VERSION=$(curl -sS 'https://release-monitoring.org/api/v2/versions/?project_id=291486'|jq -r .latest_version)
 FORCE_VERSION=$1
+
+echo "$FLATHUB_VERSION => $LATEST_VERSION"
 
 if test -z "$FORCE_VERSION"; then
     VERSION=$LATEST_VERSION
