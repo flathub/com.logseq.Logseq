@@ -27,6 +27,7 @@ cd logseq-$VERSION/resources
 yarn
 cp yarn.lock ../../static/yarn.lock
 cd ../..
+rm logseq-$VERSION/tldraw/cljs-demo/yarn.lock
 
 flatpak-node-generator -r yarn \
   logseq-$VERSION/yarn.lock --electron-node-headers -o generated-sources.json
