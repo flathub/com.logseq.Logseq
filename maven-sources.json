@@ -295,6 +295,18 @@
   },
   {
     "type": "file",
+    "url": "https://clojars.org/repo/rewrite-clj/rewrite-clj/1.1.45/rewrite-clj-1.1.45.pom",
+    "sha256": "dad1898567ee665372e3eb4d74763d2464c7991d02482d0bf508a89e4afbacf2",
+    "dest": ".m2/repository/rewrite-clj/rewrite-clj/1.1.45"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/rewrite-clj/rewrite-clj/1.1.45/rewrite-clj-1.1.45.jar",
+    "sha256": "45d8b3b4d8f1aa7946c87c765630aee8658b363c008d9f99cc1e58569ebcc8e0",
+    "dest": ".m2/repository/rewrite-clj/rewrite-clj/1.1.45"
+  },
+  {
+    "type": "file",
     "url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar",
     "sha256": "15093cffda2a0c65783c1d371de55548303cc158df94a66fc6cd15d25c3e2ef8",
     "dest": ".m2/repository/commons-io/commons-io/2.10.0"
@@ -400,6 +412,18 @@
     "url": "https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar",
     "sha256": "883007989d373d19f352ba9792b25dec21dc7d0e205a710a93a3815101bb3d03",
     "dest": ".m2/repository/javax/xml/bind/jaxb-api/2.3.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/mvxcvi/arrangement/2.0.0/arrangement-2.0.0.pom",
+    "sha256": "7d9c7d555ecd4d8cf6c1f87d6ac60483529d590f4c0e12a59122c9d50bd68572",
+    "dest": ".m2/repository/mvxcvi/arrangement/2.0.0"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/mvxcvi/arrangement/2.0.0/arrangement-2.0.0.jar",
+    "sha256": "c0c3c365582103b147fe56d7c9cf53c64e58a0697a5ab0243ee6d9f17fac8add",
+    "dest": ".m2/repository/mvxcvi/arrangement/2.0.0"
   },
   {
     "type": "file",
@@ -520,6 +544,18 @@
     "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.3.610/core.async-1.3.610.jar",
     "sha256": "03bb2fcf466c95615132f679a95818bfd63b9d0af2da8b8267fab57a180c6177",
     "dest": ".m2/repository/org/clojure/core.async/1.3.610"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/1.1.1/test.check-1.1.1.jar",
+    "sha256": "945118163b2c355a5fab96c9ebd01287152555bb2e9641f5cd9ed07fe4bc5078",
+    "dest": ".m2/repository/org/clojure/test.check/1.1.1"
+  },
+  {
+    "type": "file",
+    "url": "https://repo1.maven.org/maven2/org/clojure/test.check/1.1.1/test.check-1.1.1.pom",
+    "sha256": "96a002ec4770d69c56955109ca421ec042ce734fa37677faae0be2f3bd3cc717",
+    "dest": ".m2/repository/org/clojure/test.check/1.1.1"
   },
   {
     "type": "file",
@@ -973,15 +1009,15 @@
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/borkdude/edamame/0.0.19/edamame-0.0.19.pom",
-    "sha256": "07816f37a60b3d5f2e0d5abb99d7c13c8b0a4d25eb2ce6be723fc7281d17737c",
-    "dest": ".m2/repository/borkdude/edamame/0.0.19"
+    "url": "https://clojars.org/repo/borkdude/edamame/1.0.0/edamame-1.0.0.pom",
+    "sha256": "7850d998d3cb9b48eaa3725ad0d22d369b48a884a2e27fbc8020c63fbf735101",
+    "dest": ".m2/repository/borkdude/edamame/1.0.0"
   },
   {
     "type": "file",
-    "url": "https://clojars.org/repo/borkdude/edamame/0.0.19/edamame-0.0.19.jar",
-    "sha256": "0c53b5bd78fae76af728492512ec5c9b212c8f10b66e2c31ff7465675cf39f8f",
-    "dest": ".m2/repository/borkdude/edamame/0.0.19"
+    "url": "https://clojars.org/repo/borkdude/edamame/1.0.0/edamame-1.0.0.jar",
+    "sha256": "2bbb494018bc6e03a6dd193f92536559fa9d9d1e9c1b882daba4d19e9b440828",
+    "dest": ".m2/repository/borkdude/edamame/1.0.0"
   },
   {
     "type": "file",
@@ -994,6 +1030,30 @@
     "url": "https://clojars.org/repo/borkdude/sci.impl.reflector/0.0.1/sci.impl.reflector-0.0.1.pom",
     "sha256": "25ecce3f2b1ab2d2853fa4925737bff19bf06276ebfeebb93e11ef75373b79af",
     "dest": ".m2/repository/borkdude/sci.impl.reflector/0.0.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/borkdude/dynaload/0.3.5/dynaload-0.3.5.pom",
+    "sha256": "5c1c228f1a29b06d0a7d03490f5e64faf713a3c6167298ba171cffc33cf9ed18",
+    "dest": ".m2/repository/borkdude/dynaload/0.3.5"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/borkdude/dynaload/0.3.5/dynaload-0.3.5.jar",
+    "sha256": "0887c0cdb9afcecd7c496ea258a32e43aa72e766f3f0632e1bd0f5245ca8c24c",
+    "dest": ".m2/repository/borkdude/dynaload/0.3.5"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/metosin/malli/0.9.1/malli-0.9.1.pom",
+    "sha256": "527de19a17db21c4f0e86ac744e157d8a77a1db55ac140c708bd8bbe40975826",
+    "dest": ".m2/repository/metosin/malli/0.9.1"
+  },
+  {
+    "type": "file",
+    "url": "https://clojars.org/repo/metosin/malli/0.9.1/malli-0.9.1.jar",
+    "sha256": "c67e2b72b952c45861630e431b39bd46112d9b4d507c25a2611248b985e81cd2",
+    "dest": ".m2/repository/metosin/malli/0.9.1"
   },
   {
     "type": "file",
