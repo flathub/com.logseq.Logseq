@@ -92,7 +92,7 @@ modules:
       - git clone --bare libs/rewrite-edn .gitlibs/_repos/github.com/borkdude/rewrite-edn
       - git clone --bare libs/rewrite-cljc .gitlibs/_repos/github.com/lread/rewrite-cljc-playground
       - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
-      - git clone --bare libs/hickory .gitlibs/_repos/github.com/logseq/hickory
+      - git clone --bare libs/hickory .gitlibs/_repos/github.com/clj-commons/hickory
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
