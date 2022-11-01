@@ -53,8 +53,8 @@ modules:
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
       - type: git
-        url: https://github.com/logseq/hickory
-        commit: 86baee0319a66b7921719a5d2345e09734b23650
+        url: https://github.com/clj-commons/hickory
+        commit: a308fafdf1e0483087a105544f2cb190cc3289b0
         dest: libs/hickory
       - type: file
         path: com.logseq.Logseq.desktop
@@ -67,8 +67,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.8.9.tar.gz
-        sha256: 738e696b242b6b34999902c9491277769c755974fabac3f6fed24cfb96a7a42d
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.8.10.tar.gz
+        sha256: 0f2d935801c9ab2077453688c6bedece16f54d81fc5baa1e8bb2b0cd4b34b420
         dest: logseq
         x-checker-data:
           type: anitya
@@ -92,7 +92,7 @@ modules:
       - git clone --bare libs/rewrite-edn .gitlibs/_repos/github.com/borkdude/rewrite-edn
       - git clone --bare libs/rewrite-cljc .gitlibs/_repos/github.com/lread/rewrite-cljc-playground
       - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
-      - git clone --bare libs/hickory .gitlibs/_repos/github.com/logseq/hickory
+      - git clone --bare libs/hickory .gitlibs/_repos/github.com/clj-commons/hickory
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
