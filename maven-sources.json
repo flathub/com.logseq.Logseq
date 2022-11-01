@@ -475,15 +475,15 @@
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom",
-    "sha256": "93a219081bb855ff1d76c91a8ff9562234b8601e0bae59e2845e3e8691ed097e",
-    "dest": ".m2/repository/org/jsoup/jsoup/1.9.2"
+    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar",
+    "sha256": "92af19ec57cc77637db4490f0f5011f0444d353209ce36083bac428f9b81a39c",
+    "dest": ".m2/repository/org/jsoup/jsoup/1.14.3"
   },
   {
     "type": "file",
-    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar",
-    "sha256": "9c1885f1b182256e06f1e30b8451caed0c0dee96299d6348f968d18b54d0a46a",
-    "dest": ".m2/repository/org/jsoup/jsoup/1.9.2"
+    "url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.pom",
+    "sha256": "52c5bcea815708a396aaceb14199b96798fc3219ad05236f01a2adb4c85e9061",
+    "dest": ".m2/repository/org/jsoup/jsoup/1.14.3"
   },
   {
     "type": "file",
