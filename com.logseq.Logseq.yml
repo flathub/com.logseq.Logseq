@@ -53,7 +53,7 @@ modules:
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
       - type: git
-        url: https://github.com/cljs-commons/hickory
+        url: https://github.com/clj-commons/hickory
         commit: a308fafdf1e0483087a105544f2cb190cc3289b0
         dest: libs/hickory
       - type: file
