@@ -53,8 +53,8 @@ modules:
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
       - type: git
-        url: https://github.com/logseq/hickory
-        commit: 86baee0319a66b7921719a5d2345e09734b23650
+        url: https://github.com/cljs-commons/hickory
+        commit: a308fafdf1e0483087a105544f2cb190cc3289b0
         dest: libs/hickory
       - type: file
         path: com.logseq.Logseq.desktop
