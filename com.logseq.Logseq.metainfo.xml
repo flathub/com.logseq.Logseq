@@ -58,6 +58,15 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.8.13" date="2022-12-20">
+            <description>
+                <p>Breaking Changes</p>
+                <ul>
+                    <li>Change "Git commit" shortcut from a single c to mod+g c #7609</li>
+                    <li>Introduce a new config property :logseq.query/nlp-date. Default to false. Query without logseq.query/nlp-date:: true would disable date normalization #7708</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.8.12" date="2022-12-02"/>
         <release version="0.8.11" date="2022-11-16"/>
         <release version="0.8.10" date="2022-11-01"/>
