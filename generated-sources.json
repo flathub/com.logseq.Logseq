@@ -15491,9 +15491,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.1.tgz#6c9dffcf9927ff2a31e74b5af11adf8b9604b022",
-        "sha512": "dfad8d3fece5a6b71c6c4b7f4a4c4a7d13079cd63ce55ef89959e9529372af7177e5ca2f974f4a79ceffb0414bb77440e285e67b0b6869a9e821febb484e58e6",
-        "dest-filename": "minimatch-5.1.1.tgz",
+        "url": "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.2.tgz#0939d7d6f0898acbd1508abe534d1929368a8fff",
+        "sha512": "6cd1fd9a633daac2765f8af635ab7507fff574955c9f7fa204b6b7220a89ec46c668335ea4bf504873b13789e0df7b39d9530c86121f8026039370b866694302",
+        "dest-filename": "minimatch-5.1.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
