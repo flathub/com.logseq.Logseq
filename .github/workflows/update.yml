@@ -35,6 +35,8 @@ jobs:
     if: ${{ !needs.check-update.outputs.up_to_date || inputs.force }}
     steps:
       - uses: actions/checkout@v3
+      - name: Fix workspace permission
+        run: git config --global --add safe.directory /github/workspace
       - name: Install xmllint tool
         run: |
           sudo apt-get update
