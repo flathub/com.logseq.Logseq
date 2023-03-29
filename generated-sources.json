@@ -24,7 +24,7 @@
         "type": "archive",
         "url": "https://playwright.azureedge.net/builds/webkit/1792/webkit-ubuntu-20.04.zip",
         "strip-components": 0,
-        "sha256": "f70f7e5b2bd02c81b0fb85412c897be05f8ed20bae5c7d10b182bff9e8c33c64",
+        "sha256": "48923f2cf1be7baa90c0c5570484b9f1a56f031fd0e041680496fc7492dc2931",
         "dest": "flatpak-node/cache/ms-playwright/webkit-1792"
     },
     {
