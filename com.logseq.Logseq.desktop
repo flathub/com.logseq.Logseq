@@ -1,9 +1,16 @@
 [Desktop Entry]
-Type=Application
-NoDisplay=false
+Name=Logseq Desktop
+Exec=run.sh %U --enable-features=UseOzonePlatform --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations
 Terminal=false
-Exec=run.sh %U
+Type=Application
 Icon=com.logseq.Logseq
-Name=Logseq
-Categories=Office
+StartupWMClass=Logseq
+Comment=A privacy-first, open-source platform for knowledge management and collaboration.
 MimeType=x-scheme-handler/logseq;
+Categories=Utility;office;
+NoDisplay=false
+Actions=Wayland;
+
+[Desktop Action Wayland]
+Name=Wayland Backend
+Exec=run.sh %U --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations
