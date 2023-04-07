@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Logseq Desktop
-Exec=run.sh %U --enable-features=UseOzonePlatform --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations
+Exec=run.sh %U
 Terminal=false
 Type=Application
 Icon=com.logseq.Logseq
