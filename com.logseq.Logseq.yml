@@ -13,12 +13,13 @@ separate-locales: false
 writable-sdk: true
 command: run.sh
 finish-args:
-  - "--device=dri"
-  - "--share=ipc"
-  - "--socket=x11"
-  - "--socket=pulseaudio"
-  - "--share=network"
-  - "--filesystem=home"
+  - --device=dri
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --share=network
+  - --filesystem=home
 modules:
   - name: logseq
     buildsystem: simple
