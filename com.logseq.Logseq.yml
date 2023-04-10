@@ -6,8 +6,8 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: "22.08"
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node18
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.openjdk11
 # Electron doesn't use a traditional locale format
 separate-locales: false
 writable-sdk: true
@@ -37,27 +37,15 @@ modules:
         ENABLE_FILE_SYNC_PRODUCTION: "true"
     sources:
       - type: file
-        url: https://download.clojure.org/install/linux-install-1.11.1.1273.sh
-        sha256: 4938afe6c0690d2a6553141857742d94a7350c02b4fa57cd6a9c1b7cbe66492e
+        url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
+        sha256: 91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c
       - type: file
-        url: https://download.clojure.org/install/clojure-tools-1.11.1.1273.tar.gz
-        sha256: 5f8bafcf24bd148ac9bcbe60a8e7b8093c9ed8eb8e0f387199770e38f0e40ce6
-      - type: git
-        url: https://github.com/borkdude/rewrite-edn
-        commit: f9e71baca3122e04dfc83e14f0ef63da219b0ee6 # v0.4.6
-        dest: libs/rewrite-edn
-      - type: git
-        url: https://github.com/clj-commons/rewrite-clj
-        commit: d0c611e2da6aaddb46ae4f1f0c9531e4b4d3ce7a # v1.1.47
-        dest: libs/rewrite-clj
+        url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
+        sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
       - type: git
         url: https://github.com/logseq/cljs-time
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
-      - type: git
-        url: https://github.com/clj-commons/hickory
-        commit: bef62d990d070868bb2181413b80c4d2e1c23fbf # v0.7.3
-        dest: libs/hickory
       - type: file
         path: com.logseq.Logseq.desktop
       - type: file
@@ -83,16 +71,14 @@ modules:
       - maven-sources.json
     build-commands:
       # setup clojure
-      - sed -i 's/curl/#curl/' linux-install-1.11.1.1273.sh
-      - chmod +x linux-install-1.11.1.1273.sh
-      - ./linux-install-1.11.1.1273.sh
+      - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
+      - chmod 755 linux-install-1.10.1.763.sh
+      - ./linux-install-1.10.1.763.sh
       # disable clojure tools online fetching
-      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1273.jar clojure/tools/gitlibs/impl.clj
+      - unzip /usr/local/lib/clojure/libexec/linux-install-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
       - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
-      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1273.jar clojure/tools/gitlibs/impl.clj
+      - zip -u /usr/local/lib/clojure/libexec/linux-install-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
-      - git clone --bare libs/rewrite-edn .gitlibs/_repos/github.com/borkdude/rewrite-edn
-      - git clone --bare libs/rewrite-clj .gitlibs/_repos/github.com/clj-commons/rewrite-clj
       - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
       - git clone --bare libs/hickory .gitlibs/_repos/github.com/clj-commons/hickory
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
