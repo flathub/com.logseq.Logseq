@@ -80,7 +80,7 @@ modules:
       - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
       - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
-      - git clone --bare libs/hickory .gitlibs/_repos/github.com/clj-commons/hickory
+      - git clone --bare libs/hickory .gitlibs/_repos/https/github.com/clj-commons/hickory
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
