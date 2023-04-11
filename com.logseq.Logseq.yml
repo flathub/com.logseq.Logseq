@@ -75,11 +75,11 @@ modules:
       - chmod 755 linux-install-1.10.1.763.sh
       - ./linux-install-1.10.1.763.sh
       # disable clojure tools online fetching
-      - unzip /usr/local/lib/clojure/libexec/linux-install-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
       - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
-      - zip -u /usr/local/lib/clojure/libexec/linux-install-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
-      - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
+      - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
       - git clone --bare libs/hickory .gitlibs/_repos/github.com/clj-commons/hickory
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
