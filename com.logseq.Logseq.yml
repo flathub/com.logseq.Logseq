@@ -1,9 +1,9 @@
 id: com.logseq.Logseq
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk11
@@ -31,9 +31,9 @@ modules:
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
-        npm_config_offline: "true"
-        ENABLE_PLUGINS: "true"
-        ENABLE_FILE_SYNC_PRODUCTION: "true"
+        npm_config_offline: 'true'
+        ENABLE_PLUGINS: 'true'
+        ENABLE_FILE_SYNC_PRODUCTION: 'true'
     sources:
       - type: file
         url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
@@ -56,8 +56,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.2.tar.gz
-        sha256: 0236940444d6fda6de51c9d9edf3d582628fee456bf5089e3265ac6ecd365282
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.3.tar.gz
+        sha256: e93a76d0bc21fc3725c32eeca93ecc3cd2aa64beeed5427e4c732c140c464f31
         dest: logseq
         x-checker-data:
           type: anitya
@@ -98,4 +98,4 @@ cleanup:
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj.target
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj
   - /logseq/resources/app/node_modules/better-sqlite3/build/Release/sqlite3.a
-  - "*.js.map"
+  - '*.js.map'
