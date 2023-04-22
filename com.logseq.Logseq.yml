@@ -14,6 +14,7 @@ command: run.sh
 finish-args:
   - --device=dri               # Needed for hardware acceleration
   - --share=ipc                # Needed for X11 and Wayland
+  - --socket=x11               # Support X11 display server
   - --socket=wayland           # Support Wayland display server
   - --socket=fallback-x11      # Fallback to X11 when Wayland is not available
   - --socket=pulseaudio        # Support for audio playback
