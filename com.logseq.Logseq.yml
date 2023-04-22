@@ -12,13 +12,19 @@ separate-locales: false
 writable-sdk: true
 command: run.sh
 finish-args:
-  - --device=dri
-  - --share=ipc
-  - --socket=x11
-  - --socket=wayland
-  - --socket=pulseaudio
-  - --share=network
-  - --filesystem=home
+  - --device=dri               # Needed for hardware acceleration
+  - --share=ipc                # Needed for X11 and Wayland
+  - --socket=wayland           # Support Wayland display server
+  - --socket=fallback-x11      # Fallback to X11 when Wayland is not available
+  - --socket=pulseaudio        # Support for audio playback
+  - --share=network            # Allow network access for syncing, updates, and plugins
+  - --filesystem=home          # Access to user's home directory for notes and plugins (~/.logseq)
+  - --talk-name=org.freedesktop.Notifications  # Allow sending desktop notifications
+  - --talk-name=org.freedesktop.secrets        # Access to secrets service for password management
+  - --talk-name=org.freedesktop.FileManager1   # Integration with file managers
+  - --talk-name=org.gtk.Gtk3.Config            # Access to GTK3 settings
+  - --talk-name=org.gtk.Gtk4.Config            # Access to GTK4 settings
+  - --env=GTK_USE_PORTAL=1                     # Enable GtkFileChooserNative for better file dialogs
 modules:
   - name: logseq
     buildsystem: simple
