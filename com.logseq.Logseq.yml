@@ -20,6 +20,7 @@ finish-args:
   - --persist=.logseq # Allow read-write access to the ~/.logseq directory
   - --persist=.config/Logseq # Allow read-write access to the ~/.config/Logseq directory
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
+  - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
 modules:
