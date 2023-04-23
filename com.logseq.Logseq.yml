@@ -8,7 +8,6 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk11
 separate-locales: false #  Electron doesn't use a traditional locale format
-writable-sdk: true
 command: run.sh
 finish-args:
   - --device=dri # Needed for hardware acceleration
