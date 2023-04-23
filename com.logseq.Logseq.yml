@@ -60,7 +60,7 @@ modules:
         commands:
           - |
             #!/bin/env bash
-            LS_DIR = "$HOME/.logseq"
+            LS_DIR = ".logseq"
             FLAG_FILE="${LS_DIR}/update_warning_shown"
 
             if [ ! -e "${FLAG_FILE}" ]; then
