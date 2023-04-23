@@ -18,7 +18,6 @@ finish-args:
   - --socket=wayland # Support Wayland display server
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
-  - --filesystem=home # Allow read-only access to home directory
   - --persist=.logseq # Allow read-write access to the ~/.logseq directory
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
