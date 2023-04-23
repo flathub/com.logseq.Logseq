@@ -8,6 +8,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk11
 separate-locales: false #  Electron doesn't use a traditional locale format
+writable-sdk: true
 command: run.sh
 finish-args:
   - --device=dri # Needed for hardware acceleration
@@ -17,7 +18,6 @@ finish-args:
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
   - --persist=.logseq # Allow read-write access to the ~/.logseq directory
-  - --filesystem=xdg-config/logseq:create # Grant read-write access to $XDG_CONFIG_HOME/Logseq
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
