@@ -58,7 +58,18 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
-          - zypak-wrapper.sh /app/logseq/Logseq "$@"
+          - |
+            #!/bin/env bash
+            LS_DIR = "$HOME/.logseq"
+            FLAG_FILE="${LS_DIR}/update_warning_shown"
+
+            if [ ! -e "${FLAG_FILE}" ]; then
+              zenity --warning --text='<span size="large"><b>Note:</b> Due to a recent update, you will need to <b>re-add</b> your graphs in Logseq. This message will be displayed only once. We apologize for the inconvenience and appreciate your understanding.</span>'
+              mkdir -p "${LS_DIR}"
+              touch "${FLAG_FILE}"
+            fi
+
+            zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
         url: https://github.com/logseq/logseq/archive/refs/tags/0.9.3.tar.gz
         sha256: e93a76d0bc21fc3725c32eeca93ecc3cd2aa64beeed5427e4c732c140c464f31
