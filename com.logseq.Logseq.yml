@@ -17,6 +17,7 @@ finish-args:
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
   - --persist=.logseq # Allow read-write access to the ~/.logseq directory
+  - --filesystem=xdg-config/logseq:create # Grant read-write access to $XDG_CONFIG_HOME/Logseq
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
@@ -72,7 +73,7 @@ modules:
     build-commands:
       # setup clojure
       - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
-      - chmod 755 linux-install-1.10.1.763.sh
+      - chmod +x linux-install-1.10.1.763.sh
       - ./linux-install-1.10.1.763.sh
       # disable clojure tools online fetching
       - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
