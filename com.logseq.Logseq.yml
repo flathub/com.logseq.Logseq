@@ -60,12 +60,10 @@ modules:
         commands:
           - |
             #!/bin/env bash
-            LS_DIR = ".logseq"
-            FLAG_FILE="${LS_DIR}/update_warning_shown"
+            FLAG_FILE="${XDG_DATA_HOME}/update_warning_shown"
 
             if [ ! -e "${FLAG_FILE}" ]; then
               zenity --warning --text='<span size="large"><b>Note:</b> Due to a recent update, you will need to <b>re-add</b> your graphs in Logseq. This message will be displayed only once. We apologize for the inconvenience and appreciate your understanding.</span>'
-              mkdir -p "${LS_DIR}"
               touch "${FLAG_FILE}"
             fi
 
