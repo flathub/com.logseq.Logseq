@@ -8,6 +8,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
   - org.freedesktop.Sdk.Extension.openjdk11
 separate-locales: false #  Electron doesn't use a traditional locale format
+writable-sdk: true
 command: run.sh
 finish-args:
   - --device=dri # Needed for hardware acceleration
@@ -72,7 +73,7 @@ modules:
     build-commands:
       # setup clojure
       - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
-      - chmod +x linux-install-1.10.1.763.sh
+      - chmod 0755 linux-install-1.10.1.763.sh
       - ./linux-install-1.10.1.763.sh
       # disable clojure tools online fetching
       - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
