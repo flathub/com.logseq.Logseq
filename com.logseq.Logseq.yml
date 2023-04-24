@@ -64,6 +64,12 @@ modules:
         commands:
           - |
             #!/bin/env bash
+
+            # Set GPG environment variables
+            export GPG_TTY=$(tty)
+            export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+            export GPG_AGENT_INFO=$HOME/.gnupg/S.gpg-agent:0:1
+
             FLAG_FILE=".logseq/update_warning_shown"
 
             if [ ! -e "${FLAG_FILE}" ]; then
