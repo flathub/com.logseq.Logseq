@@ -21,6 +21,7 @@ finish-args:
   - --persist=.config/Logseq # Allow read-write access to the ~/.config/Logseq directory
   - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
   - --filesystem=home/.gnupg:ro # Read-only access to the ~/.gnupg directory
+  - --filesystem=xdg-run/gnupg:ro  # Read-only access to the GnuPG agent socket
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
