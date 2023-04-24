@@ -22,6 +22,7 @@ finish-args:
   - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
   - --filesystem=home/.gnupg:ro # Read-only access to the ~/.gnupg directory
   - --filesystem=xdg-run/gnupg:ro  # Read-only access to the GnuPG agent socket
+  - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
