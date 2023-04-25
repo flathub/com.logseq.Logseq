@@ -27,7 +27,6 @@ finish-args:
   - --filesystem=home/.config/git/config:ro # Alternate path for gitconfig
   - --socket=ssh-auth # Allow communication with ssh-agent (for git over ssh)
   - --socket=gpg-agent # Allow communication with gpg-agent (for signing git commits)
-  - --device=all
   - --talk-name=org.gtk.vfs.*
   - --talk-name=com.canonical.AppMenu.Registrar
   - --talk-name=org.kde.StatusNotifierWatcher
