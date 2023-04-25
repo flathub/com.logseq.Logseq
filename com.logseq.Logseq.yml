@@ -25,13 +25,13 @@ finish-args:
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
   - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
   # Permissions for Logseq git integration
-  - --filesystem=.gitconfig:ro # Read-only access to the ~/.gitconfig file
-  - --filesystem=.config/git/config:ro # Alternate path for gitconfig
-  - --filesystem=.gnupg:ro # Read-only access to the ~/.gnupg
-  - --filesystem=.config/gnupg:ro # Alternate path for gnupg
+  - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
+  - --filesystem=home/.config/git/config:ro # Alternate path for gitconfig
+  - --filesystem=home/.gnupg:ro # Read-only access to the ~/.gnupg
+  - --filesystem=xdg-config/gnupg:ro # Alternate path for gnupg
   - --filesystem=xdg-run/gnupg:ro  # Read-only access to the GnuPG agent socket
-  - --filesystem=.ssh:ro # Read-only access to the ~/.ssh/config file
-  - --filesystem=.config/ssh:ro # Alternate path for ssh
+  - --filesystem=home/.ssh:ro # Read-only access to the ~/.ssh/config file
+  - --filesystem=xdg-config/ssh:ro # Alternate path for ssh
   - --filesystem=xdg-run/ssh-auth.sock:ro # Read-only access to the SSH agent socket
 
 modules:
