@@ -17,26 +17,67 @@ finish-args:
   - --socket=wayland # Support Wayland display server
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
-  - --persist=.logseq # Allow read-write access to Logseq's data directory (pluins, logs, etc.)
+  - --filesystem=home/.logseq # Allow read-write access to Logseq's data directory (pluins, logs, etc.)
   - --persist=.config/Logseq # Allow read-write access to Logseq's configuration directory
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
   - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
-  # Permissions for Logseq git integration
   - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
   - --filesystem=home/.config/git/config:ro # Alternate path for gitconfig
-  - --filesystem=xdg-run/gnupg  # Read-only access to the GnuPG agent socket
-  - --filesystem=$HOME/.gnupg/S.gpg-agent:0:1 # access to the GnuPG agent socket
-  - --filesystem=xdg-config/gnupg/gpg.conf:ro # Read-only access to the GnuPG configuration file
-  - --filesystem=xdg-run/ssh-auth.sock # Read-only access to the SSH agent socket
-  - --filesystem=home/.ssh/known_hosts:ro # Read-only access to the ~/.ssh/known_hosts file
-  - --filesystem=xdg-config/ssh/known_hosts:ro # Alternate path for known_hosts
-  - --filesystem=home/.ssh/config:ro # Read-only access to the SSH configuration file
-  - --filesystem=xdg-config/ssh/config:ro # Alternate path for SSH configuration file
-
+  - --socket=ssh-auth # Allow communication with ssh-agent
+  - --socket=gpg-agent # Allow communication with gpg-agent
+  - --devices=all
+  - --talk-name=org.gtk.vfs.*
+  - --talk-name=com.canonical.AppMenu.Registrar
+  - --talk-name=org.kde.StatusNotifierWatcher
+  - --filesystem=xdg-run/keyring
+  - --env=GTK_PATH=/app/lib/gtkmodules
+  - --filesystem=xdg-run/pipewire-0 # Allow access to pipewire
+  - --filesystem=xdg-documents # Allow access to documents
+  - --filesystem=xdg-run/dconf
+  - --filesystem=~/.config/dconf:ro
+  - --talk-name=ca.desrt.dconf
+  - --env=DCONF_USER_CONFIG_DIR=.config/dconf
+  - --env=GIO_EXTRA_MODULES=/app/lib/gio/modules
+  - --env=GSETTINGS_BACKEND=dconf
 modules:
+  - name: dconf
+    buildsystem: meson
+    config-opts:
+      - -Dbash_completion=false
+      - -Dman=false
+      - -Dvapi=false
+    cleanup:
+      - /etc
+      - /include
+      - ca.desrt.dconf.service
+      - dconf.service
+      - dconf-service
+      - '*.pc'
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/dconf/0.40/dconf-0.40.0.tar.xz
+        sha256: cf7f22a4c9200421d8d3325c5c1b8b93a36843650c9f95d6451e20f0bcb24533
+        x-checker-data:
+          type: gnome
+          name: dconf
+          stable-only: true
+      # From: https://src.fedoraproject.org/rpms/dconf
+      - type: patch
+        path: dconf-override.patch
+  - shared-modules/libsecret/libsecret.json
+  - name: gpg
+    config-opts:
+      - --disable-doc
+      - --enable-gpg-is-gpg2
+      - --disable-tests
+    sources:
+      # latest long term support release
+      - type: archive
+        url: https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.41.tar.bz2
+        sha256: 13f3291007a5e8546fcb7bc0c6610ce44aaa9b3995059d4f8145ba09fd5be3e1
   - name: logseq
     buildsystem: simple
     build-options:
@@ -73,12 +114,7 @@ modules:
         commands:
           - |
             #!/bin/env bash
-
-            # Set GPG environment variables
-            export GPG_TTY=$(tty)
-            export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-            export GPG_AGENT_INFO=$HOME/.gnupg/S.gpg-agent:0:1
-
+            set -e -u -o pipefail
             FLAG_FILE=".logseq/update_warning_shown"
 
             if [ ! -e "${FLAG_FILE}" ]; then
