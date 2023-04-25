@@ -17,8 +17,7 @@ finish-args:
   - --socket=wayland # Support Wayland display server
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
-  - --filesystem=home/.logseq # Allow read-write access to Logseq's data directory (pluins, logs, etc.)
-  - --persist=.config/Logseq # Allow read-write access to Logseq's configuration directory
+  - --persist=home/.logseq # Allow read-write access to Logseq's data directory (pluins, logs, etc.)
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
@@ -35,7 +34,7 @@ finish-args:
   - --filesystem=xdg-run/keyring
   - --env=GTK_PATH=/app/lib/gtkmodules
   - --filesystem=xdg-run/pipewire-0 # Allow access to pipewire
-  - --filesystem=xdg-documents # Allow access to documents
+  - --filesystem=xdg-documents:rw # Allow access to documents
   - --filesystem=xdg-run/dconf
   - --filesystem=~/.config/dconf:ro
   - --talk-name=ca.desrt.dconf
