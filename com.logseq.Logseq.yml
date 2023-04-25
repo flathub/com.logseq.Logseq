@@ -27,12 +27,14 @@ finish-args:
   # Permissions for Logseq git integration
   - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
   - --filesystem=home/.config/git/config:ro # Alternate path for gitconfig
-  - --filesystem=home/.gnupg:ro # Read-only access to the ~/.gnupg
-  - --filesystem=xdg-config/gnupg:ro # Alternate path for gnupg
   - --filesystem=xdg-run/gnupg  # Read-only access to the GnuPG agent socket
-  - --filesystem=home/.ssh:ro # Read-only access to the ~/.ssh/config file
-  - --filesystem=xdg-config/ssh:ro # Alternate path for ssh
+  - --filesystem=$HOME/.gnupg/S.gpg-agent:0:1 # access to the GnuPG agent socket
+  - --filesystem=xdg-config/gnupg/gpg.conf:ro # Read-only access to the GnuPG configuration file
   - --filesystem=xdg-run/ssh-auth.sock # Read-only access to the SSH agent socket
+  - --filesystem=home/.ssh/known_hosts:ro # Read-only access to the ~/.ssh/known_hosts file
+  - --filesystem=xdg-config/ssh/known_hosts:ro # Alternate path for known_hosts
+  - --filesystem=home/.ssh/config:ro # Read-only access to the SSH configuration file
+  - --filesystem=xdg-config/ssh/config:ro # Alternate path for SSH configuration file
 
 modules:
   - name: logseq
