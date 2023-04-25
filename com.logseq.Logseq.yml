@@ -46,8 +46,6 @@ finish-args:
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons # For correct cursor scaling under Wayland
 
 modules:
-  - shared-modules/libsecret/libsecret.json
-
   - name: dconf
     buildsystem: meson
     config-opts:
