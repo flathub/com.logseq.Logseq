@@ -41,7 +41,13 @@ finish-args:
   - --env=DCONF_USER_CONFIG_DIR=.config/dconf
   - --env=GIO_EXTRA_MODULES=/app/lib/gio/modules
   - --env=GSETTINGS_BACKEND=dconf
+  - --talk-name=org.freedesktop.ScreenSaver # Required to allow screensaver/idle inhibition such as during video playback
+  - --talk-name=org.freedesktop.portal.Fcitx # Required for advanced input methods e.g. writing CJK languages
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons # For correct cursor scaling under Wayland
+
 modules:
+  - shared-modules/libsecret/libsecret.json
+
   - name: dconf
     buildsystem: meson
     config-opts:
@@ -54,7 +60,7 @@ modules:
       - ca.desrt.dconf.service
       - dconf.service
       - dconf-service
-      - '*.pc'
+      - "*.pc"
     sources:
       - type: archive
         url: https://download.gnome.org/sources/dconf/0.40/dconf-0.40.0.tar.xz
@@ -66,7 +72,7 @@ modules:
       # From: https://src.fedoraproject.org/rpms/dconf
       - type: patch
         path: dconf-override.patch
-  - shared-modules/libsecret/libsecret.json
+
   - name: gpg
     config-opts:
       - --disable-doc
