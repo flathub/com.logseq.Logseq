@@ -25,8 +25,8 @@ finish-args:
   - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
   - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
   - --filesystem=home/.config/git/config:ro # Alternate path for gitconfig
-  - --socket=ssh-auth # Allow communication with ssh-agent
-  - --socket=gpg-agent # Allow communication with gpg-agent
+  - --socket=ssh-auth # Allow communication with ssh-agent (for git over ssh)
+  - --socket=gpg-agent # Allow communication with gpg-agent (for signing git commits)
   - --devices=all
   - --talk-name=org.gtk.vfs.*
   - --talk-name=com.canonical.AppMenu.Registrar
@@ -44,6 +44,7 @@ finish-args:
   - --talk-name=org.freedesktop.ScreenSaver # Required to allow screensaver/idle inhibition such as during video playback
   - --talk-name=org.freedesktop.portal.Fcitx # Required for advanced input methods e.g. writing CJK languages
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons # For correct cursor scaling under Wayland
+  - --talk-name=org.freedesktop.FileManager1
 
 modules:
   - name: dconf
