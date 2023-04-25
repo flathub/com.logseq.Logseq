@@ -17,17 +17,23 @@ finish-args:
   - --socket=wayland # Support Wayland display server
   - --socket=pulseaudio # Support for audio playback
   - --share=network # Allow network access for syncing, updates, and plugins
-  - --persist=.logseq # Allow read-write access to the ~/.logseq directory
-  - --persist=.config/Logseq # Allow read-write access to the ~/.config/Logseq directory
-  - --filesystem=home/.gitconfig:ro # Read-only access to the ~/.gitconfig file
-  - --filesystem=home/.gnupg:ro # Read-only access to the ~/.gnupg directory
-  - --filesystem=xdg-run/gnupg:ro  # Read-only access to the GnuPG agent socket
-  - --filesystem=home/.ssh/known_hosts:ro # Read-only access to the ~/.ssh/known_hosts file
-  - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
+  - --persist=.logseq # Allow read-write access to Logseq's data directory (pluins, logs, etc.)
+  - --persist=.config/Logseq # Allow read-write access to Logseq's configuration directory
   - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
   - --talk-name=org.freedesktop.appearance # Access appearance settings
   - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
   - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
+  - --talk-name=org.freedesktop.secrets # Allow communication with system keyring and password manager
+  # Permissions for Logseq git integration
+  - --filesystem=.gitconfig:ro # Read-only access to the ~/.gitconfig file
+  - --filesystem=.config/git/config:ro # Alternate path for gitconfig
+  - --filesystem=.gnupg:ro # Read-only access to the ~/.gnupg
+  - --filesystem=.config/gnupg:ro # Alternate path for gnupg
+  - --filesystem=xdg-run/gnupg:ro  # Read-only access to the GnuPG agent socket
+  - --filesystem=.ssh:ro # Read-only access to the ~/.ssh/config file
+  - --filesystem=.config/ssh:ro # Alternate path for ssh
+  - --filesystem=xdg-run/ssh-auth.sock:ro # Read-only access to the SSH agent socket
+
 modules:
   - name: logseq
     buildsystem: simple
