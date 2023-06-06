@@ -5,7 +5,7 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '22.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.node18
   - org.freedesktop.Sdk.Extension.openjdk11
 # Electron doesn't use a traditional locale format
 separate-locales: false
@@ -23,7 +23,7 @@ modules:
   - name: logseq
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node16/bin:/usr/lib/sdk/openjdk11/bin
+      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/openjdk11/bin
       env:
         HOME: /run/build/logseq
         _JAVA_OPTIONS: -Duser.home=/run/build/logseq
