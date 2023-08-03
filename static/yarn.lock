@@ -653,9 +653,9 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "20.4.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.5.tgz#9dc0a5cb1ccce4f7a731660935ab70b9c00a5d69"
-  integrity sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==
+  version "20.4.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.6.tgz#b66b66c9bb5d49b199f03399e341c9d6036e9e88"
+  integrity sha512-q0RkvNgMweWWIvSMDiXhflGUKMdIxBo2M2tYM/0kEGDueQByFzK4KZAgu5YHGFNxziTlppNpTIBcqHQAxlfHdA==
 
 "@types/node@^18.11.18":
   version "18.17.1"
@@ -4016,9 +4016,9 @@ rc@1.2.8, rc@^1.2.7, rc@^1.2.8:
     strip-json-comments "~2.0.1"
 
 rcedit@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/rcedit/-/rcedit-3.0.1.tgz#ae21b43e49c075f4d84df1929832a12c302f3c90"
-  integrity sha512-XM0Jv40/y4hVAqj/MO70o/IWs4uOsaSoo2mLyk3klFDW+SStLnCtzuQu+1OBTIMGlM8CvaK9ftlYCp6DJ+cMsw==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rcedit/-/rcedit-3.0.2.tgz#ab742d4a2aecbf489ae9411789ac946767743133"
+  integrity sha512-JbPZ7ltZxMBa3ioBGDNGMWGpo0vOWMgnfsC1w/Fx7lWIoT+skCwSGCbVrBdFBXCoe8LtV5ut5l05mZZpkkrLTg==
   dependencies:
     cross-spawn-windows-exe "^1.1.0"
 

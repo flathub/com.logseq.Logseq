@@ -5723,9 +5723,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@types/node/-/node-20.4.5.tgz#9dc0a5cb1ccce4f7a731660935ab70b9c00a5d69",
-        "sha512": "aede34364d77208f49c1005d798aa66e7d90e88553039b8f86f48ef8956a757c3febfe20948ea847d7b3b72fc0f47839bbb247e0e9989ae43e5ef8ca9b40dab6",
-        "dest-filename": "@types-node-20.4.5.tgz",
+        "url": "https://registry.yarnpkg.com/@types/node/-/node-20.4.6.tgz#b66b66c9bb5d49b199f03399e341c9d6036e9e88",
+        "sha512": "ab4464bcd80cc1e59622f48c0e25e17e519428c748c41a36336b5833fd241060ee7900721732b8299020bb9607185371ce24e5a693694c805ca87400c657c774",
+        "dest-filename": "@types-node-20.4.6.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -21504,6 +21504,13 @@
         "url": "https://registry.yarnpkg.com/rcedit/-/rcedit-3.0.1.tgz#ae21b43e49c075f4d84df1929832a12c302f3c90",
         "sha512": "5ccd09bf8d3fcb885502a8ff30eef4a3f216b38b8eb1a4a8a3698bca4de49450d6f924ad2e70adcee42efb53814c830694cf02bda2bd7ed9580a9e8327e70cb3",
         "dest-filename": "rcedit-3.0.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/rcedit/-/rcedit-3.0.2.tgz#ab742d4a2aecbf489ae9411789ac946767743133",
+        "sha512": "25b3d9ee5b59c4c05ade2a011833463161a9a34bce58c8277ec0b5c3f171ee5588a13fac902c121826d5ac17450570a87bc2ed579bade65d39999669924acb4e",
+        "dest-filename": "rcedit-3.0.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
