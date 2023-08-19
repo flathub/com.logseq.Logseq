@@ -70,8 +70,6 @@ modules:
       - maven-sources.json
     build-commands:
       # setup clojure
-      - pwd
-      - ls
       - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
       - chmod +x linux-install-1.10.1.763.sh
       - ./linux-install-1.10.1.763.sh
