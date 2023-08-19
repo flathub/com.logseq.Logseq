@@ -64,6 +64,8 @@ jobs:
         run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#subdirectory=node"
       - name: Generate dependency manifests
         run: ./01-sync-release.sh ${{ inputs.version }}
+      - name: Check files were correctly created
+        run: ./02-check-release.sh
       - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
         env:
           GIT_AUTHOR_NAME: Flatpak External Data Checker
