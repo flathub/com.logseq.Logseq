@@ -40,7 +40,10 @@ Install `flatpak-node-generator` from [flatpak-builder-tools](https://github.com
 
 Generate `generated-sources.json`
 
+> Note: First we delete tldraw demo's yarn file, as it is not needed and causes an error: flatpak/flatpak-builder-tools#358
+
 ```shell
+rm logseq-$VERSION/tldraw/cljs-demo/yarn.lock
 flatpak-node-generator -r yarn \
   logseq-$VERSION/yarn.lock --electron-node-headers -o generated-sources.json
 ```
