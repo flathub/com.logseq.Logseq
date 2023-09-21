@@ -25101,7 +25101,8 @@
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-arm64.zip\"",
             "ln -s \"../electron-v24.6.3-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-arm64.zip/electron-v24.6.3-linux-arm64.zip\"",
             "mkdir -p \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e\"",
-            "ln -s \"../electron-v24.6.3-linux-arm64.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-arm64.zip\""
+            "ln -s \"../electron-v24.6.3-linux-arm64.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-arm64.zip\"",
+            "ln -s \"../SHASUMS256.txt-24.6.3\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/SHASUMS256.txt\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -25114,7 +25115,8 @@
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-armv7l.zip\"",
             "ln -s \"../electron-v24.6.3-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-armv7l.zip/electron-v24.6.3-linux-armv7l.zip\"",
             "mkdir -p \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e\"",
-            "ln -s \"../electron-v24.6.3-linux-armv7l.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-armv7l.zip\""
+            "ln -s \"../electron-v24.6.3-linux-armv7l.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-armv7l.zip\"",
+            "ln -s \"../SHASUMS256.txt-24.6.3\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/SHASUMS256.txt\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -25127,7 +25129,8 @@
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-x64.zip\"",
             "ln -s \"../electron-v24.6.3-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv24.6.3electron-v24.6.3-linux-x64.zip/electron-v24.6.3-linux-x64.zip\"",
             "mkdir -p \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e\"",
-            "ln -s \"../electron-v24.6.3-linux-x64.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-x64.zip\""
+            "ln -s \"../electron-v24.6.3-linux-x64.zip\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/electron-v24.6.3-linux-x64.zip\"",
+            "ln -s \"../SHASUMS256.txt-24.6.3\" \"9689c155a7554012739615901e9a2c22a46e2cf8bdd4879b622e4391e02d272e/SHASUMS256.txt\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
