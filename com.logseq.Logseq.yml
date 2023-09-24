@@ -30,6 +30,7 @@ modules:
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/24.6.3
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
@@ -41,6 +42,16 @@ modules:
       - type: file
         url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
         sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
+      - type: file
+        url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
+        sha256: c93da6df11365f41940525ba245f09f927b124c7bf8b0d1c39b83b1352e52c4c
+        dest: flatpak-node/npm-cache/_prebuilds
+        dest-filename: c99219-better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
+      - type: file
+        url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-arm64.tar.gz
+        sha256: 1721ca523b44424adb8edc31ad3a20e4c720bdfc452826e7095dc18ba61e2b62
+        dest: flatpak-node/npm-cache/_prebuilds
+        dest-filename: c99219-better-sqlite3-v8.0.1-node-v108-linux-arm64.tar.gz
       - type: git
         url: https://github.com/logseq/cljs-time
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
@@ -56,8 +67,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.17.tar.gz
-        sha256: 6495e0208a427d9c24d0dc9f6f78590e71e57a0a9e3f71442d4363d63ccb1de0
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.18.tar.gz
+        sha256: 06bd86d196a97dad00b74de878bac24b4b91a94089559c9482018fd80bb93dc7
         dest: logseq
         x-checker-data:
           type: anitya
@@ -82,11 +93,11 @@ modules:
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
-      - yarn --cwd logseq --offline install
+      - yarn --cwd logseq --offline install --immutable --immutable-cache --inline-builds
       - yarn --cwd logseq --offline gulp:build
       - yarn --cwd logseq --offline cljs:release-electron
       # build linux
-      - yarn --cwd logseq/static --offline install
+      - yarn --cwd logseq/static --offline install --immutable --immutable-cache --inline-builds
       - yarn --cwd logseq/static --offline electron-forge package
       # install
       - cp -a logseq/static/out/Logseq-linux-* /app/logseq
