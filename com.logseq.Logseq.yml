@@ -1,29 +1,33 @@
 id: com.logseq.Logseq
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: "22.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: "22.08"
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node18
-  - org.freedesktop.Sdk.Extension.openjdk11
-# Electron doesn't use a traditional locale format
-separate-locales: false
+  - org.freedesktop.Sdk.Extension.openjdk17
+separate-locales: false #  Electron doesn't use a traditional locale format
 writable-sdk: true
 command: run.sh
 finish-args:
-  - --device=dri
-  - --share=ipc
-  - --socket=x11
-  - --socket=wayland
-  - --socket=pulseaudio
-  - --share=network
-  - --filesystem=home
+  - --device=dri # Needed for hardware acceleration
+  - --share=ipc # Needed for X11 and Wayland
+  - --socket=x11 # Support X11 display server
+  - --socket=wayland # Support Wayland display server
+  - --socket=pulseaudio # Support for audio playback
+  - --share=network # Allow network access for syncing, updates, and plugins
+  - --persist=.logseq # Allow read-write access to the ~/.logseq directory
+  - --persist=.config/Logseq # Allow read-write access to the ~/.config/Logseq directory
+  - --talk-name=org.freedesktop.Notifications # Allow sending desktop notifications
+  - --talk-name=org.freedesktop.appearance # Access appearance settings
+  - --talk-name=org.gtk.Gtk3.Config # Access to GTK3 settings
+  - --talk-name=org.gtk.Gtk4.Config # Access to GTK4 settings
 modules:
   - name: logseq
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/openjdk11/bin
+      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/openjdk17/bin
       env:
         HOME: /run/build/logseq
         _JAVA_OPTIONS: -Duser.home=/run/build/logseq
@@ -32,9 +36,9 @@ modules:
         NPM_CONFIG_LOGLEVEL: info
         npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/24.6.3
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
-        npm_config_offline: 'true'
-        ENABLE_PLUGINS: 'true'
-        ENABLE_FILE_SYNC_PRODUCTION: 'true'
+        npm_config_offline: "true"
+        ENABLE_PLUGINS: "true"
+        ENABLE_FILE_SYNC_PRODUCTION: "true"
     sources:
       - type: file
         url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
@@ -82,7 +86,7 @@ modules:
     build-commands:
       # setup clojure
       - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
-      - chmod +x linux-install-1.10.1.763.sh
+      - chmod 0755 linux-install-1.10.1.763.sh
       - ./linux-install-1.10.1.763.sh
       # disable clojure tools online fetching
       - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
