@@ -24,6 +24,7 @@ curl -L -o logseq-$VERSION.tar.gz $BASE_URL/$VERSION.tar.gz
 
 tar xf logseq-$VERSION.tar.gz
 cd logseq-$VERSION/resources
+cp ../static/yarn.lock ./
 yarn
 cp yarn.lock ../../static/yarn.lock
 cd ../..
