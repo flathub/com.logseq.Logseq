@@ -25564,6 +25564,47 @@
     {
         "type": "shell",
         "commands": [
+            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
+            "ln -s \"../SHASUMS256.txt-25.9.3\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/SHASUMS256.txt\""
+        ],
+        "dest": "flatpak-node/cache/electron"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
+            "ln -s \"../electron-v25.9.3-linux-arm64.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-arm64.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "aarch64"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
+            "ln -s \"../electron-v25.9.3-linux-armv7l.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-armv7l.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "arm"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
+            "ln -s \"../electron-v25.9.3-linux-x64.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-x64.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "x86_64"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
             "mkdir -p \"bin\"",
             "cp \".package/esbuild-linux-32@0.15.14/bin/esbuild\" \"bin/esbuild-linux-32@0.15.14\"",
             "ln -sf \"esbuild-linux-32@0.15.14\" \"bin/esbuild-current\""
@@ -25613,9 +25654,7 @@
         "type": "shell",
         "commands": [
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-arm64.zip\"",
-            "ln -s \"../electron-v25.9.3-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-arm64.zip/electron-v25.9.3-linux-arm64.zip\"",
-            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
-            "ln -s \"../electron-v25.9.3-linux-arm64.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-arm64.zip\""
+            "ln -s \"../electron-v25.9.3-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-arm64.zip/electron-v25.9.3-linux-arm64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -25626,9 +25665,7 @@
         "type": "shell",
         "commands": [
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-armv7l.zip\"",
-            "ln -s \"../electron-v25.9.3-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-armv7l.zip/electron-v25.9.3-linux-armv7l.zip\"",
-            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
-            "ln -s \"../electron-v25.9.3-linux-armv7l.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-armv7l.zip\""
+            "ln -s \"../electron-v25.9.3-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-armv7l.zip/electron-v25.9.3-linux-armv7l.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -25639,9 +25676,7 @@
         "type": "shell",
         "commands": [
             "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-x64.zip\"",
-            "ln -s \"../electron-v25.9.3-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-x64.zip/electron-v25.9.3-linux-x64.zip\"",
-            "mkdir -p \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211\"",
-            "ln -s \"../electron-v25.9.3-linux-x64.zip\" \"293ca12f69a463b3cb864df54d4244d9a6d86ce2cd60861e2e75701a8fea1211/electron-v25.9.3-linux-x64.zip\""
+            "ln -s \"../electron-v25.9.3-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv25.9.3electron-v25.9.3-linux-x64.zip/electron-v25.9.3-linux-x64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
