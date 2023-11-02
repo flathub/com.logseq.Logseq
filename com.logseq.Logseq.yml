@@ -30,7 +30,7 @@ modules:
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
-        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/24.6.3
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/25.9.3
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
@@ -67,8 +67,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.19.tar.gz
-        sha256: 254145fd0fc472145f5bf6f4d636d4720b222fc1920cca2aa0b1bc2591b88f8f
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.20.tar.gz
+        sha256: 306a8e7adc78bf62f6c931bdd2a118d39bb437d7dd4cfe9f9193b7548de32e32
         dest: logseq
         x-checker-data:
           type: anitya
