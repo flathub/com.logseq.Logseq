@@ -67,8 +67,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.9.20.tar.gz
-        sha256: 306a8e7adc78bf62f6c931bdd2a118d39bb437d7dd4cfe9f9193b7548de32e32
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.0.tar.gz
+        sha256: 851274a463f56be43e84663b6a8694dc12a1c72c6bd87a8ce1715a430bb575a2
         dest: logseq
         x-checker-data:
           type: anitya
