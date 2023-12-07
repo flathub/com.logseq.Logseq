@@ -89,7 +89,7 @@ modules:
       - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
       - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
-      - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
+      - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
