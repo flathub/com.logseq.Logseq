@@ -37,11 +37,11 @@ modules:
         ENABLE_FILE_SYNC_PRODUCTION: 'true'
     sources:
       - type: file
-        url: https://download.clojure.org/install/linux-install-1.10.1.763.sh
-        sha256: 91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c
+        url: https://download.clojure.org/install/linux-install-1.11.1.1413.sh
+        sha256: ad9aa1e99c59a4f7eb66450914fbec543337d9fada60dd9d34eec7fe18ae4965
       - type: file
-        url: https://download.clojure.org/install/clojure-tools-1.10.1.763.tar.gz
-        sha256: 2a3ec8a6c3639035c2bba10945ae9007ab0dc9136766b95d2161f354e62a4d10
+        url: https://download.clojure.org/install/clojure-tools-1.11.1.1413.tar.gz
+        sha256: 93c3a5a3adca51c5858063419abf66c83dbf24ea15e1fd92f79bf7e662381fe0
       - type: file
         url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
         sha256: c93da6df11365f41940525ba245f09f927b124c7bf8b0d1c39b83b1352e52c4c
@@ -81,13 +81,13 @@ modules:
       - maven-sources.json
     build-commands:
       # setup clojure
-      - sed -i 's/curl/#curl/' linux-install-1.10.1.763.sh
-      - chmod +x linux-install-1.10.1.763.sh
-      - ./linux-install-1.10.1.763.sh
+      - sed -i 's/curl/#curl/' linux-install-1.11.1.1413.sh
+      - chmod +x linux-install-1.11.1.1413.sh
+      - ./linux-install-1.11.1.1413.sh
       # disable clojure tools online fetching
-      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
       - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
-      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.10.1.763.jar clojure/tools/gitlibs/impl.clj
+      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
       - git clone --bare libs/cljs-time .gitlibs/_repos/github.com/logseq/cljs-time
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
