@@ -1,5 +1,4 @@
 {
-    "skip-arches": ["aarch64"],
     "automerge-flathubbot-prs": false,
     "disable-external-data-checker": true
 }
