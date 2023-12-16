@@ -19,6 +19,10 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --filesystem=home
+  # for using ssh for remote graph
+  - --socket=ssh-auth
+  - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
+  - --persist=~/.ssh
 modules:
   - name: logseq
     buildsystem: simple
