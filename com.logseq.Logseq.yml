@@ -29,7 +29,7 @@ modules:
     build-commands:
       - install -Dm755  node-gyp /app/bin
     cleanup:
-      - "*"
+      - '*'
     sources:
       - type: script
         dest-filename: node-gyp
@@ -83,8 +83,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.1.tar.gz
-        sha256: f2fc8ba913664fabbd84f9ff2427c19a326363695ef03c44188f385c631a118a
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.2.tar.gz
+        sha256: fc4119b5832cd03c918bb92ec79eea0d388a217e9c5adb312564b6c6e66004a6
         dest: logseq
         x-checker-data:
           type: anitya
