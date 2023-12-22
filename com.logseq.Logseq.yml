@@ -46,7 +46,7 @@ modules:
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
-        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/25.9.3
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/27.1.3
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
