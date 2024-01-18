@@ -7,7 +7,7 @@ Icon=com.logseq.Logseq
 StartupWMClass=Logseq
 Comment=A privacy-first, open-source platform for knowledge management and collaboration.
 MimeType=x-scheme-handler/logseq;
-Categories=Utility;office;
+Categories=Utility;Office;
 NoDisplay=false
 Actions=Wayland;
 
