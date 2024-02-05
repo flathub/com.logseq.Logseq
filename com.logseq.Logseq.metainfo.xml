@@ -5,6 +5,7 @@
     <project_license>AGPL-3.0-or-later</project_license>
     <name>Logseq</name>
     <summary>A local-first, non-linear, outliner notebook for organizing and sharing your personal knowledge base</summary>
+    <developer_name>Logseq, Inc.</developer_name>
     <content_rating type="oars-1.0"/>
 
     <description>
