@@ -5,6 +5,7 @@
     <project_license>AGPL-3.0-or-later</project_license>
     <name>Logseq</name>
     <summary>A local-first, non-linear, outliner notebook for organizing and sharing your personal knowledge base</summary>
+    <developer_name>Logseq, Inc.</developer_name>
     <content_rating type="oars-1.0"/>
 
     <description>
@@ -58,6 +59,7 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.10.6" date="2024-02-05"/>
         <release version="0.10.5" date="2024-01-18"/>
         <release version="0.10.4" date="2024-01-17"/>
         <release version="0.10.3" date="2023-12-26"/>

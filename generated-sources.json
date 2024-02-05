@@ -4412,9 +4412,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@logseq/capacitor-file-sync/-/capacitor-file-sync-5.0.1.tgz#e154f715597785518ccd7d058f353acb67fbc2b8",
-        "sha512": "0b57cb492e77a2bc6c51606c35be8b2b0b8e765114f5987193078c8cd286f5569290b15316aa63146dfa393b28db7590ee10b97b8e638d7abbf5aa16baa25a28",
-        "dest-filename": "@logseq-capacitor-file-sync-5.0.1.tgz",
+        "url": "https://registry.yarnpkg.com/@logseq/capacitor-file-sync/-/capacitor-file-sync-5.0.2.tgz#10c56e35b41b1a0afd293c9b045fbcfe150c3477",
+        "sha512": "1729ac4de46d17aeb31bea1e3bea2167158808c40c0bc027e27f69748d33cf559a18b7abe28582fe55208650b60e9ced44b037da9d021f6f2d133179fb68c046",
+        "dest-filename": "@logseq-capacitor-file-sync-5.0.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -10677,9 +10677,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-8.0.1.tgz#3a596d21fbcefadf36f94e126c5cf24d5697d0b8",
-        "sha512": "2614d98e9c9aa40d627021232190784d24a09067458295990365acce0ec27f827027029099bbee367241791f84606fd9dbd397bd1e06fff45b837d415bf67b62",
-        "dest-filename": "better-sqlite3-8.0.1.tgz",
+        "url": "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.3.0.tgz#2a8aaad65fa0210a4df5e8a0bcbc9156f6138d56",
+        "sha512": "c30ef78d5a5085145d4bdb8cafbeb58b19649786d6a178bc84c42504686837abcf365507a48b0d9b0e2928dea48e49e5b7fc28a5dbd71ef2e4d56ef9048fa7d1",
+        "dest-filename": "better-sqlite3-9.3.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -24726,16 +24726,16 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-5.3.0.tgz#3cee9e5ca62b2c27e84fce63affc0cfb5901956a",
-        "sha512": "59d0cee203851b667c9f83fc4d6069b219cbdc9a663662707677cfda06e4daa040f0f5b03987268e623fb770a631e2fbd9aec791dfb1fcc83d3b6ff4ac3e783e",
-        "dest-filename": "postcss-colormin-5.3.0.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-5.3.1.tgz#86c27c26ed6ba00d96c79e08f3ffb418d1d1988f",
+        "sha512": "52c5901b402a4c5426a417a078b2dcd7e7378c8a81341d33943191591f9d437a512892f5a1e333caa987de8d8f21f9fd30174dad53d68436d3efaf4bc424cb25",
+        "dest-filename": "postcss-colormin-5.3.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-5.1.2.tgz#31586df4e184c2e8890e8b34a0b9355313f503ab",
-        "sha512": "73a1f3738180bfde41eecbb2e2e76ccd7f59cb8113c8c0a014f503b568dd153287d5213d78563f8c4a474b04c7d503eec311e95ac96172451059b351338868e6",
-        "dest-filename": "postcss-convert-values-5.1.2.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-5.1.3.tgz#04998bb9ba6b65aa31035d669a6af342c5f9d393",
+        "sha512": "f36a42d7190966d70911f88bc3a5179d755749c82d06b8e53b90819ae0d073e7656fcf19621785b234e7e34fb30558b70e47c5ee27b33b49c950f2dc24ade9bc",
+        "dest-filename": "postcss-convert-values-5.1.3.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -24817,6 +24817,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/postcss-js/-/postcss-js-4.0.1.tgz#61598186f3703bab052f1c4f7d805f3991bee9d2",
+        "sha512": "7432c5f2910ed7dd6124cb651c53d16bcc6c8b31da33cd8c2df364507754b55115ded813a79a23fbca9b12a60ce7b48b7dcef82926f0fffe1278999ad8b45523",
+        "dest-filename": "postcss-js-4.0.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/postcss-less/-/postcss-less-3.1.4.tgz#369f58642b5928ef898ffbc1a6e93c958304c5ad",
         "sha512": "ed3be579058d33640b707aafb9db775588d42d5078f6e896e97cc45059afc07cefb0e105e4cc01ac85d90c942f24d1468c9413cd2cd99c3a0227c87f963c865c",
         "dest-filename": "postcss-less-3.1.4.tgz",
@@ -24852,16 +24859,16 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-5.1.6.tgz#f378a8a7e55766b7b644f48e5d8c789ed7ed51ce",
-        "sha512": "e82fd4185ff74f9384d8211b3ae5fb88d3baddd9efaa11997949ca9037a27de6d8d17aa492fadcb58499baba4d13dd362c37f6c8ac303c5828b677d2a0f8508b",
-        "dest-filename": "postcss-merge-longhand-5.1.6.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-5.1.7.tgz#24a1bdf402d9ef0e70f568f39bdc0344d568fb16",
+        "sha512": "60223d81907e3cb36c92b2b4041dffd8eccf9c684f9011309b085f624d629411d8540641effb644c71410270abbc104e99e632318c370cc8d3e794b2c4c0738d",
+        "dest-filename": "postcss-merge-longhand-5.1.7.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-5.1.2.tgz#7049a14d4211045412116d79b751def4484473a5",
-        "sha512": "cca314967c3ecd8096a0f37aca13e3b5c11d94968c519d16c957314c09b0de592437f34331190e922b9cb501285803af1fbb706b151476f056974778fa189f45",
-        "dest-filename": "postcss-merge-rules-5.1.2.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-5.1.4.tgz#2f26fa5cacb75b1402e213789f6766ae5e40313c",
+        "sha512": "d11d88b98a6053ddf2f658556cefceca54ed28c55c1dbebbce35887c288a47dad62f7194935ebbecb02a0ff05c1e2cee91d6448d3f11bb7a07468018a09cb8e2",
+        "dest-filename": "postcss-merge-rules-5.1.4.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -24880,9 +24887,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.1.3.tgz#ac41a6465be2db735099bbd1798d85079a6dc1f9",
-        "sha512": "6e4ce959c8f2924a88ba334bf845443ce94b622fde674e74a08995b4753b6f89454bcda33e7b026f8e20bc2ea9c5a36ddfc125b378d66031d38c729fd24a1382",
-        "dest-filename": "postcss-minify-params-5.1.3.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.1.4.tgz#c06a6c787128b3208b38c9364cfc40c8aa5d7352",
+        "sha512": "fa678f037320766566bfa83edf4ae7e7b5128ce192032bb152691f896a736a567c6a206474f6235d6b47bb02469b5bf93a3cb46742da49884768b2500743fc27",
+        "dest-filename": "postcss-minify-params-5.1.4.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -25013,9 +25020,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-5.1.0.tgz#fc31659ea6e85c492fb2a7b545370c215822c5d6",
-        "sha512": "e4e81352f8b3d1a787e8cb418c77dbaf9eed9a5d773ee79d2bf11c83cb33cdde1744c6d8c47e39ef62451b4ebbcfe16a0487fa669fddfb4e7cd60964bef58c17",
-        "dest-filename": "postcss-reduce-initial-5.1.0.tgz",
+        "url": "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-5.1.2.tgz#798cd77b3e033eae7105c18c9d371d989e1382d6",
+        "sha512": "744ff2d9745aa808ba3af8f30f6da98d3510f1e39f73a9bf9dab461e028504af43c459889baf5899a45542b1a016511f7351de3c8bab6344e60de44e2b4e6b22",
+        "dest-filename": "postcss-reduce-initial-5.1.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -25104,6 +25111,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309",
+        "sha512": "ca2a1aca335b1e7eb3d7f072c326f6638b37caf0c079718ecb1a83f8b9d53a29eae8c76677ef925b6c14355cdabf2c87c5debe0f1cd6188ba8b20e8fd518fcb8",
+        "dest-filename": "postcss-7.0.39.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/postcss/-/postcss-8.4.17.tgz#f87863ec7cd353f81f7ab2dec5d67d861bbb1be5",
         "sha512": "50dc4d38b43275c3858b8d721cd31c291677f4d79796bf00c46b9926c76e6fcbc86f5d9f1f372adfb0d353f42d6c8e962f1360da017d67ef2ab51c138f5508d5",
         "dest-filename": "postcss-8.4.17.tgz",
@@ -25121,6 +25135,13 @@
         "url": "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d",
         "sha512": "3d2d3c21ba226bd9adb3fdb2815dde2e96398219d471f2d5fc45d3396d44daa63124a186054b4d8cdefa1581e732cdfa4660119f8d5b0b40199a7fab474395a5",
         "dest-filename": "postcss-8.4.31.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/postcss/-/postcss-8.4.33.tgz#1378e859c9f69bf6f638b990a0212f43e2aaa742",
+        "sha512": "2a4a5b861763c36a90b363b60c65fef26e4e56a11c6c1f47441bee60cf6982b8c4154837d00f4b9973654c0523e12f6482d1b2acc6d3cd58c7ec4face517b6ca",
+        "dest-filename": "postcss-8.4.33.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
