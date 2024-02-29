@@ -3383,6 +3383,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@capacitor/action-sheet/-/action-sheet-5.0.7.tgz#4808af8c483a85f58c7fffdea76f8d374883e3a0",
+        "sha512": "f2af1f618cbd7702e2e1e883898abecacfee3a6f42d98a637c09e51bb7d87616bc40da5acf6df5e2347e771b093b8db7cd807659a83d35796ea47a5778674638",
+        "dest-filename": "@capacitor-action-sheet-5.0.7.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/@capacitor/android/-/android-5.4.1.tgz#5b0445202ca5e48fcb79d0c88e4403acc32504bc",
         "sha512": "db993f1b2225cbff31290a3410ee9e22f252b69556b013f2621f448aff8eafd0c2cfd8ae565199637bee8bece31617c74397fd530cb06bc07eb61386594f1fea",
         "dest-filename": "@capacitor-android-5.4.1.tgz",

@@ -59,6 +59,7 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.10.7" date="2024-02-29"/>
         <release version="0.10.6" date="2024-02-05"/>
         <release version="0.10.5" date="2024-01-18"/>
         <release version="0.10.4" date="2024-01-17"/>
