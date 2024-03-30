@@ -1,6 +1,32 @@
 # Logseq Flatpak
 
-## How to update to a new version
+## For users
+
+### Permissions
+
+By default, Logseq has read-write access to your home directory and uses `~/.logseq` for global config and downloaded plugins.
+
+To restrict access to specific dirs containing your graph(s) (e.g. `~/notes`):
+
+1. Quit Logseq
+
+2. Set these overrides (can also be done with [Flatseal](https://github.com/tchx84/flatseal) GUI):
+
+   ```
+   flatpak --user override --nofilesystem=home --filesystem=~/notes --persist=.logseq com.logseq.Logseq
+   ```
+  
+   - `--filesystem` can be specified multiple times for more graph dirs.
+  
+   - To paste images or other files into Logseq, you'll also need to give access to their dirs. You can give read-only access by appending `:ro` to the path, e.g. `--filesystem=~/photos:ro`
+
+3. If you previously used Logseq, it would have created `~/.logseq`. Move `~/.logseq` to `~/.var/app/com.logseq.Logseq/.logseq`
+
+Note `--persist=.logseq` has no effect unless used together with `--nofilesystem=home`. If Logseq has access to home dir, it will use `~/.logseq`.
+
+## For package maintainers
+
+### How to update to a new version
 
 Set the VERSION environment variable
 
