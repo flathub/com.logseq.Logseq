@@ -143,10 +143,17 @@
         "dest": "flatpak-node/cache/node-gyp/27.1.3"
     },
     {
+        "type": "archive",
+        "url": "https://www.electronjs.org/headers/v27.1.3/node-v27.1.3-headers.tar.gz",
+        "strip-components": 1,
+        "sha256": "8576e6ddd9ac2cc40eb96dcb27352bdafd29ea4199cc8f83df0d2e608122c848",
+        "dest": "flatpak-node/cache/node-gyp/27.1.3"
+    },
+    {
         "type": "file",
-        "url": "https://github.com/desktop/dugite-native/releases/download/v2.39.3/dugite-native-v2.39.3-887e871-ubuntu.tar.gz",
-        "sha256": "7a6c87e0010896c6580a09a973a3ba895ebbac4f980fbf57502615954e3cd24f",
-        "dest-filename": "dugite-native-v2.39.3-887e871-ubuntu.tar.gz",
+        "url": "https://github.com/desktop/dugite-native/releases/download/v2.39.3-1/dugite-native-v2.39.3-91ebaa8-ubuntu-x64.tar.gz",
+        "sha256": "78375b97c802caa33c4ab585e3cf113001f0f53d0ab623ef0086e7c5b819189d",
+        "dest-filename": "dugite-native-v2.39.3-91ebaa8-ubuntu-x64.tar.gz",
         "dest": "flatpak-node/tmp",
         "only-arches": [
             "x86_64"
@@ -13407,9 +13414,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/dugite/-/dugite-2.5.0.tgz#8b235564fdf8692688283c714149a59d9da79865",
-        "sha512": "b18b123aa57b36276d843b4c50f80a0afa8c1aab302a473203138c87012cc2570667e90769d4f64840c55093b2d00551ff24c92fac0117bab53a2c927d4d2018",
-        "dest-filename": "dugite-2.5.0.tgz",
+        "url": "https://registry.yarnpkg.com/dugite/-/dugite-2.5.1.tgz#6ab808ebf321809edf42d974e62eea9c9e256722",
+        "sha512": "f4e8d482eca7ceaf2fdc64a6a74d646d570c984adceb9659d0eb2c3bfd0f336472843f03cdbf1c0aecb7cfbdbe2312f03f0362ef9e2367416d30b0050370f4a8",
+        "dest-filename": "dugite-2.5.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -26745,13 +26752,6 @@
         "url": "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621",
         "sha512": "6a7fca650cd052464292ea0003ae2133dd97d14adbe95a51840165943cf3e3853699c0f9b1c993df305ce15815a64ba0179f34f83427f1e0054b2a10b74b739c",
         "dest-filename": "tar-6.1.11.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/tar/-/tar-6.2.0.tgz#b14ce49a79cb1cd23bc9b016302dea5474493f73",
-        "sha512": "fd6a3b0dc4f4bb91d4578f3ac60ebbe47b6335ddc15d9eb10dbcec09464fb798b0f1b4d0eb76cfd116aeb779afae8f6ef82532abb61077c0b1e797ec657c6a2d",
-        "dest-filename": "tar-6.2.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
