@@ -27,43 +27,43 @@
     <screenshots>
         <screenshot type="default">
             <caption>Logseq default page</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/01-intro.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Search in Logseq</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/02-search.png
             </image>
         </screenshot>
         <screenshot>
             <caption>General settings in Logseq</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/03-general-settings.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Editor settings in Logseq</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/04-editor-settings.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Graph view in Logseq</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/05-graph.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Note entry</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/06-note.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Whiteboards</caption>
-            <image type="source" width="983" height="847" xml:lang="en">
+            <image type="source" width="983" height="847">
                 https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/07-whiteboard.png
             </image>
         </screenshot>
