@@ -22,6 +22,8 @@ finish-args:
   # for using ssh for remote graph
   - --socket=ssh-auth
   - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
+    # required to fix cursor scaling on wayland, especially with fractional scaling
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
   - --persist=~/.ssh
 modules:
   - name: node-gyp
