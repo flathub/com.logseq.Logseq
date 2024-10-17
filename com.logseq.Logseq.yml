@@ -14,7 +14,7 @@ command: run.sh
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   - --socket=pulseaudio
   - --share=network
