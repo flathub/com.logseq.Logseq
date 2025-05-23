@@ -95,6 +95,11 @@ modules:
       - type: file
         path: static/yarn.lock
         dest: logseq/resources
+      - type: patch
+        path: 0001-force-electron-get-skip-download-checksum-from-netwo.patch
+        options:
+          - -d
+          - logseq
       - generated-sources.json
       - maven-sources.json
     build-commands:
