@@ -22,33 +22,33 @@ finish-args:
   # for using ssh for remote graph
   - --socket=ssh-auth
   - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
-    # required to fix cursor scaling on wayland, especially with fractional scaling
+  # required to fix cursor scaling on wayland, especially with fractional scaling
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
   - --persist=~/.ssh
 modules:
   - name: node-gyp
     buildsystem: simple
     build-commands:
-      - install -Dm755  node-gyp /app/bin
+      - install -Dm755 node-gyp /app/bin
     cleanup:
       - '*'
     sources:
       - type: script
         dest-filename: node-gyp
         commands:
-          - node /usr/lib/sdk/node18/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
+          - node /usr/lib/sdk/node22/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
             $@
   - name: logseq
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/openjdk11/bin
+      append-path: /usr/lib/sdk/node22/bin:/usr/lib/sdk/openjdk11/bin
       env:
         HOME: /run/build/logseq
         _JAVA_OPTIONS: -Duser.home=/run/build/logseq
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
-        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/27.1.3
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/36.2.0
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
