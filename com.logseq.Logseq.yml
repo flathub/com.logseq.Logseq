@@ -1,11 +1,11 @@
 id: com.logseq.Logseq
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '24.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node18
+  - org.freedesktop.Sdk.Extension.node22
   - org.freedesktop.Sdk.Extension.openjdk11
 # Electron doesn't use a traditional locale format
 separate-locales: false
@@ -22,33 +22,33 @@ finish-args:
   # for using ssh for remote graph
   - --socket=ssh-auth
   - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
-    # required to fix cursor scaling on wayland, especially with fractional scaling
+  # required to fix cursor scaling on wayland, especially with fractional scaling
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
   - --persist=~/.ssh
 modules:
   - name: node-gyp
     buildsystem: simple
     build-commands:
-      - install -Dm755  node-gyp /app/bin
+      - install -Dm755 node-gyp /app/bin
     cleanup:
       - '*'
     sources:
       - type: script
         dest-filename: node-gyp
         commands:
-          - node /usr/lib/sdk/node18/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
+          - node /usr/lib/sdk/node22/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
             $@
   - name: logseq
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node18/bin:/usr/lib/sdk/openjdk11/bin
+      append-path: /usr/lib/sdk/node22/bin:/usr/lib/sdk/openjdk11/bin
       env:
         HOME: /run/build/logseq
         _JAVA_OPTIONS: -Duser.home=/run/build/logseq
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
-        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/27.1.3
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/36.2.0
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
@@ -85,8 +85,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.9.tar.gz
-        sha256: 9fe98bbeb4355c1ad3ea5b3776f02455ee86b8157f74dd53bb9b3367df31403a
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.11.tar.gz
+        sha256: 2245594dca34463e1dc5301d807f13d0281bfbe0012b9b486817128f83261dba
         dest: logseq
         x-checker-data:
           type: anitya
@@ -95,6 +95,11 @@ modules:
       - type: file
         path: static/yarn.lock
         dest: logseq/resources
+      - type: patch
+        path: 0001-force-electron-get-skip-download-checksum-from-netwo.patch
+        options:
+          - -d
+          - logseq
       - generated-sources.json
       - maven-sources.json
     build-commands:

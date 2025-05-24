@@ -1,0 +1,26 @@
+From 82aecbacf63d75abcf1a962957c0838565cd7679 Mon Sep 17 00:00:00 2001
+From: Kan-Ru Chen <kanru@kanru.info>
+Date: Fri, 23 May 2025 23:33:12 +0900
+Subject: [PATCH] force electron-get skip download checksum from network
+
+---
+ resources/forge.config.js | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/resources/forge.config.js b/resources/forge.config.js
+index aa91c34..5bccbf2 100644
+--- a/resources/forge.config.js
++++ b/resources/forge.config.js
+@@ -26,6 +26,9 @@ module.exports = {
+       appleIdPassword: process.env['APPLE_ID_PASSWORD'],
+       teamId: process.env['APPLE_TEAM_ID']
+     },
++    download: {
++      unsafelyDisableChecksums: true
++    }
+   },
+   makers: [
+     {
+-- 
+2.49.0
+

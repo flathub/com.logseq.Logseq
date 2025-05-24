@@ -14,9 +14,10 @@ on:
         type: string
 
 env:
-  CLOJURE_VERSION: '1.10.1.763'
-  NODE_VERSION: '18'
+  CLOJURE_VERSION: '1.11.1.1413'
+  NODE_VERSION: '22'
   JAVA_VERSION: '11'
+  PYTHON_VERSION: '3.11'
 jobs:
   check-update:
     runs-on: ubuntu-latest
@@ -47,7 +48,7 @@ jobs:
       - name: Install python and pix
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Setup Java SDK
         uses: actions/setup-java@v3
         with:
@@ -55,12 +56,12 @@ jobs:
           java-version: ${{ env.JAVA_VERSION }}
       - name: Setup clojure
         run: |
-          curl -O -L https://download.clojure.org/install/linux-install-1.10.1.763.sh
+          curl -O -L https://download.clojure.org/install/linux-install-${{ env.CLOJURE_VERSION }}.sh
           sha256sum -c - <<HERE
-          91421551872d421915c4a598741aefcc6749d3f4aafca9c08f271958e5456e2c linux-install-1.10.1.763.sh
+          ad9aa1e99c59a4f7eb66450914fbec543337d9fada60dd9d34eec7fe18ae4965 linux-install-${{ env.CLOJURE_VERSION }}.sh
           HERE
-          chmod +x linux-install-1.10.1.763.sh
-          ./linux-install-1.10.1.763.sh -p $HOME/.local
+          chmod +x linux-install-${{ env.CLOJURE_VERSION }}.sh
+          ./linux-install-${{ env.CLOJURE_VERSION }}.sh -p $HOME/.local
           echo "$HOME/.local/bin" >> $GITHUB_PATH
       - name: Install flatpak-node-generator
         run: pipx install "git+https://github.com/flatpak/flatpak-builder-tools.git#subdirectory=node"
