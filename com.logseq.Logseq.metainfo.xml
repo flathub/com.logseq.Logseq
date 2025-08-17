@@ -77,8 +77,11 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
-        <release version="0.10.12" date="2025-05-29">
+        <release version="0.10.13" date="2025-08-17">
             <description></description>
+        </release>
+        <release version="0.10.12" date="2025-05-29">
+            <description/>
         </release>
         <release version="0.10.11" date="2025-05-22">
             <description/>
