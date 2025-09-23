@@ -38,6 +38,18 @@ modules:
         commands:
           - node /usr/lib/sdk/node22/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
             $@
+  - name: libvips
+    cleanup:
+      - /*
+    sources:
+      - type: git
+        url: https://github.com/libvips/libvips
+        tag: v8.17.2
+        commit: 0b9ea3a62477f670421868337dfaf13e8aa9d754
+        x-checker-data:
+          type: git
+          tag-pattern: ^v((?:\d+.)*\d+)$
+    buildsystem: meson
   - name: logseq
     buildsystem: simple
     build-options:
