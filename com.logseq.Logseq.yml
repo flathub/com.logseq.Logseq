@@ -50,6 +50,7 @@ modules:
           type: git
           tag-pattern: ^v((?:\d+.)*\d+)$
     buildsystem: meson
+  - modules/libonnxruntime.json
   - name: logseq
     buildsystem: simple
     build-options:
