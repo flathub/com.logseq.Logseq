@@ -89,6 +89,26 @@ modules:
         url: https://github.com/logseq/cljs-time
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
+      - type: git
+        url: https://github.com/RCmerci/cljs-http-missionary
+        commit: d61ce7e29186de021a2a453a8cee68efb5a88440
+        dest: libs/cljs-http-missionary
+      - type: git
+        url: https://github.com/logseq/rum
+        commit: 5d672bf84ed944414b9f61eeb83808ead7be9127
+        dest: libs/rum
+      - type: git
+        url: https://github.com/rcmerci/cljc-fsrs
+        commit: 0e70e96a73cf63c85dcc2df4d022edf12806b239
+        dest: libs/cljc-fsrs
+      - type: git
+        url: https://github.com/logseq/datascript
+        commit: 45f6721bf2038c24eb9fe3afb422322ab3f473b5
+        dest: libs/datascript
+      - type: git
+        url: https://github.com/logseq/clj-fractional-indexing
+        commit: 1087f0fb18aa8e25ee3bbbb0db983b7a29bce270
+        dest: libs/clj-fractional-indexing
       - type: file
         path: com.logseq.Logseq.desktop
       - type: file
@@ -128,6 +148,11 @@ modules:
       - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
       - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
+      - git clone --bare libs/cljs-http-missionary .gitlibs/_repos/https/github.com/RCmerci/cljs-http-missionary
+      - git clone --bare libs/rum .gitlibs/_repos/https/github.com/logseq/rum
+      - git clone --bare libs/cljc-fsrs .gitlibs/_repos/https/github.com/rcmerci/cljc-fsrs
+      - git clone --bare libs/datascript .gitlibs/_repos/https/github.com/logseq/datascript
+      - git clone --bare libs/clj-fractional-indexing .gitlibs/_repos/https/github.com/logseq/clj-fractional-indexing
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
