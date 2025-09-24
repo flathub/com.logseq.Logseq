@@ -78,7 +78,12 @@
 
     <releases>
         <release version="0.10.14" date="2025-09-24">
-            <description></description>
+            <description>
+                <ul>
+                    <li>Bump pdf.js to 4.2.67, security vulnerability (GHSA-92h5-2358-7xjv) with remote code execution has been closed.</li>
+                    <li>fix: match paste of x.com links for twitter #12043</li>
+                </ul>
+            </description>
         </release>
         <release version="0.10.13" date="2025-08-17">
             <description/>
