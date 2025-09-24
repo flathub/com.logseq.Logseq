@@ -38,6 +38,19 @@ modules:
         commands:
           - node /usr/lib/sdk/node22/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
             $@
+  - name: libvips
+    cleanup:
+      - /*
+    sources:
+      - type: git
+        url: https://github.com/libvips/libvips
+        tag: v8.17.2
+        commit: 0b9ea3a62477f670421868337dfaf13e8aa9d754
+        x-checker-data:
+          type: git
+          tag-pattern: ^v((?:\d+.)*\d+)$
+    buildsystem: meson
+  - modules/libonnxruntime.json
   - name: logseq
     buildsystem: simple
     build-options:
@@ -48,11 +61,13 @@ modules:
         XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
         DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
         NPM_CONFIG_LOGLEVEL: info
-        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/34.5.6
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/38.1.2
         npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
         npm_config_offline: 'true'
         ENABLE_PLUGINS: 'true'
         ENABLE_FILE_SYNC_PRODUCTION: 'true'
+        ONNXRUNTIME_NODE_INSTALL: 'skip'
+        ONNXRUNTIME_NODE_INSTALL_CUDA: 'skip'
     sources:
       - type: file
         url: https://download.clojure.org/install/linux-install-1.11.1.1413.sh
@@ -74,6 +89,26 @@ modules:
         url: https://github.com/logseq/cljs-time
         commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
         dest: libs/cljs-time
+      - type: git
+        url: https://github.com/RCmerci/cljs-http-missionary
+        commit: d61ce7e29186de021a2a453a8cee68efb5a88440
+        dest: libs/cljs-http-missionary
+      - type: git
+        url: https://github.com/logseq/rum
+        commit: 5d672bf84ed944414b9f61eeb83808ead7be9127
+        dest: libs/rum
+      - type: git
+        url: https://github.com/rcmerci/cljc-fsrs
+        commit: 0e70e96a73cf63c85dcc2df4d022edf12806b239
+        dest: libs/cljc-fsrs
+      - type: git
+        url: https://github.com/logseq/datascript
+        commit: 45f6721bf2038c24eb9fe3afb422322ab3f473b5
+        dest: libs/datascript
+      - type: git
+        url: https://github.com/logseq/clj-fractional-indexing
+        commit: 1087f0fb18aa8e25ee3bbbb0db983b7a29bce270
+        dest: libs/clj-fractional-indexing
       - type: file
         path: com.logseq.Logseq.desktop
       - type: file
@@ -85,8 +120,8 @@ modules:
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
       - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.13.tar.gz
-        sha256: 46ffc538dbd29adc69d5f96580fd893f7063db6601da5afce974e5b91ef9f84f
+        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.14.tar.gz
+        sha256: 365f1dec3565b8c96c10ea9913f7adc4d83b1d5da4a905a16aef7a944c06e10d
         dest: logseq
         x-checker-data:
           type: anitya
@@ -113,6 +148,11 @@ modules:
       - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
       # setup offline cache
       - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
+      - git clone --bare libs/cljs-http-missionary .gitlibs/_repos/https/github.com/RCmerci/cljs-http-missionary
+      - git clone --bare libs/rum .gitlibs/_repos/https/github.com/logseq/rum
+      - git clone --bare libs/cljc-fsrs .gitlibs/_repos/https/github.com/rcmerci/cljc-fsrs
+      - git clone --bare libs/datascript .gitlibs/_repos/https/github.com/logseq/datascript
+      - git clone --bare libs/clj-fractional-indexing .gitlibs/_repos/https/github.com/logseq/clj-fractional-indexing
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       # compile cljs
