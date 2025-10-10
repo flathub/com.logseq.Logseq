@@ -76,6 +76,13 @@ modules:
         url: https://download.clojure.org/install/clojure-tools-1.11.1.1413.tar.gz
         sha256: 93c3a5a3adca51c5858063419abf66c83dbf24ea15e1fd92f79bf7e662381fe0
       - type: file
+        url: https://github.com/desktop/dugite-native/releases/download/v2.43.4/dugite-native-v2.43.4-f5c5df6-ubuntu-arm64.tar.gz
+        sha256: eb8b9a9343d42fd185f5f1037bcc20b94aa1cef5b858e25f1a047662aefdc38f
+        dest-filename: dugite-native-v2.43.4-f5c5df6-ubuntu-arm64.tar.gz
+        dest: flatpak-node/tmp
+        only-arches:
+          - aarch64
+      - type: file
         url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
         sha256: c93da6df11365f41940525ba245f09f927b124c7bf8b0d1c39b83b1352e52c4c
         dest: flatpak-node/npm-cache/_prebuilds
@@ -119,14 +126,18 @@ modules:
         dest-filename: run.sh
         commands:
           - zypak-wrapper.sh /app/logseq/Logseq "$@"
-      - type: archive
-        url: https://github.com/logseq/logseq/archive/refs/tags/0.10.14.tar.gz
-        sha256: 365f1dec3565b8c96c10ea9913f7adc4d83b1d5da4a905a16aef7a944c06e10d
+      - type: git
+        url: https://github.com/logseq/logseq/
+        commit: b263b1cb8ae12b951fa21e450aac474564fcc146
         dest: logseq
-        x-checker-data:
-          type: anitya
-          project-id: 291486
-          url-template: https://github.com/logseq/logseq/archive/refs/tags/$version.tar.gz
+      # - type: archive
+      #   url: https://github.com/logseq/logseq/archive/refs/tags/0.10.14.tar.gz
+      #   sha256: 365f1dec3565b8c96c10ea9913f7adc4d83b1d5da4a905a16aef7a944c06e10d
+      #   dest: logseq
+      #   x-checker-data:
+      #     type: anitya
+      #     project-id: 291486
+      #     url-template: https://github.com/logseq/logseq/archive/refs/tags/$version.tar.gz
       - type: file
         path: static/yarn.lock
         dest: logseq/resources
