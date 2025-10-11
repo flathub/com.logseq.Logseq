@@ -1,0 +1,189 @@
+id: com.logseq.Logseq
+runtime: org.freedesktop.Platform
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '25.08'
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.node22
+  - org.freedesktop.Sdk.Extension.openjdk11
+# Electron doesn't use a traditional locale format
+separate-locales: false
+writable-sdk: true
+command: run.sh
+finish-args:
+  - --device=dri
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --share=network
+  - --filesystem=home
+  - --system-talk-name=org.chromium.bluetooth.Manager
+  # for using ssh for remote graph
+  - --socket=ssh-auth
+  - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
+  # required to fix cursor scaling on wayland, especially with fractional scaling
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
+  - --persist=~/.ssh
+modules:
+  - name: node-gyp
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 node-gyp /app/bin
+    cleanup:
+      - '*'
+    sources:
+      - type: script
+        dest-filename: node-gyp
+        commands:
+          - node /usr/lib/sdk/node22/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
+            $@
+  - name: libvips
+    cleanup:
+      - /*
+    sources:
+      - type: git
+        url: https://github.com/libvips/libvips
+        tag: v8.17.2
+        commit: 0b9ea3a62477f670421868337dfaf13e8aa9d754
+        x-checker-data:
+          type: git
+          tag-pattern: ^v((?:\d+.)*\d+)$
+    buildsystem: meson
+  - modules/libonnxruntime.json
+  - modules/flatpak-xdg-utils.json
+  - name: logseq
+    buildsystem: simple
+    build-options:
+      append-path: /usr/lib/sdk/node22/bin:/usr/lib/sdk/openjdk11/bin
+      env:
+        HOME: /run/build/logseq
+        _JAVA_OPTIONS: -Duser.home=/run/build/logseq
+        XDG_CACHE_HOME: /run/build/logseq/flatpak-node/cache
+        DUGITE_CACHE_DIR: /run/build/logseq/flatpak-node/tmp
+        NPM_CONFIG_LOGLEVEL: info
+        npm_config_nodedir: /run/build/logseq/flatpak-node/cache/node-gyp/38.1.2
+        npm_config_cache: /run/build/logseq/flatpak-node/npm-cache
+        npm_config_offline: 'true'
+        ENABLE_PLUGINS: 'true'
+        ENABLE_FILE_SYNC_PRODUCTION: 'true'
+        ONNXRUNTIME_NODE_INSTALL: 'skip'
+        ONNXRUNTIME_NODE_INSTALL_CUDA: 'skip'
+    sources:
+      - type: file
+        url: https://download.clojure.org/install/linux-install-1.11.1.1413.sh
+        sha256: ad9aa1e99c59a4f7eb66450914fbec543337d9fada60dd9d34eec7fe18ae4965
+      - type: file
+        url: https://download.clojure.org/install/clojure-tools-1.11.1.1413.tar.gz
+        sha256: 93c3a5a3adca51c5858063419abf66c83dbf24ea15e1fd92f79bf7e662381fe0
+      - type: file
+        url: https://github.com/desktop/dugite-native/releases/download/v2.43.4/dugite-native-v2.43.4-f5c5df6-ubuntu-arm64.tar.gz
+        sha256: eb8b9a9343d42fd185f5f1037bcc20b94aa1cef5b858e25f1a047662aefdc38f
+        dest-filename: dugite-native-v2.43.4-f5c5df6-ubuntu-arm64.tar.gz
+        dest: flatpak-node/tmp
+        only-arches:
+          - aarch64
+      - type: file
+        url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
+        sha256: c93da6df11365f41940525ba245f09f927b124c7bf8b0d1c39b83b1352e52c4c
+        dest: flatpak-node/npm-cache/_prebuilds
+        dest-filename: c99219-better-sqlite3-v8.0.1-node-v108-linux-x64.tar.gz
+      - type: file
+        url: https://github.com/WiseLibs/better-sqlite3/releases/download/v8.0.1/better-sqlite3-v8.0.1-node-v108-linux-arm64.tar.gz
+        sha256: 1721ca523b44424adb8edc31ad3a20e4c720bdfc452826e7095dc18ba61e2b62
+        dest: flatpak-node/npm-cache/_prebuilds
+        dest-filename: c99219-better-sqlite3-v8.0.1-node-v108-linux-arm64.tar.gz
+      - type: git
+        url: https://github.com/logseq/cljs-time
+        commit: 5704fbf48d3478eedcf24d458c8964b3c2fd59a9
+        dest: libs/cljs-time
+      - type: git
+        url: https://github.com/RCmerci/cljs-http-missionary
+        commit: d61ce7e29186de021a2a453a8cee68efb5a88440
+        dest: libs/cljs-http-missionary
+      - type: git
+        url: https://github.com/logseq/rum
+        commit: 5d672bf84ed944414b9f61eeb83808ead7be9127
+        dest: libs/rum
+      - type: git
+        url: https://github.com/rcmerci/cljc-fsrs
+        commit: 0e70e96a73cf63c85dcc2df4d022edf12806b239
+        dest: libs/cljc-fsrs
+      - type: git
+        url: https://github.com/logseq/datascript
+        commit: 45f6721bf2038c24eb9fe3afb422322ab3f473b5
+        dest: libs/datascript
+      - type: git
+        url: https://github.com/logseq/clj-fractional-indexing
+        commit: 1087f0fb18aa8e25ee3bbbb0db983b7a29bce270
+        dest: libs/clj-fractional-indexing
+      - type: file
+        path: com.logseq.Logseq.desktop
+      - type: file
+        path: com.logseq.Logseq.svg
+      - type: file
+        path: com.logseq.Logseq.metainfo.xml
+      - type: script
+        dest-filename: run.sh
+        commands:
+          - zypak-wrapper.sh /app/logseq/Logseq "$@"
+      - type: git
+        url: https://github.com/logseq/logseq/
+        commit: b263b1cb8ae12b951fa21e450aac474564fcc146
+        dest: logseq
+      # - type: archive
+      #   url: https://github.com/logseq/logseq/archive/refs/tags/0.10.14.tar.gz
+      #   sha256: 365f1dec3565b8c96c10ea9913f7adc4d83b1d5da4a905a16aef7a944c06e10d
+      #   dest: logseq
+      #   x-checker-data:
+      #     type: anitya
+      #     project-id: 291486
+      #     url-template: https://github.com/logseq/logseq/archive/refs/tags/$version.tar.gz
+      - type: file
+        path: static/yarn.lock
+        dest: logseq/resources
+      - type: patch
+        path: 0001-force-electron-get-skip-download-checksum-from-netwo.patch
+        options:
+          - -d
+          - logseq
+      - generated-sources.json
+      - maven-sources.json
+    build-commands:
+      # setup clojure
+      - sed -i 's/curl/#curl/' linux-install-1.11.1.1413.sh
+      - chmod +x linux-install-1.11.1.1413.sh
+      - ./linux-install-1.11.1.1413.sh
+      # disable clojure tools online fetching
+      - unzip /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
+      - sed -i 's/git-fetch git-dir/do/' clojure/tools/gitlibs/impl.clj
+      - zip -u /usr/local/lib/clojure/libexec/clojure-tools-1.11.1.1413.jar clojure/tools/gitlibs/impl.clj
+      # setup offline cache
+      - git clone --bare libs/cljs-time .gitlibs/_repos/https/github.com/logseq/cljs-time
+      - git clone --bare libs/cljs-http-missionary .gitlibs/_repos/https/github.com/RCmerci/cljs-http-missionary
+      - git clone --bare libs/rum .gitlibs/_repos/https/github.com/logseq/rum
+      - git clone --bare libs/cljc-fsrs .gitlibs/_repos/https/github.com/rcmerci/cljc-fsrs
+      - git clone --bare libs/datascript .gitlibs/_repos/https/github.com/logseq/datascript
+      - git clone --bare libs/clj-fractional-indexing .gitlibs/_repos/https/github.com/logseq/clj-fractional-indexing
+      - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
+      - yarn --offline config set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
+      # compile cljs
+      - yarn --cwd logseq --offline install --immutable --immutable-cache --inline-builds
+      - yarn --cwd logseq --offline gulp:build
+      - yarn --cwd logseq --offline cljs:release-electron
+      - yarn --cwd logseq --offline webpack-app-build
+      # build linux
+      - yarn --cwd logseq/static --offline install --immutable --immutable-cache --inline-builds
+      - yarn --cwd logseq/static --offline electron-forge package
+      # install
+      - cp -a logseq/static/out/Logseq-linux-* /app/logseq
+      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps/ com.logseq.Logseq.svg
+      - install -Dm644 -t /app/share/applications com.logseq.Logseq.desktop
+      - install -Dm644 -t /app/share/metainfo com.logseq.Logseq.metainfo.xml
+      - install -Dm755 -t /app/bin/ run.sh
+cleanup:
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj.target
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/obj
+  - /logseq/resources/app/node_modules/better-sqlite3/build/Release/sqlite3.a
+  - '*.js.map'

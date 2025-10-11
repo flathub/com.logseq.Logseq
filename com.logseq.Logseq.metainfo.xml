@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.logseq.Logseq</id>
+    <metadata_license>FSFAP</metadata_license>
+    <project_license>AGPL-3.0-or-later</project_license>
+    <name>Logseq</name>
+    <summary>Connect your notes and knowledge</summary>
+    <developer_name>Logseq, Inc.</developer_name>
+    <content_rating type="oars-1.0"/>
+
+    <description>
+        <p>A local-first, non-linear, outliner notebook for organizing and sharing your personal knowledge base.</p>
+        <p>Logseq is a platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.</p>
+        <p>Your data are plain text files and we currently support both Markdown and Emacs Org mode (more to be added soon).</p>
+    </description>
+
+    <categories>
+        <category>Office</category>
+    </categories>
+    <launchable type="desktop-id">com.logseq.Logseq.desktop</launchable>
+
+    <branding>
+        <color type="primary" scheme_preference="light">#195d6c</color>
+        <color type="primary" scheme_preference="dark">#014456</color>
+    </branding>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>Logseq default page</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/01-intro.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Search in Logseq</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/02-search.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>General settings in Logseq</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/03-general-settings.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Editor settings in Logseq</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/04-editor-settings.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Graph view in Logseq</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/05-graph.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Note entry</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/06-note.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Whiteboards</caption>
+            <image type="source" width="983" height="847">
+                https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/07-whiteboard.png
+            </image>
+        </screenshot>
+    </screenshots>
+
+    <url type="homepage">https://logseq.com</url>
+    <url type="bugtracker">https://github.com/logseq/logseq/issues</url>
+    <url type="faq">https://docs.logseq.com/#/page/faq</url>
+    <url type="help">https://docs.logseq.com/</url>
+    <url type="donation">https://opencollective.com/logseq</url>
+    <url type="contact">https://discuss.logseq.com/</url>
+
+    <releases>
+        <release version="0.11.0" date="2025-10-11">
+            <description></description>
+        </release>
+        <release version="0.10.14" date="2025-09-23">
+            <description></description>
+        </release>
+        <release version="0.10.13" date="2025-08-17">
+            <description/>
+        </release>
+        <release version="0.10.12" date="2025-05-29">
+            <description/>
+        </release>
+        <release version="0.10.11" date="2025-05-22">
+            <description/>
+        </release>
+        <release version="0.10.9" date="2024-04-23"/>
+        <release version="0.10.8" date="2024-03-28"/>
+        <release version="0.10.7" date="2024-02-29"/>
+        <release version="0.10.6" date="2024-02-05"/>
+        <release version="0.10.5" date="2024-01-18"/>
+        <release version="0.10.4" date="2024-01-17"/>
+        <release version="0.10.3" date="2023-12-26"/>
+        <release version="0.10.2" date="2023-12-22"/>
+        <release version="0.10.1" date="2023-12-06"/>
+        <release version="0.10.0" date="2023-11-29"/>
+        <release version="0.9.20" date="2023-11-01"/>
+        <release version="0.9.19" date="2023-10-12"/>
+        <release version="0.9.18" date="2023-09-21"/>
+        <release version="0.9.17" date="2023-09-07"/>
+        <release version="0.9.15" date="2023-08-23"/>
+        <release version="0.9.14" date="2023-08-17"/>
+        <release version="0.9.13" date="2023-08-03"/>
+        <release version="0.9.12" date="2023-08-02"/>
+        <release version="0.9.11" date="2023-07-21"/>
+        <release version="0.9.10" date="2023-06-28"/>
+        <release version="0.9.9" date="2023-06-13"/>
+        <release version="0.9.8" date="2023-05-24"/>
+        <release version="0.9.6" date="2023-05-12"/>
+        <release version="0.9.5" date="2023-05-11"/>
+        <release version="0.9.4" date="2023-04-25"/>
+        <release version="0.9.3" date="2023-04-20"/>
+        <release version="0.9.2" date="2023-04-13"/>
+        <release version="0.9.1" date="2023-03-29"/>
+        <release version="0.9.0" date="2023-03-28"/>
+        <release version="0.8.17" date="2023-02-10"/>
+        <release version="0.8.16" date="2023-01-13"/>
+        <release version="0.8.15" date="2022-12-30"/>
+        <release version="0.8.14" date="2022-12-21"/>
+        <release version="0.8.13" date="2022-12-20">
+            <description>
+                <p>Breaking Changes</p>
+                <ul>
+                    <li>Change "Git commit" shortcut from a single c to mod+g c #7609</li>
+                    <li>Introduce a new config property :logseq.query/nlp-date. Default to false. Query without logseq.query/nlp-date:: true would disable date normalization #7708</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.8.12" date="2022-12-02"/>
+        <release version="0.8.11" date="2022-11-16"/>
+        <release version="0.8.10" date="2022-11-01"/>
+        <release version="0.8.9" date="2022-10-20"/>
+        <release version="0.8.8" date="2022-09-30"/>
+        <release version="0.8.7" date="2022-09-15">
+            <description>
+                <p>This version switched Cloud Sync backend to production environment. If you enabled sync in previous version you will need to setup account again</p>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peng Xiao - Fix plugin settings not loading</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Plugin settings not loading #6711</li>
+                    <li>Date sorting is nonsensical #6596</li>
+                    <li>Minor UI issues #6732</li>
+                    <li>Remove resizing class on tab #6733</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.7</url>
+        </release>
+        <release version="0.8.6" date="2022-09-14">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Support for global config file, shared across all graphs #6531</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Taylor Hoffmann - Fully translated in pt-BR and pt-PT</li>
+                    <li>George Guimarães - pt-BR enhancement</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>xxchan - zh-CN translation improvement</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Mobile backup path handling #6642</li>
+                    <li>Cannot batch insert to search db #6646</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>I18N: Turkish #6608 #6660, Simplified Chinese translation #6638</li>
+                    <li>Fully translated in pt-BR and pt-PT #6657 #6654</li>
+                    <li>Performance improvement when importing graph #6639</li>
+                    <li>Massive improvements to UI/UX and accessibility #6617</li>
+                    <li>Refine electron log #6695</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.6</url>
+        </release>
+        <release version="0.8.5" date="2022-09-07">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>WsinGithub - UI fix for dsl-query</li>
+                    <li>Emin Devrim Fidan - Fix "Themes" typo in translation</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Image overlay buttons #6559</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Returns of raw datascript query #6568</li>
+                    <li>Url param double decoded in Quick Capture #6572</li>
+                    <li>Some fixes related to re-index #6571</li>
+                    <li>UI fix for dsl-query #6130</li>
+                    <li>Linkable built-in properties should not display as rich properties #6606</li>
+                    <li>Windows app auto update #6629</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.5</url>
+        </release>
+        <release version="0.8.4" date="2022-09-02">
+            <description>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Do not loading persist vars when nil graph #6542</li>
+                    <li>Recover open new window button #6540</li>
+                    <li>Android crash at start, accessing illegal path #6551</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Nested scroll container for left sidebar dynamic modules #6553</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.4</url>
+        </release>
+        <release version="0.8.3" date="2022-09-01">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Config option to allow for longer, richer property values, new config option :rich-property-values? #6336</li>
+                    <li>Find in page on electron, use CMD+F or Ctrl+F to search term in current page Documentation #6443</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>David Vargas - Add an option to skip redirect on page rename</li>
+                    <li>Viktor Moros - Improve backtick auto-pairing</li>
+                    <li>Viktor Moros - Adding E2E test for scenario with text after a soft return</li>
+                    <li>Giuseppe D'Andrea - Fix shift-click on recently searched page</li>
+                    <li>Mike Travers - Shift click on “Journals” opens latest in the right sidebar</li>
+                    <li>Kan-Ru Chen - Update electron 19.0.12, fixed a bug in wayland rendering for Linux desktops</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>star.lit - Add guide to speed up build process on Windows</li>
+                    <li>swk777 - Re-enabling Journals options does not work when default home page is filled out</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Shift-click on recently searched page #6461</li>
+                    <li>Electron-only commands should only show up in electron #6469</li>
+                    <li>CJK hashtag update failure #6479</li>
+                    <li>Hide icon page property #6473</li>
+                    <li>Handle delete image with no actual file #6482</li>
+                    <li>Error while importing from edn/json #6477</li>
+                    <li>Handle invalid property names #6492</li>
+                    <li>Re-enabling Journals options does not work when home page is filled out #6498</li>
+                    <li>Tabindex react dev warnings #6520</li>
+                    <li>Custom css not reload #6510</li>
+                    <li>Search or editor frozen caused by large text #6455</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Massive accessibility enhancements #6442</li>
+                    <li>Tips of plugin loader perf #6467</li>
+                    <li>Improved backtick auto-pairing #6496</li>
+                    <li>Shift click on “Journals” opens latest in the right sidebar #6511</li>
+                    <li>I18n: update Turkish translation #6507</li>
+                    <li>Add an option to skip redirect on page rename #6519</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.3</url>
+        </release>
+        <release version="0.8.2" date="2022-08-23">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peter Stuifzand - Fix typo in Markdown syntax</li>
+                    <li>queeup - Update Turkish translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Refactor mobile path handling, fix file backup for mobile platforms #6389</li>
+                    <li>Use the correct journal title format while first opening a graph #6425</li>
+                    <li>Skip empty block when cycle multiple todos #6433</li>
+                    <li>Fix query filters and wrong page refs #6423</li>
+                    <li>Arrow up/down to close property autocomplete</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>New style context and dropdown menus #6416</li>
+                    <li>I18n: update Turkish translation #6378</li>
+                    <li>Plugin API enhancements #6423</li>
+                    <li>Increase the limit on search items for templates and properties</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.2</url>
+        </release>
+        <release version="0.8.1" date="2022-08-17">
+            <description>
+                <p>
+                    <em>NOTE</em>
+                    : This release updates Electron to version 19. If you encounter any errors,
+                </p>
+                <p>
+                    <em>Clear Cache</em>
+                    and re-add your graphs. Sorry for the inconvenience.
+                </p>
+                <p>Thanks</p>
+                <ul>
+                    <li>AlexFullmoon - Improved Russian translation</li>
+                    <li>Grant Moyer - Upgrade Electron to 19</li>
+                    <li>Michał Świtoń - Polish translation</li>
+                    <li>Giuseppe D'Andrea - Cursor position cannot be moved when editing a page title</li>
+                    <li>maxweilun1989 - Keep the favorites item when publishing</li>
+                    <li>Phoenix Eliot - Fix wrapped-by? utility function</li>
+                    <li>Phoenix Eliot - Press the Escape Key to close the action menu</li>
+                    <li>Phoenix Eliot - Fix moving cursor outside brackets when auto-complete</li>
+                    <li>Phoenix Eliot - Fix undo/redo while action menu is open</li>
+                    <li>Aryan Sawhney - Fix incorrect feature request URL</li>
+                    <li>swk777 - Fix Alias of a page in the sidebar that did not redirect to the original page</li>
+                    <li>Yuriy Piskun - Add plugin id to buttons and panel</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Performance degradation introduced last release #6347</li>
+                    <li>Android App crashes when picking graph folder for some devices #6328 #6315</li>
+                    <li>Cursor position cannot be moved when editing a page title #6311</li>
+                    <li>Keep the favorites item when publishing #6256</li>
+                    <li>Alias of a page in sidebar did not redirect to the original page #6085</li>
+                    <li>Fix roam export error caused by typo #6364</li>
+                    <li>Fix moving cursor outside brackets when auto-complete #6283</li>
+                    <li>Fix undo/redo while action menu is open #6273</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Upgrade electron to 19 #6032, NOTE This might requires Clear Cache and re-adding your graphs under some environment</li>
+                    <li>I18N: Polish translation #6318, Improved Russian translation #6324</li>
+                    <li>Press the Escape key to close the action menu #6270</li>
+                    <li>Support import current graph assets file in custom.css #6331</li>
+                    <li>Add plugin id to buttons and panel in settings menu #6373</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.1</url>
+        </release>
+        <release version="0.8.0" date="2022-08-09">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>New setting option :feature/enable-search-remove-accents for better search experience Documentation #6199</li>
+                    <li>Extract macros as blocks; Add a refresh button for slow queries(Those queries will not be re-executed automatically); Query list for flashcard #6105</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>8N9KT - Remove links for each level of the namespaces hierarchy pages in the global graph view</li>
+                    <li>Alex L - Clearer examples in config.edn</li>
+                    <li>Yue Yang - Cursor style of restart text</li>
+                    <li>Giuseppe D'Andrea - Fix navigation with multiple selected blocks #6296</li>
+                    <li>Herman Sandoval - Add more Spanish language strings</li>
+                    <li>Katze Prior - Dutch translation</li>
+                    <li>lecoan - Improve UX design: click the plugin title to open README</li>
+                    <li>maxweilun1989 - Fix recent in sidebar do not remember its state</li>
+                    <li>maxweilun1989 - New setting options :feature/enable-search-remove-accents</li>
+                    <li>maxweilun1989 - Only show property search modal when necessary</li>
+                    <li>netwjx - More Chinese translation</li>
+                    <li>Phoenix Eliot - Fix pasting race condition</li>
+                    <li>Phoenix Eliot - Add comments to editor keyup-handler cases</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Remove links for each level of the namespaces hierarchy pages in the global graph view #6115</li>
+                    <li>Timezone wrong when expanding template time variables #6237</li>
+                    <li>Recent in sidebar does not remember its state #6144</li>
+                    <li>Property completion for hidden properties and property ordering #6214</li>
+                    <li>Cursor style of restart text #6141</li>
+                    <li>Avoiding race condition in pasting #5964</li>
+                    <li>Remove absolute file path from linked file path for zotero #5995</li>
+                    <li>Bug fixes for linked references and queries; Performance enhancement for queries #6105</li>
+                    <li>Only show property search modal when necessary #6176</li>
+                    <li>Navigation with multiple selected blocks #6296</li>
+                    <li>Handle corrupted search DB, causing App crash #6299</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Friendly linebreak for multiple language highlighted PDF text #6212</li>
+                    <li>More Spanish language strings added #6217</li>
+                    <li>Dutch translation #6233</li>
+                    <li>More Chinese translations #6257</li>
+                    <li>Click the plugin title to open README #6286</li>
+                    <li>Some plugin API enhancements #6021</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.8.0</url>
+        </release>
+        <release version="0.7.9" date="2022-07-27">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>8N9KT - Toggle journals page in graph view</li>
+                    <li>Gavin Nelson - Fix alignment of macOS icon</li>
+                    <li>Jon - Wrong order of switching images in maximize mode</li>
+                    <li>maxweilun1989 - Make the title of right-sidebar item clickable</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Inline code background style #6129</li>
+                    <li>Alignment of macOS icon #6127</li>
+                    <li>Make the title of right-sidebar item clickable. #4983 #6158</li>
+                    <li>Unfriendly break line for pdf selection text #6157</li>
+                    <li>Missing cmaps resources when access PDF #6183</li>
+                    <li>Don't autocomplete tags within backticks #6147</li>
+                    <li>Unlinking file crashes Android App #6188</li>
+                    <li>Wrong order of switching images in maximize mode #6068</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Add command to re-index graph #6139</li>
+                    <li>Toggle journals page in graph view #6120</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.9</url>
+        </release>
+        <release version="0.7.7" date="2022-07-20">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Auto-complete support for both block properties and their values #5922</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>deciia wang - Update translation for Simplified Chinese, Traditional Chinese</li>
+                    <li>Kyle Ibrahim - Update desktop app run instructions</li>
+                    <li>Jonas Diemer - Adding tests for calculator rounding errors</li>
+                    <li>Phoenix Eliot - Replace react-visibility-sensor with react-intersection-observer</li>
+                    <li>playerofgames - Calculator bug fix and improvements</li>
+                    <li>Yuriy Piskun - Add heading in plugin settings</li>
+                    <li>Yuriy Piskun - Add data-key to plugin settings</li>
+                    <li>SainoNamkho - Fix math equation style bug</li>
+                    <li>Wojciech Nawrocki - Fix formatting of copied PDF text</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Peng Xiao - Fix export as html issue</li>
+                    <li>Peng Xiao - Only log query when debug is enabled</li>
+                    <li>sawhney17 - Make the git commit shortcut customizable</li>
+                    <li>sawhney17 - Improve reference filters</li>
+                    <li>sawhney17 - Fix block references crash</li>
+                    <li>8N9KT - Fix boolean in query table</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Rename namespace also rename substring in sub-namespace pages #5925</li>
+                    <li>Remove plugin ui items manager from page bar #5934</li>
+                    <li>Fix some query table issues #5886</li>
+                    <li>Reorder items in page search auto-complete #5935</li>
+                    <li>Bug fix for calculator #5918 #5939</li>
+                    <li>Quick capture across desktops #5960</li>
+                    <li>Fix for page bouncing when lazy loading #5973</li>
+                    <li>Flashcards not working #5990</li>
+                    <li>Don't enter editing when click query table #6000</li>
+                    <li>Key duplicates caused by key case when insert page property #5889</li>
+                    <li>Fix formatting of copied PDF text #4564</li>
+                    <li>Avoid handling delete too early, compatibility with some sync disks #6019</li>
+                    <li>Click not working on cards preview mode #6016</li>
+                    <li>Bug while exporting as html #5997</li>
+                    <li>Occasional memory leak with dynamic provide UI within slot UI #6006</li>
+                    <li>Missing asset resource when file name with specific url encoded chars #5888</li>
+                    <li>Block references crash #6061</li>
+                    <li>Boolean in query table #6063</li>
+                    <li>Undo in long page, block not shown when lazy-loading #6088</li>
+                    <li>Display cards shortcut on narrow screen #6097</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Translation enhancement to Simplified Chinese, Traditional Chinese #5924</li>
+                    <li>Replace react-visibility-sensor with react-intersection-observer #5909</li>
+                    <li>Add heading in plugin settings #5958</li>
+                    <li>Refactor inline html markup element conversion #5954</li>
+                    <li>Update Turkish translation #6031</li>
+                    <li>make the git commit shortcut customizable #6025</li>
+                    <li>Property page enhancements #6024</li>
+                    <li>Add data-key to plugin settings #6045</li>
+                    <li>Calculator improvements: new operations, display formats, constants and bases #6056</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.7</url>
+        </release>
+        <release version="0.7.6" date="2022-07-05">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>EDN / JSON import and export #5446</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Taylor Hoffmann - Fully translated in "pt-BR", "pt-PT" and "it"</li>
+                    <li>sawhney17 - Fix broken links and reorganize help menu</li>
+                    <li>qiyueliuhuo - Fix bilibili video progress bar display</li>
+                    <li>Sheldon Guo - Update develop-logseq.md</li>
+                    <li>Phoenix Eliot - Reduce flicker when moving between blocks with keyboard</li>
+                    <li>Scott Block - Update getAllPages typescript for plugin API</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Unexpected deletion of files caused by fs watcher handler</li>
+                    <li>Unexpected file deletion on Android caused by quick deletion and creating #5801</li>
+                    <li>Inconsistent block selection state when editing</li>
+                    <li>Hand unknown tags when converting from HTML #5787</li>
+                    <li>Some bad cases when doing HTML conversion #5914 #5915</li>
+                    <li>Broken links and reorganize help menu #5776</li>
+                    <li>Check destroyed window before access property #5803</li>
+                    <li>Fix for embedded Bilibili video #5823 #5830</li>
+                    <li>Block properties order missing #5800</li>
+                    <li>Disable gesture on query table and logbook #5784</li>
+                    <li>Wrong cycle todo when heading symbol on the same line #5838</li>
+                    <li>Close modal before opening more results #5878</li>
+                    <li>Missing canceled page from built-in list #5872</li>
+                    <li>fix calc output position #5881</li>
+                    <li>Missing type annotation from getAllPages typescript API #5908</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Fully translated in "pt-BR", "pt-PT" and "it" #5782</li>
+                    <li>Open plaintext assets in Logseq #5840</li>
+                    <li>Reduce flicker when moving between blocks with keyboard #5839</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.6</url>
+        </release>
+        <release version="0.7.5" date="2022-06-22">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Add quick capture support to Logseq Protocol #5762</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Allan Chain - Trim spaces when sanitizing page name</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Update Turkish translation #5692</li>
+                    <li>Trim spaces when sanitizing page name #5699</li>
+                    <li>Fix header icons display when :custom-default-page is non-nil #5719</li>
+                    <li>Handle CRLF for Windows clipboard #5732</li>
+                    <li>Repeated registration key to plugin ui items #5730</li>
+                    <li>Fetch marketplace plugins list via system proxy if no proxy configured #5716</li>
+                    <li>Home button when journal disabled #5749</li>
+                    <li>Fix for paste state</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Add request support, toolbar button pin/unpin to plugin API #5712</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.5</url>
+        </release>
+        <release version="0.7.4" date="2022-06-14">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Sunghyun Cho - Fix typo in Korean Translation</li>
+                    <li>Hounsou Dansou - Add missing config item to config template</li>
+                    <li>Andrew Zhurov - Making excalidraw follow the theme of Logseq</li>
+                    <li>ranfdev - Icon alignment + various little UI changes</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Typo in Korean Translation #5622</li>
+                    <li>Missing mod+n shortcut under macOS #5629</li>
+                    <li>Add missing config item to config template #5679</li>
+                    <li>Notify graph dir when it is gone #5649</li>
+                    <li>Wrong file name of journal files under certain condition #5521</li>
+                    <li>Slow re-index for large graphs</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Force inline layout of block ref elements #5630</li>
+                    <li>Remove extra white space of code block from top #5655</li>
+                    <li>Marketplace metadata requests now uses node fetch client #5671</li>
+                    <li>Making excalidraw follow the theme of Logseq #5667</li>
+                    <li>Icon alignment + various little UI changes #5663</li>
+                    <li>Hold Shift to select without entering editor mode</li>
+                    <li>New options to disable Flashcards(under Advanced setting tab)</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.4</url>
+        </release>
+        <release version="0.7.3" date="2022-06-09">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>ingepettersen - Norwegian translations</li>
+                    <li>sawhney17 - Support mod+e to copy block embed to current block</li>
+                    <li>sawhney17 - Edit button should not be shown in default queries</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Regression on Windows and Linux, accessing parent directory, causing high memory consumption #5607</li>
+                    <li>Cannot unindent multiple blocks #5604</li>
+                    <li>Unable to perform block operations in the document mode #5615</li>
+                    <li>Cannot paste plain unordered list in markdown #5605</li>
+                    <li>Missing db persistency when creating new window via file menu #5600</li>
+                    <li>Edit button should not be shown in default queries</li>
+                    <li>Should show bullet when hovering a block on the document mode</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Support mod+e to copy block embed to current block</li>
+                    <li>Allow query property keys with char _</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.3</url>
+        </release>
+        <release version="0.7.2" date="2022-06-07">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>ingepettersen - Norwegian dummy-notes.md and tutorial.md</li>
+                    <li>ingepettersen - Norwegian translation</li>
+                    <li>simonla - Update mobile.md</li>
+                    <li>Sunghyun Cho - Korean Translations</li>
+                    <li>ranfdev - Reduce shadows on sidebar and inline cards</li>
+                    <li>Darwis - Predefined view and transform</li>
+                    <li>sawhney17 - Add edit button to queries</li>
+                    <li>WsinGithub - Fix missing katex.min.js in publishing</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Bugs introduced by changing of Copy &amp; Paste logic</li>
+                    <li>Block lost when moving, cutting, pasting</li>
+                    <li>Handle graph directory change and file inode change(compatibility with some third-party file/folder syncing tool)</li>
+                    <li>Performance regression when re-indexing</li>
+                    <li>Missing page icon from left sidebar page item #5523</li>
+                    <li>Missing app menu under macOS #5524</li>
+                    <li>Highlight refs lose association with related pdf #5554</li>
+                    <li>Missing katex.min.js in publishing #5578</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Norwegian dummy-notes.md and tutorial.md, Norwegian translation #5514 #5513 #5515 #5527</li>
+                    <li>Update mobile.md #5525</li>
+                    <li>Korean Translations #5534</li>
+                    <li>Predefined view and transform #5479</li>
+                    <li>Add edit button to queries #5538</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.2</url>
+        </release>
+        <release version="0.7.1" date="2022-06-01">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Copy &amp; Paste with rich-text formats, Use Cmd+shift+v or Ctrl+shift+v for copying/pasting without formatting #5471</li>
+                    <li>Onboarding Quick tour, more friendly UI guide #5247</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix theme switching bugs</li>
+                    <li>ntotao - Italian tutorial and dummy notes</li>
+                    <li>sawhney17 - Calendar icon in toolbar not rearranging(for mobile devices)</li>
+                    <li>Taylor Hoffmann - Fully translated in Portuguese (BR) and Italian</li>
+                    <li>Jonas Diemer - Improved float numbers formatting for calculator</li>
+                    <li>Alex - Use separate export.css instead of custom.css for export</li>
+                    <li>queeup - Update Turkish translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Save mode when switching themes #5439</li>
+                    <li>Block can't be deleted if backspace at the block beginning #5450</li>
+                    <li>Page title position when in editing mode #5507</li>
+                    <li>Startup runtime error under some Windows platforms #5508</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Fully translated in Portuguese (BR) and Italian #5465</li>
+                    <li>Added Italian tutorial and dummy notes #5419</li>
+                    <li>Slash command UX #5475</li>
+                    <li>Improved float numbers formatting for calculator #5374</li>
+                    <li>Use separate export.css instead of custom.css for export #5303</li>
+                    <li>Improve record timer implementation #5492</li>
+                    <li>Refine App menu, add About and Document menu entry #5500</li>
+                    <li>Disable left menu button when pdf view active #5509</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.1</url>
+        </release>
+        <release version="0.7.0" date="2022-05-25">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Multi-select of non-consecutive blocks, for moving or cutting #5391</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Custom theme switching</li>
+                    <li>Hidekazu Kubota - Update Japanese tutorial #5370</li>
+                    <li>sawhney17 - Correctly sort "pages tagged with"</li>
+                    <li>Darwis - Add option to hide and show table view control from advance query</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Not apply custom theme when LSP disabled #5367</li>
+                    <li>Asset link style when drop PDF file into editor #5372</li>
+                    <li>Use release build for publishing js files #5369</li>
+                    <li>Page blink caused by query lazy load #5377</li>
+                    <li>Correctly sort "pages tagged with" #5389</li>
+                    <li>DWIM paste in markdown source block #5397</li>
+                    <li>Crash on some Android 9 devices #5411</li>
+                    <li>Page crash when checking plugin updates with some network issues #5415</li>
+                    <li>Error and Data Loss with message block with id already exists</li>
+                    <li>Data loss when moving or cutting non-consecutive blocks from linked references or queries</li>
+                    <li>TODOs disappear when click query result</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Custom theme switching #4741 #5364</li>
+                    <li>Add video macro to embed various video URLs, deprecates old youtube, vimeo and bilibili macros #5396</li>
+                    <li>Add option to hide and show table view control from advance query #5352</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.7.0</url>
+        </release>
+        <release version="0.6.9" date="2022-05-17">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Kan-Ru Chen - Update electron-deeplink to fix deeplink under Linux</li>
+                    <li>Shihao Yu - Fix modals positions</li>
+                    <li>queeup - Update Turkish translation</li>
+                    <li>Eduardo Vedes - Preview popup's position when on-hover</li>
+                    <li>Alex L - Improve Italian localization</li>
+                    <li>sawhney17 - Fix scrollbar appearing with code block and some latex</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>App start crash under some Windows and Linux platforms #5264</li>
+                    <li>Deeplink on Linux not working #5291</li>
+                    <li>Positions of modals are wrong #5163</li>
+                    <li>Wrong position of page preview tip #5319 #5307</li>
+                    <li>Scrollbar appearing when current block has code or latex #5308</li>
+                    <li>Undo sometimes cause duplicated contents #5277</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Performance improvements for pages with many linked references #5270</li>
+                    <li>lazy-loading for journals and queries, with loading skeleton</li>
+                    <li>Add URL testing for network proxy settings #5223</li>
+                    <li>Update Turkish translation #5314</li>
+                    <li>Improve Italian localization #5304</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.9</url>
+        </release>
+        <release version="0.6.8" date="2022-05-10">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Reimplement encryption #5259</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Optimize the calculation of clock-summary</li>
+                    <li>Hidekazu Kubota - Refine Japanese translation</li>
+                    <li>Peng Xiao - Fix the popup position</li>
+                    <li>queeup - Turkish translation</li>
+                    <li>ntotao - Italian translation</li>
+                    <li>KKKIIO - Split hover and focus status in auto-completion</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Wrong popup position sometimes #5193</li>
+                    <li>Initial renderer bug of Katex extension hooks #5220</li>
+                    <li>Editing of empty last block #5105</li>
+                    <li>UI page of shortcuts crashed when parsing unsupported binding key #5236</li>
+                    <li>Missing title properties when page name contains / or reserved char #5250</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Optimize the calculation of clock-summary #5159</li>
+                    <li>Patch Japanese translation #5205</li>
+                    <li>Support idiomatic shortcut ctrl+n for auto-complete navigation #5202</li>
+                    <li>Adds emacs keybindings to other up/down movements #5214</li>
+                    <li>Turkish language translation #5215</li>
+                    <li>Italian language translation #5179</li>
+                    <li>Migrate first namespaces for nbb compatibility #5192</li>
+                    <li>Split hover and focus status #5211</li>
+                    <li>Breadcrumb context navigation #5249</li>
+                    <li>Click block references number to toggle references below the number #5230</li>
+                </ul>
+                <p>
+                    <em>Special NOTE:</em>
+                    Encryption is reimplemented and added back.
+                </p>
+                <p>
+                    <em>Flatpak NOTE:</em>
+                    Deeplink is now supprted by the Flatpak build. #4984
+                </p>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.8</url>
+        </release>
+        <release version="0.6.7" date="2022-04-29">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Parsing progress bar #4980</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Peng Xiao - Fix code block in published graph is not copyable</li>
+                    <li>Peng Xiao - Custom query title may also render rich texts</li>
+                    <li>Peng Xiao - expose start-of-week to plugins</li>
+                    <li>Peng Xiao - Do not display onboarding card in published graph</li>
+                    <li>Peng Xiao - Resolve datascript query inputs with Logseq DSL for plugins</li>
+                    <li>arcstur - Add start-of-week config to default config.edn</li>
+                    <li>salevdns - Docker arm64 build</li>
+                    <li>KKKIIO -Add smooth-select action</li>
+                    <li>sawhney17 - Add shortcuts for opening file in default app and directory</li>
+                    <li>Shotaro Yamada - Fix logbook clock-summary</li>
+                    <li>Marco G - Fix error in mailto link</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Wrong condition when handling incoming graph URL #4955</li>
+                    <li>Missing variable in macro expansion #4961</li>
+                    <li>Code block in published graph is not copyable #4981</li>
+                    <li>Editor freeze when cut and paste blocks at the bottom #5014</li>
+                    <li>Input of ordered list numbers #5012</li>
+                    <li>Cmd-v sometimes pastes wrong content #5022</li>
+                    <li>Do not display onboarding card in published graph #5030</li>
+                    <li>New pages from bracketing text is broken #5018</li>
+                    <li>Page crash when navigating to home if default home is a custom page #5061</li>
+                    <li>Logbook clock-summary #5056</li>
+                    <li>Error in mailto link #5081</li>
+                    <li>Auto save of title property on editing #4700</li>
+                    <li>PDF area highlight position #5095</li>
+                    <li>Unexpected behavior of code block when saving and editing</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>logseq:// protocol non-darwin OS support #4976</li>
+                    <li>Add start-of-week config to default config.edn #4949</li>
+                    <li>Expose start-of-week to plugins #4977</li>
+                    <li>Core outliner operations refactoring #4880</li>
+                    <li>Custom query title may also render rich texts #5006</li>
+                    <li>plugin api enhancement and bug fixes #4828 #5029 #5116</li>
+                    <li>Add arm64 Docker image #5017</li>
+                    <li>Add smooth-select action #4988</li>
+                    <li>Resolve datascript query inputs with Logseq DSL for plugins #5047</li>
+                    <li>Add shortcuts for opening file in default app and directory #4990</li>
+                    <li>Capture invalid PDF error #5031</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.7</url>
+        </release>
+        <release version="0.6.6" date="2022-04-18">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>New onboarding UI #4580</li>
+                    <li>Open action for logseq:// protocol, enabling cross-graph reference #4881</li>
+                    <li>Long page performance improvement, loads blocks lazily, reduces queries #4750</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Unify light mode identifier</li>
+                    <li>Yue Yang - Reduce extra rendering</li>
+                    <li>Yue Yang - Increase td width to prevent content overflow</li>
+                    <li>Peng Xiao - Fix renderer not rendering in page/block property properly</li>
+                    <li>Peng Xiao - Disable some functions for published graph</li>
+                    <li>Peng Xiao - Fix some unique "key" prop issues</li>
+                    <li>Peng Xiao - Fix: menu items should not be selectable</li>
+                    <li>Hidekazu Kubota - Patch tutorial i18n, add Japanese translation</li>
+                    <li>scheinriese - Made error page look more designed</li>
+                    <li>sawhney17 - Fix: Blocks marked "cancelled" not working</li>
+                    <li>FelixGibson - Add support for sorting the flashcard by the ':card-next-schedule' property</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Embedded Git arch under macOS arm64 #4716</li>
+                    <li>SRS cards crash when clicking all #4703</li>
+                    <li>Renderer not rendering in page/block property properly #4715</li>
+                    <li>Disable some functions for published graph #4776</li>
+                    <li>Image file with capitalized letters as path extension #4789</li>
+                    <li>Redundant relative path when inserting org-mode page reference #4790</li>
+                    <li>Script file dependency error under publishing mode #4823</li>
+                    <li>Wrong condition for rendering heading #4850</li>
+                    <li>Menu items should not be selectable #4876</li>
+                    <li>Increase td width to prevent content overflow #4887</li>
+                    <li>Don't create new contents file when changing format #4921</li>
+                    <li>Warn about illegal git commit interval #4924</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Portuguese (Brazilian) translation #4761</li>
+                    <li>Japanese translation #4681</li>
+                    <li>Sort the flashcard by the ':card-next-schedule' property #4864</li>
+                    <li>Unify light mode CSS identifier #4652</li>
+                    <li>Add error screen for root component #4769</li>
+                    <li>Allow translations throughout the application #4753</li>
+                    <li>Enable toggling checkboxes #4794</li>
+                    <li>Filter search of marketplace plugins list #4785</li>
+                    <li>Enable show-brackets? toggle for Org-mode page reference #4900</li>
+                    <li>Allow global git cmd shortcut #4923</li>
+                    <li>Accept Enter in dummy block, use TAB+enter to active edit #4934</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.6</url>
+        </release>
+        <release version="0.6.5" date="2022-03-24">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix cycle-marker bug</li>
+                    <li>Yue Yang - Fix Backspace handling bug</li>
+                    <li>Moritz Ulrich - Sort 'Pages tagged with' list alphabetically</li>
+                    <li>sawhney17 - Add favorite toggling shortcut to settings</li>
+                </ul>
+                <p>Fixed Issues</p>
+                <ul>
+                    <li>Loading on long page never finishes #4673</li>
+                    <li>Slow unlinked references #4672</li>
+                    <li>Error in cycle-marker, fix regression #4661</li>
+                    <li>Avoid actions when code editor closed #4664</li>
+                    <li>Error while toggling favorite in journals #4667</li>
+                    <li>Always trigger removing file of separate git directory #4656</li>
+                    <li>Backspace handling in first char of a page #4691</li>
+                    <li>Add favorite toggling shortcut setting to the settings pane #4708</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Sort 'Pages tagged with' list alphabetically #4675</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.5</url>
+        </release>
+        <release version="0.6.4" date="2022-03-21">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Add a configuration option to support the previous collapse behavior, simply set :outliner/block-title-collapse-enabled? true in config.edn</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Yue Yang - Fix cloze CSS selector</li>
+                    <li>Yue Yang - Fix cycle marker will remove "#" unexpectedly</li>
+                    <li>Yue Yang - Make &lt;hr/&gt; not be displayed if there is only one repo</li>
+                    <li>Michiel Borkent - Update deps, sci</li>
+                    <li>Peng Xiao - Fix replace-block-reference-with-content-at-point not working</li>
+                    <li>sawhney17 - Readability improvements in Plugin Settings</li>
+                    <li>Giuseppe D'Andrea - Fix broken links in docs</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Click with selection in code editor saves wrong data #4567</li>
+                    <li>Cloze CSS selector #4561</li>
+                    <li>Fix blank screen on home page #4575</li>
+                    <li>Block disappears when dragged to another block #4536</li>
+                    <li>Nested boolean query bugs #4540</li>
+                    <li>#+keyword issues in org-mode #4573</li>
+                    <li>Cycle marker will remove "#" unexpectedly #4589</li>
+                    <li>Query fixes related to use of lookup refs #4596</li>
+                    <li>replace-block-reference-with-content-at-point not working #4591</li>
+                    <li>Make &lt;hr/&gt; not be displayed if there is only one repo #4602</li>
+                    <li>Rules to advanced query #4627</li>
+                    <li>Search indices are outdated when in multi-window mode #4547</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Readability improvements in Plugin Settings #4617</li>
+                    <li>Gracefully fail references component and other small errors #4634</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.4</url>
+        </release>
+        <release version="0.6.3" date="2022-03-11">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Flashcards random mode</li>
+                    <li>Open file backups directory</li>
+                    <li>Use query-dsl rules from advanced query</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>@0xflotus - Add syntax highlighting for nginx in docs</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>:yesterday in query should be a date</li>
+                    <li>error while cycling todos</li>
+                    <li>Refresh window causing file changes not synced to db</li>
+                    <li>PDF toolbar covers top of scrollbar and page number bug</li>
+                    <li>DSL query bugs</li>
+                    <li>Return value of move block in plugin API</li>
+                    <li>Only half of cards viewable</li>
+                    <li>Collapse/expand in publishing</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.3</url>
+        </release>
+        <release version="0.6.2" date="2022-03-08">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Open links in search with keybinding(mod+o)</li>
+                    <li>Shift click a repo name to open it in new window</li>
+                    <li>Support block-embed alias in org-mode</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Jonah Goldsaito - Load more journal entries</li>
+                    <li>Peng Xiao - Fix block ref id in block-reference</li>
+                    <li>Peng Xiao - Remember right sidebar width after resizing</li>
+                    <li>Peng Xiao - Shift click a repo name to open it in new window</li>
+                    <li>Hayden Chen - Better notifications-content support</li>
+                    <li>Ben Jaffe - Add comments near plugin event listeners to make events more searchable</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Collapsed state not persisted for blocks with properties</li>
+                    <li>Add :graph/ready event; check search version of each repo</li>
+                    <li>Change export to not depend on printing</li>
+                    <li>Exit block edit mode when prompt</li>
+                    <li>Can't parse graphs because of links regular expressions</li>
+                    <li>Avoid annoying javascript alert window for error debug</li>
+                    <li>Set timestamp to correct editing block</li>
+                    <li>Checking of zh-CN environment for supported command</li>
+                    <li>Fix wrong block marker toggle if its reference is in editing</li>
+                    <li>Notify broken config and restore to the default configuration</li>
+                    <li>Wrong logbook creation</li>
+                    <li>Fix some UI warnings under web browser</li>
+                    <li>Display error if DSL query fails hard</li>
+                    <li>Italic syntax typo in help doc</li>
+                    <li>Fix wrong namespace routes</li>
+                    <li>ID link in org-mode format</li>
+                    <li>Link property causes wrong pages creation</li>
+                    <li>Fix page-property bug</li>
+                    <li>Fix task and priority query bug</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Add custom https proxy options for settings</li>
+                    <li>More natural electron context-menu</li>
+                    <li>Add command to save graph to disk </li>
+                    <li>Only run custom queries when not typing</li>
+                    <li>Add develop instructions for Windows</li>
+                    <li>Add a test runner command</li>
+                    <li>Add timestamps for pages created from references and timestamps</li>
+                    <li>Backup files when there're differences between db and disk</li>
+                    <li>Optimizing nested query rules for graph traversal</li>
+                    <li>Persist widen mode state</li>
+                    <li>Ignore logbook and default properties in unlinked reference</li>
+                    <li>Support multiple file watchers for multiple windows</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.2</url>
+        </release>
+        <release version="0.6.1" date="2022-02-20">
+            <description>
+                <p>Thanks</p>
+                <ul>
+                    <li>Ben Jaffe - enhance(ui): add data-ref for items in left sidebar</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>SRS cards can't be edited during preview or in /cards queries</li>
+                    <li>Can't sort by properties in query table</li>
+                    <li>Electron context menu</li>
+                    <li>When a page name has a word with an accent, it lost data</li>
+                    <li>Mobile - Tweet component loading failed</li>
+                    <li>Mobile - Add Excalidraw support</li>
+                    <li>Plugins - Return value of remove_block</li>
+                    <li>Tags not working on org mode</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>ESC to cancel renaming page</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.1</url>
+        </release>
+        <release version="0.6.0" date="2022-02-19">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>New commands to switch between graphs (Cmd/Ctrl+Shift+G), add a graph, remove a graph and copy current file</li>
+                    <li>Shift+click to select multiple blocks</li>
+                    <li>Upgrade Excalidraw to 0.10.0</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Alexey Korolev - Fix typo in Russian localization</li>
+                    <li>Clovis Fabricio Costa - pt-BR translation</li>
+                    <li>cynial - Update Chinese translation</li>
+                    <li>ingepettersen - Updated Norwegian translation</li>
+                    <li>Manjusaka - Add new friendly issue template for bug report</li>
+                    <li>sawhney17 - Fix bullet lines not fully hidden in document mode</li>
+                    <li>pedroserigatto - Translated a few more keywords to pt-BR</li>
+                    <li>Martin Sauter - Add missing German translations</li>
+                    <li>xxchan - Improve issue template</li>
+                    <li>Paulo Oliva - Updated the EU Portuguese translation</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Title property is not added when creating or renaming</li>
+                    <li>custom.js not works</li>
+                    <li>Fix block collapse state not being saved</li>
+                    <li>Ignore changes in bak folder</li>
+                    <li>Fix property page links</li>
+                    <li>Disable blank alias</li>
+                    <li>Calc result overlaps with input text when the latter is very long</li>
+                    <li>Srs cards shortcuts not working</li>
+                    <li>Fix checkbox floats above button</li>
+                    <li>Search cache contamination on windows causing missing sanitization</li>
+                    <li>Unwanted left padding when pdf viewer active</li>
+                    <li>Long page stall loading and collapsed state</li>
+                    <li>Fix querying integer properties</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Performance improvement while saving files</li>
+                    <li>Performance improvement via incremental queries</li>
+                    <li>Performance improvement of long pages and queries</li>
+                    <li>Reduce memory usage</li>
+                    <li>Add tag and url support for follow-link-under-cursor cmd</li>
+                    <li>Plugin api of `get_block` with shallow children uuid results</li>
+                    <li>Add default right click context menu</li>
+                    <li>Refine page search autocompletion</li>
+                    <li>Refine page title renaming dialog</li>
+                    <li>Enhance settings UI of plugins</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.6.0</url>
+        </release>
+        <release version="0.5.9" date="2022-01-20">
+            <description>
+                <p>Features</p>
+                <ul>
+                    <li>Refactored long page loading logic with lazy loading</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Stian Håklev - Removing nil orphans in All pages</li>
+                    <li>Peng Xiao - Some style enhancements to block-control</li>
+                    <li>Clark Cui - UI position of plugin readme page</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Filename encoding and special chars</li>
+                    <li>Missing padding in marker markup</li>
+                    <li>Strategy of scrolling within left sidebar</li>
+                    <li>Build deps issue introduced by corlors.js</li>
+                    <li>Backspace and move for emoji char</li>
+                    <li>Misused ctrl and cmd in settings</li>
+                    <li>Open links of external file with default app</li>
+                    <li>Only show "Add to dictionary" when misspelling</li>
+                    <li>Add Uncaught exceptions handler for electron's main process</li>
+                    <li>App stuck with loading caused by wrong graph cache</li>
+                    <li>Datascript error when file imported from fs-watcher</li>
+                    <li>Not showing an open button, cannot open graph</li>
+                    <li>Invalid boolean and int properties</li>
+                    <li>Cursor location when clicking start of a second line</li>
+                    <li>Flashcards num not update while switching graphs</li>
+                    <li>Edge conditions of graph cache handling when App get killed</li>
+                    <li>Block height of a non-visible #</li>
+                    <li>Parsing of multi-value properties, now support space-separated property list</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Massive enhancement of marketplace</li>
+                    <li>Notify when journals date format changes</li>
+                    <li>Page-name sanity, search term normalization, diacritics support</li>
+                    <li>Allow edit markup files with code editor</li>
+                    <li>Refine search normalization</li>
+                    <li>Enhance full text search index</li>
+                    <li>Reorder auto-complete items of pop-up</li>
+                    <li>Massive enhancement of development process</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.5.9</url>
+        </release>
+        <release version="0.5.8" date="2022-01-06">
+            <description>
+                <p>NOTE: This release contains BREAKING CHANGE, run re-indexing after upgrade.</p>
+                <p>Features</p>
+                <ul>
+                    <li>Add CodeMirror options support</li>
+                </ul>
+                <p>Thanks</p>
+                <ul>
+                    <li>Stian Håklev - Removing padding on mark</li>
+                    <li>YangKeao - Allow target attribution in provideUI for plugins</li>
+                    <li>Peng Xiao - Some improvements for development</li>
+                </ul>
+                <p>Fixed issues</p>
+                <ul>
+                    <li>Nested and query issues and full-text search in nested queries</li>
+                    <li>Fix some UI misplacement, calc result offset, position of new updates tip</li>
+                    <li>Avoid notifying destroyed electron window</li>
+                    <li>Multi window check while re-indexing</li>
+                    <li>Graph view hang due to duplicated node/edge</li>
+                    <li>Separate references/queries collapse state from db</li>
+                    <li>Block expand/collapse not working under some scenario</li>
+                    <li>Sometimes a page's name is altered into lower letters</li>
+                    <li>Right sidebar not being cleared upon switching graphs</li>
+                    <li>Clicking raw HTML links loads target URL in the desktop app</li>
+                    <li>Remove orphaned Pages will delete namespace pages</li>
+                    <li>Youtube timestamp not work</li>
+                </ul>
+                <p>Enhancement</p>
+                <ul>
+                    <li>Apply text normalization to the whole app. NOTE: This is a BREAKING CHANGE, requires re-indexing.</li>
+                    <li>Reload custom.css when file changed</li>
+                    <li>DWIM on paste in source block or admonition</li>
+                </ul>
+            </description>
+            <url>https://github.com/logseq/logseq/releases/tag/0.5.8</url>
+        </release>
+        <release version="0.5.6" date="2021-12-29"/>
+    </releases>
+</component>
