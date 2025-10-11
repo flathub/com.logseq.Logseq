@@ -17,9 +17,9 @@ finish-args:
   - --socket=x11
   - --socket=wayland
   - --socket=pulseaudio
-  - --socket=system-bus
   - --share=network
   - --filesystem=home
+  - --system-talk-name=org.chromium.bluetooth.Manager
   # for using ssh for remote graph
   - --socket=ssh-auth
   - --env=SSH_ASKPASS=/app/libexec/openssh/ssh-askpass
@@ -172,6 +172,7 @@ modules:
       - yarn --cwd logseq --offline install --immutable --immutable-cache --inline-builds
       - yarn --cwd logseq --offline gulp:build
       - yarn --cwd logseq --offline cljs:release-electron
+      - yarn --cwd logseq --offline webpack-app-build
       # build linux
       - yarn --cwd logseq/static --offline install --immutable --immutable-cache --inline-builds
       - yarn --cwd logseq/static --offline electron-forge package

@@ -77,6 +77,9 @@
     <url type="contact">https://discuss.logseq.com/</url>
 
     <releases>
+        <release version="0.11.0" date="2025-10-11">
+            <description></description>
+        </release>
         <release version="0.10.14" date="2025-09-23">
             <description></description>
         </release>
