@@ -51,6 +51,7 @@ modules:
           tag-pattern: ^v((?:\d+.)*\d+)$
     buildsystem: meson
   - modules/libonnxruntime.json
+  - modules/flatpak-xdg-utils.json
   - name: logseq
     buildsystem: simple
     build-options:
