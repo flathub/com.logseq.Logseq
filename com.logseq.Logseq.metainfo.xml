@@ -1217,4 +1217,9 @@
         </release>
         <release version="0.5.6" date="2021-12-29"/>
     </releases>
+    <keywords>
+        <keyword>local notebook</keyword>
+        <keyword>knowledge management</keyword>
+        <keyword>note taking</keyword>
+    </keywords>
 </component>
