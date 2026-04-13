@@ -92,6 +92,11 @@ modules:
         options:
           - -d
           - logseq
+      - type: patch
+        path: 0001-bump-pdfjs-dist-version-to-4.10.38.patch
+        options:
+          - -d
+          - logseq
       - generated-sources.json
       - maven-sources.json
     build-commands:
